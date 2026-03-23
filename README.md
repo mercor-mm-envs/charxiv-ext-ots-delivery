@@ -140,4 +140,4 @@ Fields:
 
 ## Eval Harness
 
-Results produced by [charxiv-ext-eval-harness](https://github.com/mercor-mm-envs/charxiv-ext-eval-harness) (coming soon) — an Inspect AI harness supporting both descriptive and reasoning evaluation modes across Claude, GPT, and Gemini. Uses the same GPT-4o grading pipeline as the original CharXiv benchmark.
+Results produced by [charxiv-ext-eval-harness](https://github.com/mercor-mm-envs/charxiv-ext-eval-harness) — an Inspect AI harness supporting both descriptive and reasoning evaluation modes across Claude, GPT, and Gemini. Uses the same GPT-4o grading pipeline as the original CharXiv benchmark.
