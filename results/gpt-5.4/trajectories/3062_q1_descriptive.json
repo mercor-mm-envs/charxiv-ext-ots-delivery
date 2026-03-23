@@ -1,0 +1,16 @@
+{
+  "figure_id": 3062,
+  "mode": "descriptive",
+  "qid": 1,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the title of the plot?",
+  "ground_truth": "Not Applicable",
+  "model_answer": "Dataset timeseries: 2023-01-23-15",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Dataset timeseries: 2023-01-23-15",
+  "grader_explanation": "ground_truth='Not Applicable' | extracted='Dataset timeseries: 2023-01-23-15' | score=0",
+  "run": "gpt-5.4"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3083,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the bottom subplot, what is the approximate difference between the maximum positive DoDR spike of the conventional method and the steady value of the proposed metric?",
+  "ground_truth": "90",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the provided graph, we can determine the approximate difference by identifying the two values from the bottom subplot (\"Degree of disturbance rejection capabilities\"):\n\n1.  **Maximum positive DoDR spike of the conventional method:**\n    *   Looking at the solid blue line, the highest positive spike occurs around a \"Final time\" of 86.\n    *   This spike crosses the horizontal grid line for $100$.\n    *   The distance from the $100$ grid line to the top of the spike (which reaches the top bounding box of the plot) appears to be roughly equal to the distance from the $0$ grid line to the proposed metric's steady value line.\n    *   Estimating the position, the top of the plot and the maximum spike are at approximately $110$.\n\n2.  **Steady value of the proposed metric:**\n    *   Looking at the dotted orange line, it remains steady at a constant value above $0$.\n    *   It sits about one-fifth of the way between the $0$ and $50$ grid lines.\n    *   Therefore, the steady value is approximately $10$.\n\n3.  **Approximate difference:**\n    *   Difference = (Maximum positive spike) - (Steady value)\n    *   Difference $\\approx 110 - 10 = 100$\n\n100",
+  "grader_explanation": "ground_truth='90' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

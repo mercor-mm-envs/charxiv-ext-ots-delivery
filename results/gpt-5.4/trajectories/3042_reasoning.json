@@ -1,0 +1,16 @@
+{
+  "figure_id": 3042,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the difference between the highest IECGA value and the lowest IECGA value across all datasets?",
+  "ground_truth": "23.95",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "IECGA values across datasets are:\n\n- CM1: 85.86\n- JM1: 79.66\n- MC2: 71.05\n- MW1: 89.33\n- PC1: 95.10\n- PC3: 88.29\n- PC4: 89.76\n\nHighest = 95.10  \nLowest = 71.05  \n\nDifference = **24.05**",
+  "grader_explanation": "ground_truth='23.95' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 4007,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the Russian Federation's highest FDI net outflow value and its lowest FDI net outflow value across all years shown?",
+  "ground_truth": "3.7",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the Russian Federation (yellow bars) across all years:\n\n- **Highest value**: approximately 3.2 in 2008 (or 2013/2014, which also appear around 3.1)\n- **Lowest value**: approximately 0.5 in 2020\n\nThe difference between the highest and lowest values:\n\n3.2 - 0.5 = **2.7**\n\nThe approximate difference is **2.7**.",
+  "grader_explanation": "ground_truth='3.7' | extracted='' | score=0",
+  "run": "claude-opus-4-6"
+}

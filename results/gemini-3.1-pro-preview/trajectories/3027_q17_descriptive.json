@@ -1,0 +1,16 @@
+{
+  "figure_id": 3027,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "28",
+  "model_answer": "24",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the image provided, here is the count of explicitly labeled ticks for each axis:\n\n**Left Plot:**\n*   **Y-axis:** 4 labeled ticks (0, 2000, 6000, 10000)\n*   **X-axis:** 8 labeled ticks (Asian, Black, Hispanic, Multiracial, Native, Pacific, Unknown, White)\n\n**Right Plot:**\n*   **Y-axis:** 4 labeled ticks (0, 2000, 6000, 10000)\n*   **X-axis:** 8 labeled ticks (Asian, Black, Hispanic, Multiracial, Native, Pacific, Unknown, White)\n\nTotal explicitly labeled ticks = 4 + 8 + 4 + 8 = 24\n\n24",
+  "grader_explanation": "ground_truth='28' | extracted='24' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

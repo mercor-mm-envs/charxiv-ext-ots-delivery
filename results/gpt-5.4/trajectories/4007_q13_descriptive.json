@@ -1,0 +1,16 @@
+{
+  "figure_id": 4007,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "brazil, China, India, Russian Federation, South Africa",
+  "model_answer": "brazil, China, India, Russian Federation, South Africa",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "brazil, China, India, Russian Federation, South Africa",
+  "grader_explanation": "ground_truth='brazil, China, India, Russian Federation, South Africa' | extracted='brazil, China, India, Russian Federation, South Africa' | score=1",
+  "run": "gpt-5.4"
+}

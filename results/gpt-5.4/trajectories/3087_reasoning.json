@@ -1,0 +1,16 @@
+{
+  "figure_id": 3087,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the sum of the publication counts for the top 3 journals (by number of publications) shown in the chart?",
+  "ground_truth": "76",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "The top 3 publication counts are **34**, **24**, and **18**.\n\nTheir sum is:\n\n**76**",
+  "grader_explanation": "ground_truth='76' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

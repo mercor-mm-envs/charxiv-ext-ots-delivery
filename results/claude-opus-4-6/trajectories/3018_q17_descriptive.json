@@ -1,0 +1,16 @@
+{
+  "figure_id": 3018,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "62",
+  "model_answer": "62",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all four subplots.\n\n**Subplot (a) - Bedrooms:**\n- X-axis: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 \u2192 10 ticks\n- Y-axis: 0, 100, 200, 300, 400, 500 \u2192 6 ticks\n\n**Subplot (b) - Bathrooms:**\n- X-axis: 0, 1, 2, 3, 4, 5, 6 \u2192 7 ticks\n- Y-axis: 0, 200, 400, 600, 800, 1000 \u2192 6 ticks\n\n**Subplot (c) - Suites:**\n- X-axis: 1, 2, 3, 4, 5, 6, 7 \u2192 7 ticks\n- Y-axis: 0, 100, 200, 300, 400, 500, 600, 700 \u2192 8 ticks\n\n**Subplot (d) - Garages:**\n- X-axis: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 \u2192 11 ticks\n- Y-axis: 0, 100, 200, 300, 400, 500, 600 \u2192 7 ticks\n\n**Total:** 10 + 6 + 7 + 6 + 7 + 8 + 11 + 7 = **62**",
+  "grader_explanation": "ground_truth='62' | extracted='62' | score=1",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3060,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "-4",
+  "model_answer": "0",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at all the subplots and their y-axis labels, I need to find the spatially lowest labeled tick on the y-axis.\n\nThe spatially lowest subplot with visible y-axis ticks is subplot **F** (Cosine similarity), which has y-axis ticks at 0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500. The lowest labeled tick on this y-axis is **0**.\n\nThe answer is **0**.",
+  "grader_explanation": "ground_truth='-4' | extracted='0' | score=0",
+  "run": "claude-opus-4-6"
+}

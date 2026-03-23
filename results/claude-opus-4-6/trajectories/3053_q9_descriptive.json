@@ -1,0 +1,16 @@
+{
+  "figure_id": 3053,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "0",
+  "model_answer": "Not Applicable",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the y-axis tick values for each panel:\n\n**Panel A (left):** 0, 0.001, 0.002, 0.003, 0.004, 0.005, 0.006, 0.007\n- Difference: 0.001\n\n**Panel B (right):** 0, 0.0005, 0.001, 0.0015, 0.002, 0.0025\n- Difference: 0.0005\n\nSince the two subplots have different y-axis tick differences, the difference is not consistent across the shared y-axis.\n\n**Not Applicable**",
+  "grader_explanation": "ground_truth='0' | extracted='Not Applicable' | score=0",
+  "run": "claude-opus-4-6"
+}

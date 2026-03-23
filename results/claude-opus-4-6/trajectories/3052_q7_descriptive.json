@@ -1,0 +1,16 @@
+{
+  "figure_id": 3052,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "0.0055",
+  "model_answer": "0.0055",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the y-axis of the leftmost subplot (RMSE), the highest labeled tick is **0.0055**.\n\nFor the middle subplot (Rank IC), the highest labeled tick is **0.60**.\n\nFor the rightmost subplot (Directional Acc.), the highest labeled tick is **0.60**.\n\nSince the question asks about the spatially highest labeled tick on the y-axis and the left subplot's highest tick is **0.0055**, which appears at the same spatial height as the others, I'll consider the leftmost y-axis.\n\nThe answer is **0.0055**.",
+  "grader_explanation": "ground_truth='0.0055' | extracted='0.0055' | score=1",
+  "run": "claude-opus-4-6"
+}

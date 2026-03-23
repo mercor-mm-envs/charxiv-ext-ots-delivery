@@ -1,0 +1,16 @@
+{
+  "figure_id": 3038,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "400",
+  "model_answer": "180",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the left y-axis of the main stock price chart (NVDA Stock Price), the highest labeled tick is **180**.",
+  "grader_explanation": "ground_truth='400' | extracted='180' | score=0",
+  "run": "claude-opus-4-6"
+}

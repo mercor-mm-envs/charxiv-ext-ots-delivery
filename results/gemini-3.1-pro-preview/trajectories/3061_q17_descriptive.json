@@ -1,0 +1,16 @@
+{
+  "figure_id": 3061,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "106",
+  "model_answer": "83",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the image provided, here is the count of explicitly labeled ticks for each subplot:\n\n*   **Subplot (A):** 11 labels on the y-axis + 11 labels on the x-axis = 22 labeled ticks.\n*   **Subplot (B):** 0 labels on the y-axis + 11 labels on the x-axis = 11 labeled ticks.\n*   **Subplot (C):** 0 labels on the y-axis + 11 labels on the x-axis = 11 labeled ticks.\n*   **Colorbar (next to C):** 6 labeled ticks (0, 0.1, 0.2, 0.3, 0.4, 0.5).\n*   **Subplot (D):** 11 labels on the y-axis + 11 labels on the x-axis = 22 labeled ticks.\n*   **Subplot (E):** 0 labels on the y-axis + 11 labels on the x-axis = 11 labeled ticks.\n\nAdding these together: 22 + 11 + 11 + 6 + 22 + 11 = 83.\n\n**83**",
+  "grader_explanation": "ground_truth='106' | extracted='83' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

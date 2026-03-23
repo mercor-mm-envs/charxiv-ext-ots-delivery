@@ -1,0 +1,16 @@
+{
+  "figure_id": 3011,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference in penetration (%) between Indonesia and Iceland?",
+  "ground_truth": "0.90",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "From the chart:\n\n- **Indonesia** has a penetration of approximately **1.10%**\n- **Iceland** has a penetration of approximately **0.20%**\n\nDifference = 1.10 - 0.20 = **0.90**\n\nThe approximate difference in penetration between Indonesia and Iceland is **0.90**.",
+  "grader_explanation": "ground_truth='0.90' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

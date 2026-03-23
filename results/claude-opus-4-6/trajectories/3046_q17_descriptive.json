@@ -1,0 +1,16 @@
+{
+  "figure_id": 3046,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "29",
+  "model_answer": "29",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across both axes.\n\n**X-axis (Scores):**\nThe labeled ticks are: 0.0, 0.2, 0.4, 0.6, 0.8\nThat's **5** ticks.\n\n**Y-axis (Variables):**\nThe labeled ticks are the 24 variable names: Age, BP, SG, AL, SU, RBC, PC, PCC, BA, BGR, BU, SC, SOD, POT, HEMO, PCV, WC, RC, HTN, DM, CAD, APPET, PE, ANE\nThat's **24** ticks.\n\n**Total = 5 + 24 = 29**",
+  "grader_explanation": "ground_truth='29' | extracted='29' | score=1",
+  "run": "claude-opus-4-6"
+}

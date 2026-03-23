@@ -1,0 +1,16 @@
+{
+  "figure_id": 3066,
+  "mode": "descriptive",
+  "qid": 4,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the leftmost labeled tick on the x-axis?",
+  "ground_truth": "0",
+  "model_answer": "0",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the provided image, there are two horizontal axes with labels: the colorbar in panel (A) and the x-axis in panel (C). \n\nComparing their positions, the colorbar in panel (A) is located further to the left. The labeled ticks on this axis are 0, 0.12, 0.24, 0.36, and 0.48. \n\nThe leftmost explicitly written tick value on any x-axis in the entire plot is 0.\n\n0",
+  "grader_explanation": "ground_truth='0' | extracted='0' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

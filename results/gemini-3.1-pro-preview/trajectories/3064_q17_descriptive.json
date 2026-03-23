@@ -1,0 +1,16 @@
+{
+  "figure_id": 3064,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "142",
+  "model_answer": "158",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on a careful examination of the image, here is the breakdown of explicitly labeled ticks across all subplots:\n\n**1. Top Plot (Time Series)**\n*   **Y-axis:** -2, -1, 0, 1, 2 (5 ticks)\n*   **X-axis:** 0, 2, 4, 6, 8, 10, 12, 14 (8 ticks)\n*   *Subtotal = 13*\n\n**2. Row (a) - \"promote Forward\"**\n*   **Left Bar Chart:**\n    *   Y-axis: 0, 500, 1000, 1500, 2000, 2500 (6 ticks)\n    *   X-axis: RMED, AUAL, CEPDR, AVJR, ADAL, AWBL, CEPDL, URXL, RMDDR, ASKL (10 ticks)\n*   **Middle Raster Plot:**\n    *   Y-axis: baseline, top 1, top 2, top 3 (4 ticks)\n    *   X-axis: 0, 2, 4, 6, 8, 10, 12, 14 (8 ticks)\n*   **Right Scatter Plot:**\n    *   Y-axis: 0, 1, 2, 3 (4 ticks)\n    *   X-axis: 0.0, 0.2, 0.4, 0.6, 0.8 (5 ticks)\n*   *Subtotal = 6 + 10 + 4 + 8 + 4 + 5 = 37*\n\n**3. Row (b) - \"suppress Reversal\"**\n*   **Left Bar Chart:**\n    *   Y-axis: 0, -250, -500, -750, -1000 (5 ticks)\n    *   X-axis: FLPL, CEPDL, URXR, IL1R, AVJR, ADEL, URXL, CEPVL, CEPDR, ALA (10 ticks)\n*   **Middle Raster Plot:**\n    *   Y-axis: baseline, top 2, top 4, top 6 (4 ticks)\n    *   X-axis: 0, 2, 4, 6, 8, 10, 12, 14 (8 ticks)\n*   **Right Scatter Plot:**\n    *   Y-axis: 0, 2, 4, 6 (4 ticks)\n    *   X-axis: 0.0, 0.2, 0.4, 0.6, 0.8 (5 ticks)\n*   *Subtotal = 5 + 10 + 4 + 8 + 4 + 5 = 36*\n\n**4. Row (c) - \"promote Reversal\"**\n*   **Left Bar Chart:**\n    *   Y-axis: 0, 250, 500, 750, 1000 (5 ticks)\n    *   X-axis: URYVL, URYDR, AIZR, URYDL, ADAL, AWCL, ASGR, ASGL, RICL, OLLL (10 ticks)\n*   **Middle Raster Plot:**\n    *   Y-axis: baseline, top 1, top 2, top 3 (4 ticks)\n    *   X-axis: 0, 2, 4, 6, 8, 10, 12, 14 (8 ticks)\n*   **Right Scatter Plot:**\n    *   Y-axis: 0, 1, 2, 3 (4 ticks)\n    *   X-axis: 0.0, 0.2, 0.4, 0.6, 0.8 (5 ticks)\n*   *Subtotal = 5 + 10 + 4 + 8 + 4 + 5 = 36*\n\n**5. Row (d) - \"suppress Forward\"**\n*   **Left Bar Chart:**\n    *   Y-axis: 0, -500, -1000, -1500, -2000 (5 ticks)\n    *   X-axis: OLLL, URYVL, URYDR, URYDL, OLLR, AVJL, RIIH, AVHL, FLPL, URXR (10 ticks)\n*   **Middle Raster Plot:**\n    *   Y-axis: baseline, top 1, top 2, top 3 (4 ticks)\n    *   X-axis: 0, 2, 4, 6, 8, 10, 12, 14 (8 ticks)\n*   **Right Scatter Plot:**\n    *   Y-axis: 0, 1, 2, 3 (4 ticks)\n    *   X-axis: 0.0, 0.2, 0.4, 0.6, 0.8 (5 ticks)\n*   *Subtotal = 5 + 10 + 4 + 8 + 4 + 5 = 36*\n\n**Grand Total Calculation:**\n13 + 37 + 36 + 36 + 36 = 158\n\n158",
+  "grader_explanation": "ground_truth='142' | extracted='158' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3062,
+  "mode": "descriptive",
+  "qid": 3,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the label of the y-axis?",
+  "ground_truth": "Not Applicable",
+  "model_answer": "x_i(t)",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the plot, the y-axis labels vary across the multiple subplots. The leftmost y-axis label on the top subplot of panel (a) is **x_i(t)**.\n\nThe answer is: **x_i(t)**",
+  "grader_explanation": "ground_truth='Not Applicable' | extracted='x_i(t)' | score=0",
+  "run": "claude-opus-4-6"
+}

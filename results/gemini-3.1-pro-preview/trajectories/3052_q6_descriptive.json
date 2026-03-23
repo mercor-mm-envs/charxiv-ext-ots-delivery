@@ -1,0 +1,16 @@
+{
+  "figure_id": 3052,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "0.0025",
+  "model_answer": "0.0025",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the plot, there are three subplots, each with its own y-axis. The lowest labeled ticks for each subplot are:\n*   Left subplot: 0.0025\n*   Middle subplot: 0.35\n*   Right subplot: 0.40\n\nComparing the vertical positions of these labels, the label \"0.0025\" on the first subplot is physically closest to the bottom of the image.\n\n0.0025",
+  "grader_explanation": "ground_truth='0.0025' | extracted='0.0025' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

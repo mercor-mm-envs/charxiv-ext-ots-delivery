@@ -1,0 +1,16 @@
+{
+  "figure_id": 3069,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "How many total UAVs (including both the Cluster Head UAV and all explicitly labeled Cluster Member UAVs) are shown in the diagram?",
+  "ground_truth": "5",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "5",
+  "grader_explanation": "ground_truth='5' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

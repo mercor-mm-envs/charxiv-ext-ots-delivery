@@ -1,0 +1,16 @@
+{
+  "figure_id": 3052,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "30",
+  "model_answer": "27",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Count the labeled ticks in each subplot:\n\n- Each of the 3 x-axes has 3 labeled category ticks: 3 \u00d7 3 = 9\n- Left y-axis (RMSE): 7 labeled ticks\n- Middle y-axis (Rank IC): 6 labeled ticks\n- Right y-axis (Directional Acc.): 5 labeled ticks\n\nTotal = 9 + 7 + 6 + 5 = **27**",
+  "grader_explanation": "ground_truth='30' | extracted='27' | score=0",
+  "run": "gpt-5.4"
+}

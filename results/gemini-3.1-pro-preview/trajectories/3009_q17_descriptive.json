@@ -1,0 +1,16 @@
+{
+  "figure_id": 3009,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "123",
+  "model_answer": "123",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the image provided, we can count the explicitly labeled ticks for each subplot:\n\n1.  **Top Left Subplot (lnTXR):**\n    *   Y-axis labels: 6, 8, 10, 12, 14, 16 (6 labels)\n    *   X-axis labels: 18 labels\n    *   Total = 6 + 18 = 24\n\n2.  **Top Right Subplot (lnFDI):**\n    *   Y-axis labels: 0, 4, 8, 12, 16 (5 labels)\n    *   X-axis labels: 18 labels\n    *   Total = 5 + 18 = 23\n\n3.  **Middle Left Subplot (lnEXP):**\n    *   Y-axis labels: 5, 6, 7, 8, 9, 10, 11, 12 (8 labels)\n    *   X-axis labels: 18 labels\n    *   Total = 8 + 18 = 26\n\n4.  **Middle Right Subplot (lnIMP):**\n    *   Y-axis labels: 5, 6, 7, 8, 9, 10, 11, 12 (8 labels)\n    *   X-axis labels: 18 labels\n    *   Total = 8 + 18 = 26\n\n5.  **Bottom Left Subplot (lnXGR):**\n    *   Y-axis labels: 4.0, 4.2, 4.4, 4.6, 4.8, 5.0 (6 labels)\n    *   X-axis labels: 18 labels\n    *   Total = 6 + 18 = 24\n\nAdding them all together:\n24 + 23 + 26 + 26 + 24 = 123\n\n123",
+  "grader_explanation": "ground_truth='123' | extracted='123' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

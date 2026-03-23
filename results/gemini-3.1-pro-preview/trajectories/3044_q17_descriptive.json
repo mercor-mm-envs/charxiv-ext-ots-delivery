@@ -1,0 +1,16 @@
+{
+  "figure_id": 3044,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "13",
+  "model_answer": "13",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "13",
+  "grader_explanation": "ground_truth='13' | extracted='13' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 4009,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "19",
+  "model_answer": "19",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks on both axes.\n\n**Y-axis (years):**\n1. 20,20\n2. 20,19\n3. 20,18\n4. 20,17\n5. 20,16\n6. 20,15\n7. 20,14\n8. 20,13\n9. 20,12\n10. 20,11\n11. 20,10\n12. 20,09\n13. 20,08\n14. 20,07\n\nThat's 14 labeled ticks.\n\n**X-axis (Imports):**\n1. 1,000,000\n2. 21,000,000\n3. 41,000,000\n4. 61,000,000\n5. 81,000,000\n\nThat's 5 labeled ticks.\n\n**Total: 14 + 5 = 19**",
+  "grader_explanation": "ground_truth='19' | extracted='19' | score=1",
+  "run": "claude-opus-4-6"
+}

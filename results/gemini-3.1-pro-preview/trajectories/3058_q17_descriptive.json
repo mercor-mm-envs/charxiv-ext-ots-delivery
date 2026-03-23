@@ -1,0 +1,16 @@
+{
+  "figure_id": 3058,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "15",
+  "model_answer": "11",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided plot, here is the count of explicitly labeled ticks for each axis:\n\n*   **Left y-axis (Count of contracts):** 3 labels (`0`, `50`, `100`)\n*   **Bottom x-axis (Timestamps):** 6 labels (`Jul 2020`, `Jan 2021`, `Jul 2021`, `Jan 2022`, `Jul 2022`, `Jan 2023`)\n*   **Right y-axis (Interest Rate):** 2 labels (`0.10`, `0.15`)\n\nTotal number of explicitly labeled ticks = 3 + 6 + 2 = 11.\n\n11",
+  "grader_explanation": "ground_truth='15' | extracted='11' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

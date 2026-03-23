@@ -1,0 +1,16 @@
+{
+  "figure_id": 3060,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "observation, prediction",
+  "model_answer": "observation, prediction, \u2202 ERK/\u2202 x, \u2202 \u03c1/\u2202 x, \u2202 v_x\u00b2/\u2202 x\u00b2, \u2202 v_x\u00b2/\u2202 y\u00b2, v_x, \u2202 ERK/\u2202 y, \u2202 \u03c1/\u2202 y, \u2202 v_y\u00b2/\u2202 x\u00b2, \u2202 v_y\u00b2/\u2202 y\u00b2, v_y",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "I need to identify the legend labels for each plot in the figure.\n\n**Plot A:** Legend labels: observation, prediction\n\n**Plot B:** No legend (just a title showing correlation = 0.68434)\n\n**Plot C:** Legend labels from top to bottom: \u2202 ERK/\u2202 x, \u2202 \u03c1/\u2202 x, \u2202 v_x\u00b2/\u2202 x\u00b2, \u2202 v_x\u00b2/\u2202 y\u00b2, v_x\n\n**Plot D:** Legend labels from top to bottom: \u2202 ERK/\u2202 y, \u2202 \u03c1/\u2202 y, \u2202 v_y\u00b2/\u2202 x\u00b2, \u2202 v_y\u00b2/\u2202 y\u00b2, v_y\n\n**Plot E:** No formal legend\n\n**Plot F:** No formal legend (has a colorbar)\n\nSince the question asks about \"the current plot\" and the image contains multiple subplots, I'll list all legends present:\n\nobservation, prediction, \u2202 ERK/\u2202 x, \u2202 \u03c1/\u2202 x, \u2202 v_x\u00b2/\u2202 x\u00b2, \u2202 v_x\u00b2/\u2202 y\u00b2, v_x, \u2202 ERK/\u2202 y, \u2202 \u03c1/\u2202 y, \u2202 v_y\u00b2/\u2202 x\u00b2, \u2202 v_y\u00b2/\u2202 y\u00b2, v_y",
+  "grader_explanation": "ground_truth='observation, prediction' | extracted='observation, prediction, \u2202 ERK/\u2202 x, \u2202 \u03c1/\u2202 x, \u2202 v_x\u00b2/\u2202 x\u00b2, \u2202 v_x\u00b2/\u2202 y\u00b2, v_x, \u2202 ERK/\u2202 y, \u2202 \u03c1/\u2202 y, \u2202 v_y\u00b2/\u2202 x\u00b2, \u2202 v_y\u00b2/\u2202 y\u00b2, v_y' | score=0",
+  "run": "claude-opus-4-6"
+}

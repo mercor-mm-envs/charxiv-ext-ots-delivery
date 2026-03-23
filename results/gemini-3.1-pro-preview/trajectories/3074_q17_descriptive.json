@@ -1,0 +1,16 @@
+{
+  "figure_id": 3074,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "19",
+  "model_answer": "27",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided plot, here is the breakdown of explicitly labeled ticks for each axis:\n\n1.  **Main Plot X-axis:** 0, 10, 20, 30, 40, 50, 60 (7 labels)\n2.  **Main Plot Y-axis:** $10^{-6}$, $10^{-5}$, $10^{-4}$, $10^{-3}$, $10^{-2}$, $10^{-1}$, $10^0$, $10^1$ (8 labels)\n3.  **Upper Inset Plot X-axis:** 41.2, 41.3 (2 labels)\n4.  **Upper Inset Plot Y-axis:** 0.0115, 0.012 (2 labels)\n5.  **Lower Inset Plot X-axis:** 38.5, 39, 39.5 (3 labels)\n6.  **Lower Inset Plot Y-axis:** 4.5, 5, 5.5, 6, 6.5 (5 labels)  *(Note: The $\\times 10^{-5}$ is an axis multiplier, not an explicitly labeled tick)*\n\nTotal number of explicitly labeled ticks = $7 + 8 + 2 + 2 + 3 + 5 = 27$\n\n27",
+  "grader_explanation": "ground_truth='19' | extracted='27' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

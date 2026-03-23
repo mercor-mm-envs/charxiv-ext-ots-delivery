@@ -1,0 +1,16 @@
+{
+  "figure_id": 4002,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "7",
+  "model_answer": "5",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the image provided, the spatially highest (closest to the top edge of the image) labeled tick on any of the y-axes is in the top-middle and top-right subplots.\n\nThe value of this tick is **5**.",
+  "grader_explanation": "ground_truth='7' | extracted='5' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

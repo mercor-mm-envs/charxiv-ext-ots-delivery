@@ -1,0 +1,16 @@
+{
+  "figure_id": 3041,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "37",
+  "model_answer": "37",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks on both axes.\n\n**Y-axis ticks:**\n0.0, 0.2, 0.4, 0.6, 0.8, 1.0\nThat's **6** ticks.\n\n**X-axis ticks:**\nTeam 1, Team 2, Team 3, Team 4, Team 5, Team 6, Team 7, Team 8, Team 9, Claude Code (0.458), Team 10, Team 11, Team 12, Team 13, Team 14, Team 15, Team 16, GPT-4o (0.143), Team 17, Team 18, Team 19, Team 20, Team 21, Team 22, Team 23, Team 24, Team 25, Team 26, Team 27, Team 28, Team 29\n\nThat's **31** ticks.\n\n**Total: 6 + 31 = 37**",
+  "grader_explanation": "ground_truth='37' | extracted='37' | score=1",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3057,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 3,
+  "inst_category_name": "NiC",
+  "question": "What is the approximate Pool Utilization percentage at Jan 2023 as shown on the right y-axis?",
+  "ground_truth": "55%",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the chart:\n\n1.  Locate \"Jan 2023\" on the x-axis.\n2.  Find the corresponding point on the \"Pool Utilization\" line (the orange jagged line).\n3.  Trace that point horizontally to the right y-axis (\"Pool Utilization in %\").\n4.  The value is just below the top grid line, which is labeled with the explicit number **60**.\n\n60",
+  "grader_explanation": "ground_truth='55%' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

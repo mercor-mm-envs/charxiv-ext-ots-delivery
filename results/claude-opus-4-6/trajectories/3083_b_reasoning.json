@@ -1,0 +1,16 @@
+{
+  "figure_id": 3083,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 3,
+  "inst_category_name": "NiC",
+  "question": "In the top subplot, at approximately what final time does the RCN curve computed from the differential equation level off to its steady-state value near 1\u00d710\u207b\u00b9\u2078?",
+  "ground_truth": "20",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the top subplot, the blue RCN curve (from differential equation) starts high and decreases steeply. It levels off to its steady-state value near 1\u00d710\u207b\u00b9\u2078 at approximately a final time of **20**.",
+  "grader_explanation": "ground_truth='20' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

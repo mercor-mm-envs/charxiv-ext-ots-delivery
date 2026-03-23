@@ -1,0 +1,16 @@
+{
+  "figure_id": 3031,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "Gangwon, Gyeonggi, Gyeongnam, Gyeongbuk, Gwangju, Daegu, Daejeon, Busan, Seoul, Sejong, Ulsan, Incheon, Jeonnam, Jeonbuk, Jeju, Chungnam, Chungbuk",
+  "model_answer": "Gangwon, Gyeonggi, Gyeongnam, Gyeongbuk, Gwangju, Daegu, Daejeon, Busan, Seoul, Sejong, Ulsan, Incheon, Jeonnam, Jeonbuk, Jeju, Chungnam, Chungbuk",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Gangwon, Gyeonggi, Gyeongnam, Gyeongbuk, Gwangju, Daegu, Daejeon, Busan, Seoul, Sejong, Ulsan, Incheon, Jeonnam, Jeonbuk, Jeju, Chungnam, Chungbuk",
+  "grader_explanation": "ground_truth='Gangwon, Gyeonggi, Gyeongnam, Gyeongbuk, Gwangju, Daegu, Daejeon, Busan, Seoul, Sejong, Ulsan, Incheon, Jeonnam, Jeonbuk, Jeju, Chungnam, Chungbuk' | extracted='Gangwon, Gyeonggi, Gyeongnam, Gyeongbuk, Gwangju, Daegu, Daejeon, Busan, Seoul, Sejong, Ulsan, Incheon, Jeonnam, Jeonbuk, Jeju, Chungnam, Chungbuk' | score=1",
+  "run": "claude-opus-4-6"
+}

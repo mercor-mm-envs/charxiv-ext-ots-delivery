@@ -1,0 +1,16 @@
+{
+  "figure_id": 4002,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the Standardized Inflation boxplot, what is the approximate difference between the median value for Anglophone countries (1) and the median value for Francophone countries (0)?",
+  "ground_truth": "1.2",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the \"Standardized Inflation\" boxplot (top right):\n\n1.  Locate the **Anglophone (1)** group, which is the orange boxplot on the right. The median is the horizontal line inside the box. Tracing this line to the y-axis, it sits slightly above the 0.5 mark, approximately at **0.6**.\n2.  Locate the **Francophone (0)** group, which is the blue boxplot on the left. The median line inside this box sits slightly below the -0.5 mark on the y-axis, approximately at **-0.6**.\n3.  Calculate the difference: $0.6 - (-0.6) = 1.2$.\n\n1.2",
+  "grader_explanation": "ground_truth='1.2' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

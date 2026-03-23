@@ -1,0 +1,16 @@
+{
+  "figure_id": 3028,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the right panel, at approximately t=2000, what is the difference in S(t) between the curve with the highest survival probability (7_5) and the curve with the lowest survival probability (2_7)?",
+  "ground_truth": "0.35",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the right panel at approximately t=2000:\n\n- The **7_5 curve (blue)** has the highest survival probability, which appears to be approximately **0.55**.\n- The **2_7 curve (green)** has the lowest survival probability, which appears to be approximately **0.10**.\n\nThe difference is: 0.55 - 0.10 = **0.45**\n\n$$\\boxed{0.45}$$",
+  "grader_explanation": "ground_truth='0.35' | extracted='' | score=0",
+  "run": "claude-opus-4-6"
+}

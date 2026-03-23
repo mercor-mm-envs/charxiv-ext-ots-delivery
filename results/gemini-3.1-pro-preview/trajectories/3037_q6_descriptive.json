@@ -1,0 +1,16 @@
+{
+  "figure_id": 3037,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "0",
+  "model_answer": "0",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the plot, the spatially lowest subplot is at the bottom (labeled \"(c) SGD optimization method\"). Looking at the y-axis on the left side of this subplot, the tick labels from top to bottom are 100, 80, 60, 40, 20, and 0. \n\nTherefore, the spatially lowest explicitly written tick value on the y-axis is 0.\n\n0",
+  "grader_explanation": "ground_truth='0' | extracted='0' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

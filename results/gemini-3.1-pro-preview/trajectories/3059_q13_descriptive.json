@@ -1,0 +1,16 @@
+{
+  "figure_id": 3059,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "Molecular Weight, Isoelectric Point (PI), GRAVY, Aromaticity, Instability Index, Disulfide Bonds, Molecular Volume, Alpha-Helix, BetaSheet, Random Coil, generate_Ecoli, pos_Ecoli, neg_Ecoli, generate_Saureus, pos_Saureus, neg_Saureus, Cecropin, Cecropin_Improve",
+  "model_answer": "Molecular Weight, Isoelectric Point (PI), GRAVY, Aromaticity, Instability Index, Disulfide Bonds, Molecular Volume, Alpha-Helix, BetaSheet, Random Coil",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the main legend located in the middle-left of the plot (which corresponds to the main violin plots), the labels, read from top to bottom for the first column and then top to bottom for the second column (matching the logical order of the data series plotted from left to right), are:\n\nMolecular Weight, Isoelectric Point (PI), GRAVY, Aromaticity, Instability Index, Disulfide Bonds, Molecular Volume, Alpha-Helix, BetaSheet, Random Coil",
+  "grader_explanation": "ground_truth='Molecular Weight, Isoelectric Point (PI), GRAVY, Aromaticity, Instability Index, Disulfide Bonds, Molecular Volume, Alpha-Helix, BetaSheet, Random Coil, generate_Ecoli, pos_Ecoli, neg_Ecoli, generate_Saureus, pos_Saureus, neg_Saureus, Cecropin, Cecropin_Improve' | extracted='Molecular Weight, Isoelectric Point (PI), GRAVY, Aromaticity, Instability Index, Disulfide Bonds, Molecular Volume, Alpha-Helix, BetaSheet, Random Coil' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

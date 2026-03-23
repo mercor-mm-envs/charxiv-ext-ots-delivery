@@ -1,0 +1,16 @@
+{
+  "figure_id": 3013,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "27",
+  "model_answer": "25",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes in both subplots.\n\n**Left subplot (GDP):**\n\n- X-axis: 1970, 1980, 1990, 2000, 2010, 2020 \u2192 **6 ticks**\n- Y-axis: 800, 1000, 1200, 1400, 1600, 1800, 2000 \u2192 **7 ticks**\n\n**Right subplot (Gini Index):**\n\n- X-axis: 1970, 1980, 1990, 2000, 2010, 2020 \u2192 **6 ticks**\n- Y-axis: 28, 30, 32, 34, 36, 38 \u2192 **6 ticks**\n\n**Total: 6 + 7 + 6 + 6 = 25**",
+  "grader_explanation": "ground_truth='27' | extracted='25' | score=0",
+  "run": "claude-opus-4-6"
+}

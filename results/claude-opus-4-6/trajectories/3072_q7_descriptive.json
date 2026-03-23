@@ -1,0 +1,16 @@
+{
+  "figure_id": 3072,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "-20",
+  "model_answer": "-20",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the y-axis labels across all four subplots:\n\n- **Top-left subplot**: highest tick is **\u221220**\n- **Top-right subplot**: highest tick is **\u221223**\n- **Bottom-left subplot**: highest tick is **\u221224**\n- **Bottom-right subplot**: highest tick is **\u221237**\n\nThe spatially highest labeled tick on the y-axis is **\u221220** (located at the top of the top-left subplot).",
+  "grader_explanation": "ground_truth='-20' | extracted='-20' | score=1",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3006,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "Which stock index series consistently has the lowest values throughout the entire time period shown in the chart?",
+  "ground_truth": "LKLCI",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the chart, the line that is consistently at the very bottom throughout the entire time period is the solid red line. According to the legend, this line corresponds to:\n\nLKLCI",
+  "grader_explanation": "ground_truth='LKLCI' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

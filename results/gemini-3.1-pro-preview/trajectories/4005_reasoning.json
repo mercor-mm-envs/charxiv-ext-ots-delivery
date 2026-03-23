@@ -1,0 +1,16 @@
+{
+  "figure_id": 4005,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the peak quantile regression coefficient for Natural Resource Depletion (top-left panel) and the peak quantile regression coefficient for Domestic Credit to Private Sector (top-right panel) at their respective highest points?",
+  "ground_truth": "0.05",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided graphs:\n\n1.  **Top-left panel (Natural Resource Depletion):** The solid line (quantile regression coefficient) reaches its highest point around the 0.85 quantile. By tracing this peak to the y-axis, the value is approximately **0.09** (just below the 0.10 mark).\n2.  **Top-right panel (Domestic Credit to Private Sector):** The solid line reaches its highest point at the very end, around the 0.95 quantile. Tracing this peak to the y-axis, the value is approximately **0.07** (halfway between the 0.06 and 0.08 marks).\n\nThe approximate difference between these two peak values is:\n0.09 - 0.07 = 0.02\n\n0.02",
+  "grader_explanation": "ground_truth='0.05' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

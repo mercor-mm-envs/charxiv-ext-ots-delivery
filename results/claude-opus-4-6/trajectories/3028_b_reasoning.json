@@ -1,0 +1,16 @@
+{
+  "figure_id": 3028,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "In the left panel, which legend entry (FM or MF) has a slightly higher S(t) value at approximately t=1000?",
+  "ground_truth": "MF",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the left panel at approximately t=1000, the green curve (MF) is slightly higher than the red curve (FM). At that point, the MF curve appears to be around 0.6-0.65 while the FM curve is slightly below it.\n\n**MF**",
+  "grader_explanation": "ground_truth='MF' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

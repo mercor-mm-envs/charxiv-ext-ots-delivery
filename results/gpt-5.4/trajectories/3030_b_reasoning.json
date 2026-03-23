@@ -1,0 +1,16 @@
+{
+  "figure_id": 3030,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 3,
+  "inst_category_name": "NiC",
+  "question": "What is the approximate survival probability of the KM Kidney Survival curve at 10 years post kidney transplant?",
+  "ground_truth": "0.68",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "At **10 years** post kidney transplant, the **KM Kidney Survival** curve is approximately **0.75** (about **75%**).",
+  "grader_explanation": "ground_truth='0.68' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

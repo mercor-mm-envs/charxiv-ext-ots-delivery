@@ -1,0 +1,16 @@
+{
+  "figure_id": 3084,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "How many labeled nodes (with green-bordered boxes and letter labels) are there in total in the diagram?",
+  "ground_truth": "8",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "The green-bordered labeled nodes are: **A, B, C, D, E, F, G, H**.\n\nSo the total number of labeled nodes is **8**.",
+  "grader_explanation": "ground_truth='8' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

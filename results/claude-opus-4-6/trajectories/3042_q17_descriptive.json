@@ -1,0 +1,16 @@
+{
+  "figure_id": 3042,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "14",
+  "model_answer": "14",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "**Y-axis ticks:** 0, 20, 40, 60, 80, 100, 120 \u2192 **7 ticks**\n\n**X-axis ticks:** CM1, JM1, MC2, MW1, PC1, PC3, PC4 \u2192 **7 ticks**\n\n**Total: 7 + 7 = 14**",
+  "grader_explanation": "ground_truth='14' | extracted='14' | score=1",
+  "run": "claude-opus-4-6"
+}

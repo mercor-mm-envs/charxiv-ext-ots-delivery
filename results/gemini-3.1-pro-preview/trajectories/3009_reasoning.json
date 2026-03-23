@@ -1,0 +1,16 @@
+{
+  "figure_id": 3009,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the highest y-axis value reached by lnFDI (in the Kenya section) and the lowest y-axis value reached by lnIMP (in the Kenya section)?",
+  "ground_truth": "2",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "To find the approximate difference, we need to determine the two values from the specified graphs:\n\n1.  **Highest y-axis value reached by lnFDI (in the Kenya section):**\n    *   Look at the `lnFDI` graph (top right).\n    *   Locate the section on the x-axis labeled for Kenya (from `KENYA - 02` to `KENYA - 22`).\n    *   The line in this section starts at 0 and has a few peaks.\n    *   The horizontal grid lines are marked at intervals of 4 (0, 4, 8, 12, 16).\n    *   The highest peaks in the Kenya section clearly rise above the line for 4, but are less than halfway to the line for 8. A reasonable estimate for this highest value is approximately **5**.\n\n2.  **Lowest y-axis value reached by lnIMP (in the Kenya section):**\n    *   Look at the `lnIMP` graph (middle right).\n    *   Locate the section on the x-axis labeled for Kenya.\n    *   The line in this section starts with a sharp drop at `KENYA - 02`.\n    *   The horizontal grid lines are marked at intervals of 1 (5, 6, 7, 8...).\n    *   The lowest point of this drop rests exactly on the grid line for **6**.\n\n3.  **Calculate the difference:**\n    *   Difference = | Highest lnFDI (Kenya) - Lowest lnIMP (Kenya) |\n    *   Difference \u2248 | 5 - 6 | = 1\n\nThe approximate difference is 1.\n\n1",
+  "grader_explanation": "ground_truth='2' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 4007,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "In which year does Brazil show the most negative (lowest) FDI net outflow value?",
+  "ground_truth": "20,20",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the chart, Brazil is represented by the light blue bar. The most negative (lowest) value for the light blue bar occurs in the year labeled **2,0,2,0**, where the bar goes down to approximately -1.9.",
+  "grader_explanation": "ground_truth='20,20' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

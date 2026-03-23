@@ -1,0 +1,16 @@
+{
+  "figure_id": 5002,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "2003.3, 2012.9, 2022.2",
+  "model_answer": "2003.3, 2012.9, 2022.2",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "2003.3, 2012.9, 2022.2",
+  "grader_explanation": "ground_truth='2003.3, 2012.9, 2022.2' | extracted='2003.3, 2012.9, 2022.2' | score=1",
+  "run": "claude-opus-4-6"
+}

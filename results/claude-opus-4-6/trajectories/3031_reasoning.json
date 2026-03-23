@@ -1,0 +1,16 @@
+{
+  "figure_id": 3031,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the highest average default rate of Gyeonggi at Month 1 and the lowest average default rate of Sejong at Month 1?",
+  "ground_truth": "34",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at Month 1 on the chart:\n\n- **Gyeonggi** (orange line) has the highest average default rate at approximately **47.5%**\n- **Sejong** (cyan/light blue line) has the lowest average default rate at approximately **14%**\n\nThe difference is: 47.5 - 14 = 33.5 \u2248 **34**\n\nThe approximate difference is **34**.",
+  "grader_explanation": "ground_truth='34' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

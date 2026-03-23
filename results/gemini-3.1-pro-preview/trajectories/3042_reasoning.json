@@ -1,0 +1,16 @@
+{
+  "figure_id": 3042,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the difference between the highest IECGA value and the lowest IECGA value across all datasets?",
+  "ground_truth": "23.95",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided chart, we need to look at the values for the IECGA method, which is represented by the yellow bars.\n\nHere are the IECGA values for each dataset:\n*   CM1: 85.86\n*   JM1: 79.66\n*   MC2: 71.05\n*   MW1: 89.33\n*   PC1: 95.1\n*   PC3: 88.29\n*   PC4: 89.76\n\nFrom this list:\n*   The **highest** IECGA value is **95.1** (from dataset PC1).\n*   The **lowest** IECGA value is **71.05** (from dataset MC2).\n\nNow, calculate the difference:\n95.1 - 71.05 = 24.05\n\n24.05",
+  "grader_explanation": "ground_truth='23.95' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3063,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "50",
+  "model_answer": "34",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Count the explicitly labeled ticks on each subplot:\n\n- **A (top boxplot)**: y-axis labels at 0, 20, 40, 60, 80 \u2192 **5**\n- **B (middle boxplot)**: y-axis labels at 0, 10, 20, 30, 40, 50, 60 \u2192 **7**\n- **C (bottom-left bar chart)**:\n  - x-axis: RNN, GPT, AMP-MIC, Our Model \u2192 **4**\n  - y-axis: 0.0 to 0.6 by 0.1 \u2192 **7**\n  - total \u2192 **11**\n- **D (bottom-right bar chart)**:\n  - x-axis: RNN, GPT, AMP-MIC, Our Model \u2192 **4**\n  - y-axis: 0.0 to 0.6 by 0.1 \u2192 **7**\n  - total \u2192 **11**\n\nTotal labeled ticks across all axes:\n\n**5 + 7 + 11 + 11 = 34**\n\n**Final answer: 34**",
+  "grader_explanation": "ground_truth='50' | extracted='34' | score=0",
+  "run": "gpt-5.4"
+}

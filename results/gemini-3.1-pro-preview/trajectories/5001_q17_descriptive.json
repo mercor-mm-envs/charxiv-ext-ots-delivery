@@ -1,0 +1,16 @@
+{
+  "figure_id": 5001,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "88",
+  "model_answer": "63",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the image provided, here is the count of explicitly labeled ticks for each subplot:\n\n1.  **Top Left:**\n    *   Y-axis: 3 labels (`0.00`, `-0.02`, `-0.04`)\n    *   X-axis: 5 labels (`2000`, `2005`, `2010`, `2015`, `2020`)\n    *   Total: 8\n\n2.  **Top Right:**\n    *   Y-axis: 3 labels (`0.05`, `0.00`, `-0.05`)\n    *   X-axis: 5 labels (`2000`, `2005`, `2010`, `2015`, `2020`)\n    *   Total: 8\n\n3.  **Second Row Left:**\n    *   Y-axis: 2 labels (`0.00`, `-0.02`)\n    *   X-axis: 5 labels (`2000`, `2005`, `2010`, `2015`, `2020`)\n    *   Total: 7\n\n4.  **Second Row Right:**\n    *   Y-axis: 3 labels (`0.00`, `-0.05`, `-0.10`)\n    *   X-axis: 5 labels (`2000`, `2005`, `2010`, `2015`, `2020`)\n    *   Total: 8\n\n5.  **Third Row Left:**\n    *   Y-axis: 3 labels (`0.025`, `0.000`, `-0.025`)\n    *   X-axis: 5 labels (`2000`, `2005`, `2010`, `2015`, `2020`)\n    *   Total: 8\n\n6.  **Third Row Right:**\n    *   Y-axis: 3 labels (`0.00`, `-0.01`, `-0.02`)\n    *   X-axis: 5 labels (`2000`, `2005`, `2010`, `2015`, `2020`)\n    *   Total: 8\n\n7.  **Bottom Row Left:**\n    *   Y-axis: 3 labels (`0.000`, `-0.025`, `-0.050`)\n    *   X-axis: 5 labels (`2000`, `2005`, `2010`, `2015`, `2020`)\n    *   Total: 8\n\n8.  **Bottom Row Right:**\n    *   Y-axis: 3 labels (`0.05`, `0.00`, `-0.05`)\n    *   X-axis: 5 labels (`2000`, `2005`, `2010`, `2015`, `2020`)\n    *   Total: 8\n\nAdding these up: 8 + 8 + 7 + 8 + 8 + 8 + 8 + 8 = **63**\n\n63",
+  "grader_explanation": "ground_truth='88' | extracted='63' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3053,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "0.007",
+  "model_answer": "0.007",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "0.007\n\nWait, let me look more carefully at the y-axis ticks.\n\nPanel A (left subplot): The highest labeled tick is **0.007**.\nPanel B (right subplot): The highest labeled tick is **0.0025**.\n\nSince both subplots have separate y-axes, the spatially highest labeled tick on the y-axis is **0.007** (from Panel A, which appears to be at the same vertical position or higher than Panel B's 0.0025).\n\nThe answer is **0.007**.",
+  "grader_explanation": "ground_truth='0.007' | extracted='0.007' | score=1",
+  "run": "claude-opus-4-6"
+}

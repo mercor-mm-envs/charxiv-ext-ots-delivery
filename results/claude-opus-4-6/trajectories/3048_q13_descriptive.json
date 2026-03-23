@@ -1,0 +1,16 @@
+{
+  "figure_id": 3048,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "not specified (underlying), Commodities, Cryptocurrencies, Currencies, Indexes, Interest Rates, Stocks",
+  "model_answer": "not specified (underlying), Commodities, Cryptocurrencies, Currencies, Indexes, Interest Rates, Stocks",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "not specified (underlying), Commodities, Cryptocurrencies, Currencies, Indexes, Interest Rates, Stocks",
+  "grader_explanation": "ground_truth='not specified (underlying), Commodities, Cryptocurrencies, Currencies, Indexes, Interest Rates, Stocks' | extracted='not specified (underlying), Commodities, Cryptocurrencies, Currencies, Indexes, Interest Rates, Stocks' | score=1",
+  "run": "claude-opus-4-6"
+}

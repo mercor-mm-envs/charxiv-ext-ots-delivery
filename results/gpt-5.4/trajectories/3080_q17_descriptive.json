@@ -1,0 +1,16 @@
+{
+  "figure_id": 3080,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "41",
+  "model_answer": "42",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Count labeled ticks on each subplot:\n\nTop plot (a):\n- x-axis: 6 labels (300, 400, 500, 600, 700, 800)\n- y-axis: 8 labels (0, 0.001, 0.002, 0.003, 0.004, 0.005, 0.006, 0.007)\n\nBottom-left plot (b):\n- x-axis: 7 labels (350, 400, 450, 500, 550, 600, 650)\n- y-axis: 6 labels (350, 400, 450, 500, 550, 600)\n\nBottom-right plot (c):\n- x-axis: 6 labels (350, 400, 450, 500, 550, 600)\n- y-axis: 9 labels (350, 400, 450, 500, 550, 600, 650, 700, 750)\n\nTotal = 6 + 8 + 7 + 6 + 6 + 9 = **42**",
+  "grader_explanation": "ground_truth='41' | extracted='42' | score=0",
+  "run": "gpt-5.4"
+}

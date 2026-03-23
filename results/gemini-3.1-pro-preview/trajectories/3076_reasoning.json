@@ -1,0 +1,16 @@
+{
+  "figure_id": 3076,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the percentage reduction in overall cost when using the Proposed Approach compared to the Capacity-based Allocation?",
+  "ground_truth": "7.69",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "To find the percentage reduction in overall cost when using the Proposed Approach compared to the Capacity-based Allocation, follow these steps:\n\n1.  **Identify the Overall Costs from the table:**\n    *   Overall Cost for Capacity-based Allocation: **$198.53**\n    *   Overall Cost for Proposed Approach: **$183.26**\n\n2.  **Calculate the reduction in cost:**\n    *   Reduction = Cost (Capacity-based) - Cost (Proposed)\n    *   Reduction = $198.53 - $183.26 = **$15.27**\n\n3.  **Calculate the percentage reduction:**\n    *   Percentage Reduction = (Reduction / Cost (Capacity-based)) \u00d7 100\n    *   Percentage Reduction = ($15.27 / $198.53) \u00d7 100\n    *   Percentage Reduction \u2248 0.076915 \u00d7 100 \u2248 **7.69%**\n\n7.69",
+  "grader_explanation": "ground_truth='7.69' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

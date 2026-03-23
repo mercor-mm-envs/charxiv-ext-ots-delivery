@@ -1,0 +1,16 @@
+{
+  "figure_id": 3086,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "How many times do the red and green curves intersect each other in the visible portion of the plot?",
+  "ground_truth": "1",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on a careful examination of the image:\n\n1.  **Analyze the left branches:** On the left side of the vertical asymptotes, the red curve is consistently visible below the green curve. They do not appear to intersect in this region.\n2.  **Analyze the right branches:** On the right side of the vertical asymptotes, we can trace the curves from top-left to bottom-right.\n    *   At the upper part of these branches, the green curve is to the right of the red curve, which means for any given vertical line in that region, the green curve is higher than the red curve.\n    *   As the curves descend and move to the right, they converge.\n    *   They clearly cross each other near the horizontal axis.\n    *   After this crossing point, the red curve continues to the right of the green curve, meaning it remains higher than the green curve for the rest of the visible plot.\n3.  **Count the intersections:** There is exactly one point where the red and green curves cross each other.\n\n1",
+  "grader_explanation": "ground_truth='1' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

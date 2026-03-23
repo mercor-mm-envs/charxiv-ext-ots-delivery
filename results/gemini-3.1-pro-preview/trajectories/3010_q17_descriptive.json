@@ -1,0 +1,16 @@
+{
+  "figure_id": 3010,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "97",
+  "model_answer": "97",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the plot provided, here is the breakdown of the explicitly labeled ticks for each subplot:\n\n**1. Top Subplot (Oceania, North America and Latin America)**\n*   **Y-axis:** 0, 20, 40, 60, 80, >100 (6 ticks)\n*   **X-axis:** AUS, NZL, CAN, USA, ARG, BRA, CHL, COL, MEX, PRY, PER, URY, VEN (13 ticks)\n\n**2. Middle Subplot (Asia and Africa)**\n*   **Y-axis:** 0, 20, 40, 60, 80, >100 (6 ticks)\n*   **X-axis:** CYP, IRQ, ISR, KWT, QAT, SAU, TUR, ARE, BGD, IND, IRN, PAK, IDN, KAZ, MYS, PHL, SGP, THA, VNM, CHN, HKG, JPN, KOR, TWN, DZA, EGY, MAR, NGA, ZAF, TUN (30 ticks)\n\n**3. Bottom Subplot (Europe)**\n*   **Y-axis:** 0, 20, 40, 60, 80, >100 (6 ticks)\n*   **X-axis:** ALB, BIH, HRV, GRC, ITA, MLT, PRT, SRB, SVN, ESP, BLR, BGR, CZE, HUN, POL, ROU, RUS, SVK, UKR, AUT, BEL, DNK, EST, FIN, FRA, DEU, ISL, IRL, LVA, LTU, LUX, NLD, NOR, SWE, CHE, GBR (36 ticks)\n\nTotal y-axis ticks = 6 + 6 + 6 = 18\nTotal x-axis ticks = 13 + 30 + 36 = 79\nTotal explicitly labeled ticks = 18 + 79 = 97\n\n**97**",
+  "grader_explanation": "ground_truth='97' | extracted='97' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3093,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "CT14, MMHT2014, NNPDF3.1",
+  "model_answer": "CT14, MMHT2014, NNPDF3.1",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "CT14, MMHT2014, NNPDF3.1",
+  "grader_explanation": "ground_truth='CT14, MMHT2014, NNPDF3.1' | extracted='CT14, MMHT2014, NNPDF3.1' | score=1",
+  "run": "claude-opus-4-6"
+}

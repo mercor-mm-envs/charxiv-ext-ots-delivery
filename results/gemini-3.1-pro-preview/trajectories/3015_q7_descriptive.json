@@ -1,0 +1,16 @@
+{
+  "figure_id": 3015,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "4.3",
+  "model_answer": "4.3",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the image provided, the y-axis on the far left corresponds to the first subplot (\"Income\"). The spatially highest labeled tick on this axis is 4.3. The instruction specifies to base the answer on the axis at the left when there are multiple, which confirms we should use the leftmost y-axis of the figure.\n\n4.3",
+  "grader_explanation": "ground_truth='4.3' | extracted='4.3' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

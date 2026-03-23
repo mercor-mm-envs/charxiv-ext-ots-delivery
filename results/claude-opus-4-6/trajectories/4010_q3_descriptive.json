@@ -1,0 +1,16 @@
+{
+  "figure_id": 4010,
+  "mode": "descriptive",
+  "qid": 3,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the label of the y-axis?",
+  "ground_truth": "Country",
+  "model_answer": "Country",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "**Country**",
+  "grader_explanation": "ground_truth='Country' | extracted='Country' | score=1",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3012,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "17",
+  "model_answer": "16",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes in both subplots.\n\n**Subplot (a) - Average Coffee Productivity:**\n\nX-axis: 0, 10, 20, 30 \u2192 4 ticks\n\nY-axis: 0 (implied by the scale), 2 K, 4 K, 6 K, 8 K \u2192 Let me look carefully. The y-axis shows: 2 K, 4 K, 6 K, 8 K. I don't see a 0 explicitly labeled. So 4 ticks.\n\nWait, looking more carefully at the plot, the y-axis labels are: 2 K, 4 K, 6 K, 8 K \u2192 4 ticks\n\n**Subplot (b) - Profit:**\n\nX-axis: 0, 10, 20, 30 \u2192 4 ticks\n\nY-axis: -100 M, 0, 100 M, 200 M \u2192 4 ticks\n\n**Total: 4 + 4 + 4 + 4 = 16**\n\nThe total number of explicitly labeled ticks across all axes is **16**.",
+  "grader_explanation": "ground_truth='17' | extracted='16' | score=0",
+  "run": "claude-opus-4-6"
+}

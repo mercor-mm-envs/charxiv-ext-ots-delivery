@@ -1,0 +1,16 @@
+{
+  "figure_id": 3072,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "-55",
+  "model_answer": "-55",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the four subplots, I need to find the spatially lowest labeled tick on the y-axis across all subplots.\n\n- **Top-left subplot**: y-axis ticks range from -20 to -36, with -36 being the lowest.\n- **Top-right subplot**: y-axis ticks range from -23 to -51, with -51 being the lowest.\n- **Bottom-left subplot**: y-axis ticks range from -24 to -55, with -55 being the lowest.\n- **Bottom-right subplot**: y-axis ticks range from -37 to -50, with -50 being the lowest.\n\nThe spatially lowest labeled tick on the y-axis is in the **bottom-left subplot**, which is **-55**.\n\nThe answer is **-55**.",
+  "grader_explanation": "ground_truth='-55' | extracted='-55' | score=1",
+  "run": "claude-opus-4-6"
+}

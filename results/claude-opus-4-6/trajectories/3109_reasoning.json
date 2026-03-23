@@ -1,0 +1,16 @@
+{
+  "figure_id": 3109,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "which method abbreviation under Control Function Approaches shares its numbering label with the OLS Method, and what is that shared label combined with the abbreviation?",
+  "ground_truth": "(1) OP Method",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "The OLS Method is labeled **(1)** under Production Function Approaches.\n\nUnder Control Function Approaches, the method also labeled **(1)** is the **OP Method** (Olley-Pakes Method).\n\nThe shared label is **1**, and the abbreviation is **OP**.\n\nCombined: **1 OP** \u2192 but the question asks for an exact integer.\n\nInterpreting \"the shared label combined with the abbreviation\": the shared numbering label is **1**.\n\nThe answer is **1**.",
+  "grader_explanation": "ground_truth='(1) OP Method' | extracted='' | score=0",
+  "run": "claude-opus-4-6"
+}

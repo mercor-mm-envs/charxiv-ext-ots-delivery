@@ -1,0 +1,16 @@
+{
+  "figure_id": 3052,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "30",
+  "model_answer": "27",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes in the three subplots.\n\n**Subplot 1 (RMSE):**\n- X-axis: \"Normal (train)\", \"Stress (val)\", \"Crash (test)\" \u2192 3 ticks\n- Y-axis: 0.0025, 0.0030, 0.0035, 0.0040, 0.0045, 0.0050, 0.0055 \u2192 7 ticks\n\n**Subplot 2 (Rank IC):**\n- X-axis: \"Normal (train)\", \"Stress (val)\", \"Crash (test)\" \u2192 3 ticks\n- Y-axis: 0.35, 0.40, 0.45, 0.50, 0.55, 0.60 \u2192 6 ticks\n\n**Subplot 3 (Directional Acc.):**\n- X-axis: \"Normal (train)\", \"Stress (val)\", \"Crash (test)\" \u2192 3 ticks\n- Y-axis: 0.40, 0.45, 0.50, 0.55, 0.60 \u2192 5 ticks\n\n**Total:** 3 + 7 + 3 + 6 + 3 + 5 = **27**",
+  "grader_explanation": "ground_truth='30' | extracted='27' | score=0",
+  "run": "claude-opus-4-6"
+}

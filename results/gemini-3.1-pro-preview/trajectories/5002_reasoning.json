@@ -1,0 +1,16 @@
+{
+  "figure_id": 5002,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the top-left subplot (\u03b5_GPT \u2192 TotalBeta), what is the approximate difference between the initial response value (at time 0) of the 2022.2 series and the 2003.3 series?",
+  "ground_truth": "0.04",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the top-left subplot ($\\epsilon_{GPT} \\uparrow \\rightarrow TotalBeta$):\n\n1.  **Locate the initial value (at time 0) for the 2022.2 series:** The 2022.2 series is represented by the cyan line with '+' markers. At $x = 0$, the y-value is approximately **0.00**.\n2.  **Locate the initial value (at time 0) for the 2003.3 series:** The 2003.3 series is represented by the red line with '+' markers. At $x = 0$, the y-value is halfway between -0.02 and -0.04, which is approximately **-0.03**.\n3.  **Calculate the difference:** The difference between the initial response value of the 2022.2 series and the 2003.3 series is:\n    $$0.00 - (-0.03) = 0.03$$\n\n0.03",
+  "grader_explanation": "ground_truth='0.04' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

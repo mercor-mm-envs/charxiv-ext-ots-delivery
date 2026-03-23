@@ -1,0 +1,16 @@
+{
+  "figure_id": 3044,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference in accuracy percentage between the FS-Accuracy and No FS-Accuracy for MC2?",
+  "ground_truth": "3",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "For **MC2**, the **No FS-Accuracy** is about **68%** and the **FS-Accuracy** is about **71%**.\n\nApproximate difference: **3**",
+  "grader_explanation": "ground_truth='3' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

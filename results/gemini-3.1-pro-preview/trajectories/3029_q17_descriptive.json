@@ -1,0 +1,16 @@
+{
+  "figure_id": 3029,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "30",
+  "model_answer": "24",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the image provided, here is the count of explicitly labeled ticks across all axes:\n\n**Left Subplot:**\n*   Y-axis: 0, 3000, 6000, 9000 (4 ticks)\n*   X-axis: 1, 4, 2, 5, 6, 7, 9, 998 (8 ticks)\n\n**Right Subplot:**\n*   Y-axis: 2000, 2500, 3000, 3500 (4 ticks)\n*   X-axis: 1, 4, 2, 5, 6, 7, 9, 998 (8 ticks)\n\nTotal = 4 + 8 + 4 + 8 = 24\n\n**24**",
+  "grader_explanation": "ground_truth='30' | extracted='24' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

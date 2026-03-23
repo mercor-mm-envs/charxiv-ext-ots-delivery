@@ -1,0 +1,16 @@
+{
+  "figure_id": 3091,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the upper panel, what is the approximate ratio of the peak fraction of events (around p_T^l \u2248 39 GeV) to the fraction of events at p_T^l = 32 GeV for the Nominal distribution?",
+  "ground_truth": "1.6",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the upper panel for the Nominal distribution (blue filled histogram):\n\n- **Peak fraction of events (around p_T^l \u2248 39 GeV):** The peak appears to be approximately 0.078-0.08.\n\n- **Fraction of events at p_T^l = 32 GeV:** The leftmost bin (starting at 32 GeV) shows a value of approximately 0.05.\n\nComputing the ratio:\n\n$$\\frac{0.08}{0.05} = 1.6$$\n\nThe approximate ratio is **1.6**.",
+  "grader_explanation": "ground_truth='1.6' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

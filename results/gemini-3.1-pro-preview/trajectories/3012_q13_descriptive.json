@@ -1,0 +1,16 @@
+{
+  "figure_id": 3012,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "4000, 3300, 2000, 1650",
+  "model_answer": "4000, 2000, 3300, 1650",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the plot's legend, here are the labels read from top to bottom, and then from left to right:\n\n4000, 2000, 3300, 1650",
+  "grader_explanation": "ground_truth='4000, 3300, 2000, 1650' | extracted='4000, 2000, 3300, 1650' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

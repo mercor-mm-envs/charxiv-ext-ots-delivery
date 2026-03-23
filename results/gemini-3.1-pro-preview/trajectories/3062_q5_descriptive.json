@@ -1,0 +1,16 @@
+{
+  "figure_id": 3062,
+  "mode": "descriptive",
+  "qid": 5,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the rightmost labeled tick on the x-axis?",
+  "ground_truth": "Not Applicable",
+  "model_answer": "14",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided image, the figure contains multiple subplots. The main overarching time series and behavior plots in panels (a) and (b) share a primary conceptual x-axis representing time. The explicitly written rightmost tick value on these primary x-axes is 14.\n\n14",
+  "grader_explanation": "ground_truth='Not Applicable' | extracted='14' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3053,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "24",
+  "model_answer": "26",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes in both panels.\n\n**Panel A:**\n\n- X-axis: 1900, 2150, 2400, 2650, 2900, 3150 \u2192 **6 ticks**\n- Y-axis: 0, 0.001, 0.002, 0.003, 0.004, 0.005, 0.006, 0.007 \u2192 **8 ticks**\n\n**Panel B:**\n\n- X-axis: 1900, 2150, 2400, 2650, 2900, 3150 \u2192 **6 ticks**\n- Y-axis: 0, 0.0005, 0.001, 0.0015, 0.002, 0.0025 \u2192 **6 ticks**\n\n**Total: 6 + 8 + 6 + 6 = 26**",
+  "grader_explanation": "ground_truth='24' | extracted='26' | score=0",
+  "run": "claude-opus-4-6"
+}

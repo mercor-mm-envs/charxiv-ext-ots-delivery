@@ -1,0 +1,16 @@
+{
+  "figure_id": 3074,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "19",
+  "model_answer": "26",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes, including the main plot and the two inset plots.\n\n**Main plot:**\n\n- X-axis (Pt in dBm): 0, 10, 20, 30, 40, 50, 60 \u2192 **7 ticks**\n- Y-axis (Outage Probability): 10\u2070, 10\u207b\u00b9, 10\u207b\u00b2, 10\u207b\u00b3, 10\u207b\u2074, 10\u207b\u2075, 10\u207b\u2076 \u2192 **7 ticks**\n\n**Top inset plot (upper right area):**\n\n- X-axis: 41.2, 41.3 \u2192 **2 ticks**\n- Y-axis: 0.0115, 0.012 \u2192 **2 ticks**\n\n**Bottom inset plot (lower left area):**\n\n- X-axis: 38.5, 39, 39.5 \u2192 **3 ticks**\n- Y-axis: 4.5, 5, 5.5, 6, 6.5 \u2192 **5 ticks** (with \u00d710\u207b\u2075 label)\n\n**Total:** 7 + 7 + 2 + 2 + 3 + 5 = **26**",
+  "grader_explanation": "ground_truth='19' | extracted='26' | score=0",
+  "run": "claude-opus-4-6"
+}

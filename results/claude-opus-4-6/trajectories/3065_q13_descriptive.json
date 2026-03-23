@@ -1,0 +1,16 @@
+{
+  "figure_id": 3065,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "\u2202 ERK/\u2202 x, \u2202 \u03c1/\u2202 x, \u2202 v_x\u00b2/\u2202 x\u00b2, \u2202 v_x\u00b2/\u2202 y\u00b2, v_x",
+  "model_answer": "\u2202 ERK/\u2202 x, \u2202 \u03c1/\u2202 x, \u2202 v\u00b2\u2093/\u2202 x\u00b2, \u2202 v\u00b2\u2093/\u2202 y\u00b2, v\u2093",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the legends in panels C and D, they contain the same labels:\n\n\u2202 ERK/\u2202 x, \u2202 \u03c1/\u2202 x, \u2202 v\u00b2\u2093/\u2202 x\u00b2, \u2202 v\u00b2\u2093/\u2202 y\u00b2, v\u2093",
+  "grader_explanation": "ground_truth='\u2202 ERK/\u2202 x, \u2202 \u03c1/\u2202 x, \u2202 v_x\u00b2/\u2202 x\u00b2, \u2202 v_x\u00b2/\u2202 y\u00b2, v_x' | extracted='\u2202 ERK/\u2202 x, \u2202 \u03c1/\u2202 x, \u2202 v\u00b2\u2093/\u2202 x\u00b2, \u2202 v\u00b2\u2093/\u2202 y\u00b2, v\u2093' | score=0",
+  "run": "claude-opus-4-6"
+}

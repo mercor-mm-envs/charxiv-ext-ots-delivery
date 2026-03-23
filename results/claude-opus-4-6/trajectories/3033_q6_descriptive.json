@@ -1,0 +1,16 @@
+{
+  "figure_id": 3033,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "-1",
+  "model_answer": "0",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the bottom subplot (Residual), the spatially lowest labeled tick on the y-axis is **0** on that panel.\n\nWait, let me reconsider. The spatially lowest labeled tick across all subplots would be on the bottom subplot (Residual). The y-axis ticks on the Residual subplot are 0, 10, and 20. The lowest of these is **0**.\n\nBut I need to check if there are negative ticks. Looking at the Residual subplot, the y-axis appears to show 0, 10, and 20 \u2014 no negative ticks are explicitly labeled.\n\nThe spatially lowest labeled tick on the y-axis is **0** (on the bottom/Residual subplot).",
+  "grader_explanation": "ground_truth='-1' | extracted='0' | score=0",
+  "run": "claude-opus-4-6"
+}

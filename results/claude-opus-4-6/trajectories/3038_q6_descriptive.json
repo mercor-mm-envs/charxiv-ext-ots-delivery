@@ -1,0 +1,16 @@
+{
+  "figure_id": 3038,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "100",
+  "model_answer": "140",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the left y-axis of the main stock price chart (NVDA Stock Price), the labeled ticks are 140, 150, 160, 170, and 180.\n\nThe spatially lowest labeled tick on the y-axis is **140**.",
+  "grader_explanation": "ground_truth='100' | extracted='140' | score=0",
+  "run": "claude-opus-4-6"
+}

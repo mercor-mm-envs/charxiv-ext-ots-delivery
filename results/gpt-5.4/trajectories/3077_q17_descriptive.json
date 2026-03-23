@@ -1,0 +1,16 @@
+{
+  "figure_id": 3077,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "16",
+  "model_answer": "19",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "19",
+  "grader_explanation": "ground_truth='16' | extracted='19' | score=0",
+  "run": "gpt-5.4"
+}

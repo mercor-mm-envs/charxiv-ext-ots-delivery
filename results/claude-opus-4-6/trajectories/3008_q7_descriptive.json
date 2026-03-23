@@ -1,0 +1,16 @@
+{
+  "figure_id": 3008,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "30",
+  "model_answer": "12",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at all the subplots, I need to find the spatially highest labeled tick on the y-axis across all subplots.\n\nThe top row subplots have their highest y-axis ticks at:\n- (a) Model 1: **2**\n- (b) Model 2: **10**\n- (c) Model 3: **12**\n\nThe bottom row subplots have their highest y-axis ticks at:\n- (d) Model 4: **4**\n- (e) Model 5: **15**\n- (f) Model 6: **30**\n\nSince all top-row subplots are at the same spatial height and all bottom-row subplots are at the same spatial height, the spatially highest ticks are those at the top of the top-row subplots. Among subplots (a), (b), and (c), the highest labeled ticks are 2, 10, and 12 respectively. But spatially, the top of each subplot is at the same vertical position, so the spatially highest labeled tick across all subplots is the one nearest the top of the figure.\n\nThe spatially highest labeled tick values on the y-axes in the top row are **2** (Model 1), **10** (Model 2), and **12** (Model 3). These are all at approximately the same spatial height at the top of their respective subplots.\n\nThe answer is **12**.",
+  "grader_explanation": "ground_truth='30' | extracted='12' | score=0",
+  "run": "claude-opus-4-6"
+}

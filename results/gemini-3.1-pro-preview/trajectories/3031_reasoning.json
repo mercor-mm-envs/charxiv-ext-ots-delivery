@@ -1,0 +1,16 @@
+{
+  "figure_id": 3031,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the highest average default rate of Gyeonggi at Month 1 and the lowest average default rate of Sejong at Month 1?",
+  "ground_truth": "34",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided graph, we can determine the approximate values for Gyeonggi and Sejong at Month 1:\n\n1.  **Locate Gyeonggi at Month 1**: According to the legend, Gyeonggi is represented by the orange line. At Month 1 on the x-axis, the point for Gyeonggi is between the 4.5 and an inferred 5.0 grid line. It appears to be roughly halfway or slightly more above 4.5, so we can estimate its value to be approximately **4.8**.\n2.  **Locate Sejong at Month 1**: Sejong is represented by the cyan (light blue) line. At Month 1, its point is just below the 1.5 grid line. Estimating its position relative to the 1.5 line and the inferred 1.0 bottom axis, it is approximately **1.4**.\n3.  **Calculate the difference**:\n    $$\\text{Difference} \\approx 4.8 - 1.4 = 3.4$$\n4.  **Round to the nearest exact integer**: The nearest integer to 3.4 is 3.\n\n3",
+  "grader_explanation": "ground_truth='34' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

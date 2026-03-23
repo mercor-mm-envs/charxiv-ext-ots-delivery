@@ -1,0 +1,16 @@
+{
+  "figure_id": 3080,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In subplot (a), what is the approximate difference in peak probability density between the Original (R1) curve and the Original (R2) curve?",
+  "ground_truth": "0.004",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "From subplot (a):\n\n- The **Original (R1)** curve (solid light blue) has a peak probability density of approximately **0.007** (at around 480 MPa).\n- The **Original (R2)** curve (solid orange) has a peak probability density of approximately **0.004** (at around 520-530 MPa).\n\nThe difference in peak probability density is:\n\n0.007 - 0.004 = **0.003**\n\n$$\\boxed{0.003}$$",
+  "grader_explanation": "ground_truth='0.004' | extracted='' | score=0",
+  "run": "claude-opus-4-6"
+}

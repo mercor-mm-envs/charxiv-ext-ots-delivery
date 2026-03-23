@@ -1,0 +1,16 @@
+{
+  "figure_id": 3084,
+  "mode": "descriptive",
+  "qid": 16,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the general trend of data from left to right?",
+  "ground_truth": "Not Applicable",
+  "model_answer": "none",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the provided image, which is a flowchart or structural diagram rather than a standard data plot (like a line or scatter plot), there is no numerical data mapped to horizontal and vertical axes. Therefore, a data trend cannot be established.\n\nnone",
+  "grader_explanation": "ground_truth='Not Applicable' | extracted='none' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

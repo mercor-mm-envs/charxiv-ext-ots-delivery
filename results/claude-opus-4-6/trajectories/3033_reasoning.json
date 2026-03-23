@@ -1,0 +1,16 @@
+{
+  "figure_id": 3033,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the peak value in the Observed panel and the peak value in the Residual panel?",
+  "ground_truth": "8",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "From the **Observed panel**, the peak value occurs around 2015 and reaches approximately **30**.\n\nFrom the **Residual panel**, the peak value also occurs around 2015 and reaches approximately **22**.\n\nThe difference is: 30 - 22 = **8**",
+  "grader_explanation": "ground_truth='8' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

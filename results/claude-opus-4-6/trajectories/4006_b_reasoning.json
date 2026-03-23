@@ -1,0 +1,16 @@
+{
+  "figure_id": 4006,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 3,
+  "inst_category_name": "NiC",
+  "question": "What is the Financial Freedom Index value for Denmark in 2012?",
+  "ground_truth": "90",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the chart, I need to find Denmark's line (shown in brown/dark orange) at the year 2012.\n\nTracing Denmark's line to 2012, it is at **90**.",
+  "grader_explanation": "ground_truth='90' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

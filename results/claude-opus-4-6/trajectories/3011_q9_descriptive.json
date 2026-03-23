@@ -1,0 +1,16 @@
+{
+  "figure_id": 3011,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "0.20",
+  "model_answer": "0.2",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "The y-axis tick values are: -, 0.20, 0.40, 0.60, 0.80, 1.00, 1.20.\n\nThe \"-\" appears to represent 0. The difference between consecutive ticks is 0.20.\n\n**0.20**",
+  "grader_explanation": "ground_truth='0.20' | extracted='0.2' | score=1",
+  "run": "claude-opus-4-6"
+}

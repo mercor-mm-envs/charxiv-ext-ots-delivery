@@ -1,0 +1,16 @@
+{
+  "figure_id": 3007,
+  "mode": "descriptive",
+  "qid": 5,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the rightmost labeled tick on the x-axis?",
+  "ground_truth": "2020-01-01",
+  "model_answer": "2020-01-01",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "```json\n[\n  {\"box_2d\": [894, 861, 922, 934], \"text_content\": \"2020-01-01\"}\n]\n```",
+  "grader_explanation": "ground_truth='2020-01-01' | extracted='2020-01-01' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3080,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In subplot (a), what is the approximate difference in peak probability density between the Original (R1) curve and the Original (R2) curve?",
+  "ground_truth": "0.004",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "In subplot (a), the **Original (R1)** curve peaks at about **0.007**, while the **Original (R2)** curve peaks at about **0.005**.\n\nSo the approximate difference in peak probability density is:\n\n**0.002**",
+  "grader_explanation": "ground_truth='0.004' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

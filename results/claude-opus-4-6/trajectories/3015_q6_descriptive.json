@@ -1,0 +1,16 @@
+{
+  "figure_id": 3015,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "1.5",
+  "model_answer": "1",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the y-axes of all three subplots:\n\n- Subplot **a)** has y-axis ticks starting at **1.5** at the bottom.\n- Subplot **b)** has y-axis ticks starting at **1** at the bottom.\n- Subplot **c)** has y-axis ticks starting at **1** at the bottom.\n\nThe spatially lowest labeled tick on the y-axis is **1**.",
+  "grader_explanation": "ground_truth='1.5' | extracted='1' | score=0",
+  "run": "claude-opus-4-6"
+}

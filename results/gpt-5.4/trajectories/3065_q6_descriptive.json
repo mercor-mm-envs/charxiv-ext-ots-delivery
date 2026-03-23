@@ -1,0 +1,16 @@
+{
+  "figure_id": 3065,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "-0.2",
+  "model_answer": "-0.2",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "-0.2",
+  "grader_explanation": "ground_truth='-0.2' | extracted='-0.2' | score=1",
+  "run": "gpt-5.4"
+}

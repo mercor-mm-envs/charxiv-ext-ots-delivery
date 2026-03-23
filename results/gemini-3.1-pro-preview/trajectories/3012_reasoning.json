@@ -1,0 +1,16 @@
+{
+  "figure_id": 3012,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In panel (a), what is the approximate difference in steady-state average coffee productivity (kg green beans/(year*ha)) between the 4000 scenario and the 1650 scenario at year 30?",
+  "ground_truth": "4000",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the graph in panel (a):\n\n1.  **Identify the lines:** The red line represents the \"4000\" scenario, and the orange line represents the \"1650\" scenario.\n2.  **Determine the values at year 30:**\n    *   The orange line (\"1650\" scenario) is positioned exactly halfway between the 2K and 4K grid lines, which corresponds to a steady-state average coffee productivity of exactly **3000** kg green beans/(year*ha).\n    *   The green line (\"3300\" scenario) is positioned exactly on the 6K grid line. This suggests a proportional relationship where Productivity = Scenario * (6000 / 3300).\n    *   Using this proportional relationship, we can estimate the value for the red line (\"4000\" scenario):\n        Productivity = 4000 * (6000 / 3300) \u2248 **7273** kg green beans/(year*ha).\n        Visually, this is consistent with the red line being positioned slightly above the midpoint (7000) between the 6K and 8K grid lines.\n3.  **Calculate the difference:**\n    *   Difference = 7273 - 3000 = 4273.\n\n4273",
+  "grader_explanation": "ground_truth='4000' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

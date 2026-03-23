@@ -1,0 +1,16 @@
+{
+  "figure_id": 3028,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "24",
+  "model_answer": "24",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Each subplot shows:\n\n- x-axis labeled ticks: 0, 2000, 4000, 6000, 8000, 10000 \u2192 6 ticks\n- y-axis labeled ticks: 0.0, 0.2, 0.4, 0.6, 0.8, 1.0 \u2192 6 ticks\n\nSo each subplot has 12 labeled ticks total.\n\nThere are 2 subplots, so:\n\n12 \u00d7 2 = **24**\n\n**Final answer: 24**",
+  "grader_explanation": "ground_truth='24' | extracted='24' | score=1",
+  "run": "gpt-5.4"
+}

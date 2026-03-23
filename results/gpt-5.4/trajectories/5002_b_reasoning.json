@@ -1,0 +1,16 @@
+{
+  "figure_id": 5002,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "In the subplot showing \u03b5_GPHA \u2192 TotalBeta, which time period (color/series) shows the most negative initial impulse response at time 0?",
+  "ground_truth": "2022.2",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "In the subplot **\u03b5_GPHA \u2192 TotalBeta**, the most negative initial impulse response at **time 0** is **2003.3**.",
+  "grader_explanation": "ground_truth='2022.2' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

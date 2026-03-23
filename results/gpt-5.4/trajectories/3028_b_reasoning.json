@@ -1,0 +1,16 @@
+{
+  "figure_id": 3028,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "In the left panel, which legend entry (FM or MF) has a slightly higher S(t) value at approximately t=1000?",
+  "ground_truth": "MF",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "MF",
+  "grader_explanation": "ground_truth='MF' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

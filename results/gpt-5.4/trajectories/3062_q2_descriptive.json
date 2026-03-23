@@ -1,0 +1,16 @@
+{
+  "figure_id": 3062,
+  "mode": "descriptive",
+  "qid": 2,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the label of the x-axis?",
+  "ground_truth": "Not Applicable",
+  "model_answer": "t (min)",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "t (min)",
+  "grader_explanation": "ground_truth='Not Applicable' | extracted='t (min)' | score=0",
+  "run": "gpt-5.4"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3093,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference in the central value of the Ratio to CT10nnlo between NNPDF3.1 and MMHT2014 at p_T^l = 30 GeV?",
+  "ground_truth": "0.015",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "To find the approximate difference in the central value of the Ratio to CT10nnlo between NNPDF3.1 and MMHT2014 at $p_T^\\ell = 30\\text{ GeV}$, we need to read the y-values of their respective central lines at the left edge of the plot ($x = 30$).\n\n1.  **Identify the lines:**\n    *   **NNPDF3.1** is the solid blue line.\n    *   **MMHT2014** is the solid red line.\n\n2.  **Read the y-axis values at $x = 30\\text{ GeV}$:**\n    *   The y-axis has major ticks every $0.02$ units (e.g., $0.98, 1.00, 1.02$).\n    *   There are 4 sub-intervals between these major ticks, meaning each minor tick represents $0.005$ units.\n    *   **NNPDF3.1 (solid blue line):** At $30\\text{ GeV}$, the line is just below the first minor tick mark above $1.00$ (which would be $1.005$). A reasonable estimate for its value is approximately **$1.004$**.\n    *   **MMHT2014 (solid red line):** At $30\\text{ GeV}$, the line is exactly on the second minor tick mark above $0.98$. This value is $0.98 + 2 \\times 0.005 = $ **$0.990$**.\n\n3.  **Calculate the difference:**\n    *   $\\text{Difference} = \\text{NNPDF3.1} - \\text{MMHT2014}$\n    *   $\\text{Difference} \\approx 1.004 - 0.990 = 0.014$\n\n0.014",
+  "grader_explanation": "ground_truth='0.015' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3067,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "How many of the four displayed protein structures appear to have a predominantly alpha-helical fold (majority of visible secondary structure is helices)?",
+  "ground_truth": "3",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on a structural analysis of the three visible protein models (despite the prompt mentioning \"four\"):\n\n1.  **MFNG** (left, tan): This structure clearly contains a central beta-sheet (composed of several flat, parallel/mixed beta strands) surrounded by alpha helices. This is a classic mixed alpha/beta fold (a GT-A fold).\n2.  **B3GALT2** (middle, light blue): Similar to MFNG, this structure features a prominent central beta-sheet core surrounded by alpha helices, typical of its glycosyltransferase fold. It is a mixed alpha/beta fold.\n3.  **GIMAP1** (right, light pink): The main globular domain of this protein (a GTPase domain) also contains a clear central beta-sheet surrounded by alpha helices, alongside extended helical regions. It is a mixed alpha/beta fold.\n\nNone of the displayed structures have a predominantly alpha-helical fold (such as an all-alpha helical bundle or globin fold), as all three possess prominent, fold-defining central beta-sheets.\n\n0",
+  "grader_explanation": "ground_truth='3' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

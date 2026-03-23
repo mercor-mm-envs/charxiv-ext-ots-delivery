@@ -1,0 +1,16 @@
+{
+  "figure_id": 3010,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "97",
+  "model_answer": "97",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes in the three subplots.\n\n**Subplot 1: \"Oceania, North America and Latin America\"**\n\n- Y-axis ticks: 0, 20, 40, 60, 80, 100 \u2192 6 ticks\n- X-axis ticks: AUS, NZL, CAN, USA, ARG, BRA, CHL, COL, MEX, PRY, PER, URY, VEN \u2192 13 ticks\n\n**Subplot 2: \"Asia (West, South, Central and Southeast, East) and Africa\"**\n\n- Y-axis ticks: 0, 20, 40, 60, 80, 100 \u2192 6 ticks\n- X-axis ticks: CYP, IRQ, ISR, KWT, QAT, SAU, TUR, ARE, BGD, IND, IRN, PAK, IDN, KAZ, MYS, PHL, SGP, THA, VNM, CHN, HKG, JPN, KOR, TWN, DZA, EGY, MAR, NGA, ZAF, TUN \u2192 30 ticks\n\n**Subplot 3: \"Europe (South, East and Northwest)\"**\n\n- Y-axis ticks: 0, 20, 40, 60, 80, 100 \u2192 6 ticks\n- X-axis ticks: ALB, BIH, HRV, GRC, ITA, MLT, PRT, SRB, SVN, ESP, BLR, BGR, CZE, HUN, POL, ROU, RUS, SVK, UKR, AUT, BEL, DNK, EST, FIN, FRA, DEU, ISL, IRL, LVA, LTU, LUX, NLD, NOR, SWE, CHE, GBR \u2192 36 ticks\n\n**Total:** 6 + 13 + 6 + 30 + 6 + 36 = **97**\n\n\\boxed{97}",
+  "grader_explanation": "ground_truth='97' | extracted='97' | score=1",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3051,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "0.04",
+  "model_answer": "0.06",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the y-axes across all subplots, most have a highest labeled tick of **0.04**. However, the bottom-right subplot (A6 MLP) has y-axis ticks going up to **0.06**.\n\nThe spatially highest labeled tick on the y-axis is **0.06**.",
+  "grader_explanation": "ground_truth='0.04' | extracted='0.06' | score=0",
+  "run": "claude-opus-4-6"
+}

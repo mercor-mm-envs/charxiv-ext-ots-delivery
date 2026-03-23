@@ -1,0 +1,16 @@
+{
+  "figure_id": 3074,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "Approximately how many orders of magnitude does the Outage Probability of Simulation IoT 2 (ideal HWI, solid magenta line) decrease from Pt = 0 dBm to Pt = 30 dBm?",
+  "ground_truth": "3",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "To find the approximate decrease in orders of magnitude for the specified curve, we need to determine its values at the starting and ending points on the x-axis and compare their exponents (orders of magnitude).\n\n1.  **Identify the curve:** The legend indicates that \"Simulation IoT 2\" corresponds to the magenta lines. The text box specifies that the \"Straight line\" (solid line) represents \"Ideal HWI\". Therefore, we need to trace the solid magenta line.\n2.  **Determine the value at $P_t = 0$ dBm:** Look at the y-axis (Outage Probability) where the x-axis ($P_t$) is 0. The solid magenta line starts at a value just below $10^0$. For an order of magnitude approximation, we can consider this starting value to be approximately $10^0$.\n3.  **Determine the value at $P_t = 30$ dBm:** Follow the solid magenta line to where the x-axis is 30. There is a prominent solid magenta curve with a star marker that sits exactly on the $10^{-2}$ grid line at this point. (Note: there is another solid magenta curve lower down, but the one at $10^{-2}$ is part of the main pair highlighted by the inset, making it the most likely intended curve for reading).\n4.  **Calculate the decrease:** The curve goes from approximately $10^0$ down to $10^{-2}$.\n    *   Decrease in orders of magnitude = $\\log_{10}(\\text{Value at } 0 \\text{ dBm}) - \\log_{10}(\\text{Value at } 30 \\text{ dBm})$\n    *   Decrease $\\approx \\log_{10}(10^0) - \\log_{10}(10^{-2})$\n    *   Decrease $\\approx 0 - (-2) = 2$\n\nThe outage probability decreases by approximately 2 orders of magnitude.\n\n2",
+  "grader_explanation": "ground_truth='3' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

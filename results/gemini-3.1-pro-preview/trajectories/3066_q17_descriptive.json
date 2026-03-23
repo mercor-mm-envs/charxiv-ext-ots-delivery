@@ -1,0 +1,16 @@
+{
+  "figure_id": 3066,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "25",
+  "model_answer": "38",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided image, here is the breakdown of the explicitly labeled ticks across all axes:\n\n*   **Subplot (A) Heatmap Y-axis:** 11 explicitly labeled ticks ($S_1$, $S_2$, $S_3$, $S_4$, $S_5$, $S_6$, $S_7$, $S_8$, $S_9$, $S_{10}$, $S_{11}$).\n*   **Subplot (A) Heatmap X-axis (top diagonal):** 11 explicitly labeled ticks ($S_1$, $S_2$, $S_3$, $S_4$, $S_5$, $S_6$, $S_7$, $S_8$, $S_9$, $S_{10}$, $S_{11}$).\n*   **Subplot (A) Colorbar:** 5 explicitly labeled ticks ($0$, $0.12$, $0.24$, $0.36$, $0.48$).\n*   **Subplot (C) X-axis:** 11 explicitly labeled ticks (SAfrica, MAfrica, NAfrica, Europe, Caucasus, MiddleEast, SAsia, EAsia, NAsia, Americas, Oceania).\n\nAdding these together:\n11 + 11 + 5 + 11 = 38\n\n**38**",
+  "grader_explanation": "ground_truth='25' | extracted='38' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

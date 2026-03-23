@@ -1,0 +1,16 @@
+{
+  "figure_id": 3007,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "14",
+  "model_answer": "14",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the provided plot, here is the breakdown of the explicitly labeled ticks across all axes:\n\n*   **Top subplot y-axis (FPI):** 3 labeled ticks (`0e+00`, `1e+06`, `2e+06`)\n*   **Middle subplot y-axis (SP):** 3 labeled ticks (`0`, `50`, `100`)\n*   **Bottom subplot y-axis (CA):** 4 labeled ticks (`0`, `100`, `200`, `300`)\n*   **Shared x-axis (Time):** 4 labeled ticks (`1960-01-01`, `1980-01-01`, `2000-01-01`, `2020-01-01`)\n\nAdding these together gives a total of:\n3 + 3 + 4 + 4 = 14\n\n**14**",
+  "grader_explanation": "ground_truth='14' | extracted='14' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

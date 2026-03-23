@@ -1,0 +1,16 @@
+{
+  "figure_id": 4000,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 3,
+  "inst_category_name": "NiC",
+  "question": "Which variable's impulse response function reaches the most negative initial value, and what is that approximate value?",
+  "ground_truth": "deposit interest rate, approximately -0.15",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the provided charts, the variable whose impulse response function reaches the most negative initial value (at time = 1) is the **deposit interest rate**.\n\nIts initial value is approximately **-0.15**.",
+  "grader_explanation": "ground_truth='deposit interest rate, approximately -0.15' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

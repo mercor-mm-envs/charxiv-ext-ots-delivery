@@ -1,0 +1,16 @@
+{
+  "figure_id": 4007,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "In which year does Brazil show the most negative (lowest) FDI net outflow value?",
+  "ground_truth": "20,20",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Brazil shows its most negative FDI net outflow value in **2020**.",
+  "grader_explanation": "ground_truth='20,20' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

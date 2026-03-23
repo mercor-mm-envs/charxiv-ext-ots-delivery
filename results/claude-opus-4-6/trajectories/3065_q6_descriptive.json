@@ -1,0 +1,16 @@
+{
+  "figure_id": 3065,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "-0.2",
+  "model_answer": "-0.15",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the y-axes across all subplots, I need to find the spatially lowest labeled tick.\n\nThe subplots at the bottom of the figure are B, C, and D.\n\n- **Subplot B (PCA)**: The lowest y-axis tick is **-0.15**\n- **Subplot C**: The lowest y-axis tick is **-0.2**\n- **Subplot D**: The lowest y-axis tick is **-0.2**\n\nSubplots C and D are at roughly the same vertical position as B. Comparing the lowest ticks spatially, -0.15 on subplot B and -0.2 on subplots C and D are at similar vertical positions on the page.\n\nThe spatially lowest labeled tick on the y-axis is **-0.15** (on subplot B's y-axis, which extends slightly lower on the page).\n\nAnswer: **-0.15**",
+  "grader_explanation": "ground_truth='-0.2' | extracted='-0.15' | score=0",
+  "run": "claude-opus-4-6"
+}

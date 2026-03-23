@@ -1,0 +1,16 @@
+{
+  "figure_id": 3038,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the left line chart (NVDA Stock Price June-Sept 2025), what is the approximate price increase in dollars from the lowest point in the July period to the highest point shown on the chart around October 2025?",
+  "ground_truth": "40",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "From the left chart, the lowest point in July is about **154**, and the highest point around October is about **186**.\n\nApproximate increase: **186 - 154 = 32**\n\n**32**",
+  "grader_explanation": "ground_truth='40' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

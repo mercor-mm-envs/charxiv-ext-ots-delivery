@@ -1,0 +1,16 @@
+{
+  "figure_id": 4010,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "18",
+  "model_answer": "119",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "There are:\n\n- **2 x-axes** (one for each subplot), each with **4 labeled ticks**: 1960, 1980, 2000, 2020  \n  \u2192 **2 \u00d7 4 = 8**\n- **1 y-axis** with country labels on the left subplot only, showing **96 labeled country ticks**\n- **1 colorbar** with **15 labeled ticks**\n\nTotal explicitly labeled ticks across all axes:\n\n**8 + 96 + 15 = 119**\n\n**Final answer: 119**",
+  "grader_explanation": "ground_truth='18' | extracted='119' | score=0",
+  "run": "gpt-5.4"
+}

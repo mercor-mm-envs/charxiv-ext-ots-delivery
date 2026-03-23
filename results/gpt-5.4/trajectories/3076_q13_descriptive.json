@@ -1,0 +1,16 @@
+{
+  "figure_id": 3076,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "Energy Loss Costs, Degradation Costs, Decommissioning Costs, Overall",
+  "model_answer": "Energy Loss Costs, Degradation Costs, Decommissioning Costs, Overall",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Energy Loss Costs, Degradation Costs, Decommissioning Costs, Overall",
+  "grader_explanation": "ground_truth='Energy Loss Costs, Degradation Costs, Decommissioning Costs, Overall' | extracted='Energy Loss Costs, Degradation Costs, Decommissioning Costs, Overall' | score=1",
+  "run": "gpt-5.4"
+}

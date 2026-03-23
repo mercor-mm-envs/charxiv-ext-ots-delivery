@@ -1,0 +1,16 @@
+{
+  "figure_id": 3008,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the difference between the highest labeled y-axis tick value in Model 6 (panel f) and the lowest labeled y-axis tick value in Model 2 (panel b)?",
+  "ground_truth": "45",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the y-axis tick values:\n\n**Model 6 (panel f):** The y-axis ticks are -30, -20, -10, 0, 10, 20, 30. The highest labeled tick value is **30**.\n\n**Model 2 (panel b):** The y-axis ticks are -15, -10, -5, 0, 5, 10. The lowest labeled tick value is **-15**.\n\nThe difference: 30 - (-15) = **45**",
+  "grader_explanation": "ground_truth='45' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

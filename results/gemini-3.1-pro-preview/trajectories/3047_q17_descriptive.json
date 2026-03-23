@@ -1,0 +1,16 @@
+{
+  "figure_id": 3047,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "23",
+  "model_answer": "21",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the image provided, here is the count of explicitly labeled ticks across all axes:\n\n**Top Left Plot (NVDA Stock Price):**\n*   **Y-axis:** 140, 150, 160, 170, 180 (5 ticks)\n*   **X-axis:** Jun 2025, Jul 2025, Aug 2025, Sep 2025, Oct 2025 (5 ticks)\n\n**Top Right Plot (Forecast):**\n*   **Y-axis:** $100, $150, $200, $250, $300, $350, $400 (7 ticks)\n*   **X-axis:** Apr 2025, Aug 2025, Dec 2025, Dec 2026 (4 ticks)\n\n*(Note: The labels on the right side like \"High $352\" are data labels/annotations, not axis ticks. The bottom section is a table, not a plot with axes.)*\n\nTotal labeled ticks = 5 + 5 + 7 + 4 = 21\n\n21",
+  "grader_explanation": "ground_truth='23' | extracted='21' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

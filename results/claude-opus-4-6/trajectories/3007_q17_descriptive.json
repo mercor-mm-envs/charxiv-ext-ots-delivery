@@ -1,0 +1,16 @@
+{
+  "figure_id": 3007,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "14",
+  "model_answer": "14",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes in the three subplots.\n\n**X-axis (shared across all subplots, labeled at the bottom):**\n- 1960-01-01\n- 1980-01-01\n- 2000-01-01\n- 2020-01-01\n\nThat's **4** ticks.\n\n**Y-axis for FPI (top subplot):**\n- 0e+00\n- 1e+06 (partially obscured but visible)\n- 2e+06\n\nThat's **3** ticks. Wait, looking more carefully, I see labels that appear to be: 0e+00, 1e+06, 2e+06. But let me re-examine. The labels seem to show \"1e+06\" and \"2e+06\" and possibly \"0e+00\". Looking at the overlap area, I see \"1e+06\" near the bottom and \"2e+06\" higher up. There might also be \"0e+00\" at the very bottom. That gives **3** ticks.\n\nActually, re-examining: I see \"2e+06\" near the top and what appears to be \"1e+06\" and \"0e+00\" near the bottom (overlapping with the border). That's **3** ticks.\n\n**Y-axis for SP (middle subplot):**\n- 0\n- 50\n- 100\n\nThat's **3** ticks.\n\n**Y-axis for CA (bottom subplot):**\n- 0\n- 100\n- 200\n- 300\n\nThat's **4** ticks.\n\n**Total:** 4 + 3 + 3 + 4 = **14**\n\nThe total number of explicitly labeled ticks across all axes is **14**.",
+  "grader_explanation": "ground_truth='14' | extracted='14' | score=1",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 4002,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "7",
+  "model_answer": "5",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at all the subplots and their y-axes, I need to find the spatially highest labeled tick.\n\nThe top row has three subplots:\n- GDP_per_Capita: highest tick is **3.0**\n- Broad_Money: highest tick is **5** (but looking more carefully, it shows up to about 5)\n- Inflation: highest tick is **5**\n\nComparing the top-row subplots, the Broad_Money and Inflation subplots both show ticks up to **5**.\n\nThe spatially highest labeled tick on the y-axis is **5**.",
+  "grader_explanation": "ground_truth='7' | extracted='5' | score=0",
+  "run": "claude-opus-4-6"
+}

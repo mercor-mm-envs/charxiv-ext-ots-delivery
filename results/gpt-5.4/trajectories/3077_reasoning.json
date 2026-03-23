@@ -1,0 +1,16 @@
+{
+  "figure_id": 3077,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In Case 1, what is the approximate difference in Energy Loss Costs between Type 1 and Type 4?",
+  "ground_truth": "15",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "In Case 1, the Energy Loss Cost for:\n\n- Type 1 is about **39**\n- Type 4 is about **24**\n\nDifference: **39 - 24 = 15**\n\n**15**",
+  "grader_explanation": "ground_truth='15' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

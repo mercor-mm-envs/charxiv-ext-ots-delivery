@@ -1,0 +1,16 @@
+{
+  "figure_id": 3063,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In panel C, what is the approximate difference in MSE between the RNN model and Our Model for E. coli?",
+  "ground_truth": "0.11",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at Panel C, I need to find the MSE values for E. coli (blue bars) for both the RNN model and Our Model.\n\n- **RNN model (E. coli):** The blue bar appears to be at approximately **0.46**\n- **Our Model (E. coli):** The blue bar appears to be at approximately **0.35**\n\nThe difference is: 0.46 - 0.35 = **0.11**",
+  "grader_explanation": "ground_truth='0.11' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

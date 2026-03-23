@@ -1,0 +1,16 @@
+{
+  "figure_id": 3093,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference in the central value of the Ratio to CT10nnlo between NNPDF3.1 and MMHT2014 at p_T^l = 30 GeV?",
+  "ground_truth": "0.015",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the plot at p_T^l = 30 GeV:\n\n- **NNPDF3.1** (blue central line) appears to be at approximately **1.005**\n- **MMHT2014** (red central line) appears to be at approximately **0.990**\n\nThe difference is:\n\n1.005 \u2212 0.990 = **0.015**\n\nThe approximate difference is **0.015**.",
+  "grader_explanation": "ground_truth='0.015' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

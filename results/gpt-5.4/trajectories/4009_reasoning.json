@@ -1,0 +1,16 @@
+{
+  "figure_id": 4009,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "How many more years had total imports exceeding approximately 61,000,000 compared to years with total imports below approximately 41,000,000?",
+  "ground_truth": "5",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "From the chart, total imports:\n\n- exceeded **61,000,000** in **10 years**  \n  (2010, 2011, 2012, 2013, 2014, 2015, 2018, 2019, 2020, 2008)\n\n- were below **41,000,000** in **0 years**\n\nSo, the number of **more years** is:\n\n**10**",
+  "grader_explanation": "ground_truth='5' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

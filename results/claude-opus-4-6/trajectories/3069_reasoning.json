@@ -1,0 +1,16 @@
+{
+  "figure_id": 3069,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "How many total UAVs (including both the Cluster Head UAV and all explicitly labeled Cluster Member UAVs) are shown in the diagram?",
+  "ground_truth": "5",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the diagram, I can identify the following UAVs:\n\n**Cluster Head UAV:** 1 UAV at the top of the diagram\n\n**Cluster Member UAVs (explicitly labeled):**\n1. UAV-1\n2. UAV-2\n3. UAV-3\n4. UAV-L\n\nThat gives a total of **5** UAVs.",
+  "grader_explanation": "ground_truth='5' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

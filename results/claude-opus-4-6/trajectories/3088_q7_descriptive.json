@@ -1,0 +1,16 @@
+{
+  "figure_id": 3088,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "40",
+  "model_answer": "Applied Soft Computing",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "**Applied Soft Computing**",
+  "grader_explanation": "ground_truth='40' | extracted='Applied Soft Computing' | score=0",
+  "run": "claude-opus-4-6"
+}

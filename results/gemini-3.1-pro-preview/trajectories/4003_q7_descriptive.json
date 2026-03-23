@@ -1,0 +1,16 @@
+{
+  "figure_id": 4003,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "4",
+  "model_answer": "4",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the image, there are two subplots, each with its own y-axis.\n\n1.  On the left subplot, the spatially highest labeled tick on the y-axis is **4**.\n2.  On the right subplot, the spatially highest labeled tick on the y-axis is **2.5**.\n\nThese two ticks are at the same spatial height. Following the instruction to base the answer on the axis at the left when there is ambiguity or multiple y-axes present, we select the value from the left subplot.\n\n4",
+  "grader_explanation": "ground_truth='4' | extracted='4' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

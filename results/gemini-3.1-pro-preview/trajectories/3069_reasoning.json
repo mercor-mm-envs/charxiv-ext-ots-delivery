@@ -1,0 +1,16 @@
+{
+  "figure_id": 3069,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "How many total UAVs (including both the Cluster Head UAV and all explicitly labeled Cluster Member UAVs) are shown in the diagram?",
+  "ground_truth": "5",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the diagram, we can count the explicitly shown and labeled UAVs:\n\n1.  **Cluster Head UAV** (at the top) - 1\n2.  **UAV-1** - 1\n3.  **UAV-2** - 1\n4.  **UAV-3** - 1\n5.  **UAV-L** - 1\n\nCounting them all together, there are 5 UAVs explicitly shown in the diagram.\n\n5",
+  "grader_explanation": "ground_truth='5' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

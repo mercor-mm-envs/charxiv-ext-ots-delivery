@@ -1,0 +1,16 @@
+{
+  "figure_id": 3063,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "Which model achieves the lowest median predicted MIC for S. aureus in panel B?",
+  "ground_truth": "Our Model",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the box plot in panel B, the model with the lowest horizontal line inside its box (representing the median) is the second one from the left, which is colored light blue. According to the legend, this color corresponds to **LLM-Based**.",
+  "grader_explanation": "ground_truth='Our Model' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

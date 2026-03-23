@@ -1,0 +1,16 @@
+{
+  "figure_id": 3013,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the peak Gini Index value (around 2000) and the lowest Gini Index value (around 1977-1978) as shown in the right panel?",
+  "ground_truth": "12",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "From the right panel, the peak Gini Index around 2000 is about **39**, and the lowest around 1977\u20131978 is about **27**.\n\nSo the approximate difference is:\n\n**12**",
+  "grader_explanation": "ground_truth='12' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3053,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "0",
+  "model_answer": "0.001",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the instructions, when there are multiple y-axes (in this case, separate y-axes for Panel A and Panel B), we should answer based on the axis at the left.\n\n1.  **Identify the left y-axis:** The leftmost y-axis corresponds to Panel A.\n2.  **Read the consecutive numerical tick values on this axis:** The visible tick values are 0, 0.001, 0.002, 0.003, 0.004, 0.005, 0.006, and 0.007.\n3.  **Calculate the difference between consecutive values:**\n    *   0.001 - 0 = 0.001\n    *   0.002 - 0.001 = 0.001\n    *   0.003 - 0.002 = 0.001\n    *   ...\n    *   0.007 - 0.006 = 0.001\n4.  **Check for consistency:** The difference is constant at 0.001 across all consecutive ticks on this axis.\n\n0.001",
+  "grader_explanation": "ground_truth='0' | extracted='0.001' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

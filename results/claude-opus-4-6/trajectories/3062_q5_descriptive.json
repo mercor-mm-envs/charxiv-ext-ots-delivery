@@ -1,0 +1,16 @@
+{
+  "figure_id": 3062,
+  "mode": "descriptive",
+  "qid": 5,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the rightmost labeled tick on the x-axis?",
+  "ground_truth": "Not Applicable",
+  "model_answer": "1.2",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "1.2",
+  "grader_explanation": "ground_truth='Not Applicable' | extracted='1.2' | score=0",
+  "run": "claude-opus-4-6"
+}

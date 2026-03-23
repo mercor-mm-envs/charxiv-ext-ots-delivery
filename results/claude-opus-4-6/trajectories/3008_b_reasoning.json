@@ -1,0 +1,16 @@
+{
+  "figure_id": 3008,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "Which model's subplot has the largest y-axis range (difference between the highest and lowest labeled y-axis ticks)?",
+  "ground_truth": "Model 6",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at each model's y-axis range:\n\n- **Model 1**: 2 - (-10) = 12\n- **Model 2**: 10 - (-15) = 25\n- **Model 3**: 12 - (-4) = 16\n- **Model 4**: 4 - (-10) = 14\n- **Model 5**: 15 - (-10) = 25\n- **Model 6**: 30 - (-30) = 60\n\nThe largest y-axis range is **Model 6** with a range of 60 (from -30 to 30).",
+  "grader_explanation": "ground_truth='Model 6' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

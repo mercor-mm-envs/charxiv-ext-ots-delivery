@@ -1,0 +1,16 @@
+{
+  "figure_id": 3093,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "17",
+  "model_answer": "20",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "There are **19** explicitly labeled ticks across all axes.\n\n- **x-axis:** 11 labeled ticks  \n  - 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50\n- **y-axis:** 8 labeled ticks  \n  - 0.94, 0.96, 0.98, 1, 1.02, 1.04, 1.06, 1.08, 1.1? Wait count carefully:\n\nActually the y-axis shows **9** labeled ticks:\n- 0.94, 0.96, 0.98, 1, 1.02, 1.04, 1.06, 1.08, 1.1\n\nSo total = **11 + 9 = 20**\n\n**Final answer: 20**",
+  "grader_explanation": "ground_truth='17' | extracted='20' | score=0",
+  "run": "gpt-5.4"
+}

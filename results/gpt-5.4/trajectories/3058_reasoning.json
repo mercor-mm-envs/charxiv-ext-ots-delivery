@@ -1,0 +1,16 @@
+{
+  "figure_id": 3058,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the LS interest rate and the LP interest rate at Jan 2023, as read from the right y-axis?",
+  "ground_truth": "0.04",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "At **Jan 2023**, the **LS interest** (green) is about **0.16** and the **LP interest** (purple) is about **0.12** on the right y-axis.\n\nSo the approximate difference is:\n\n**0.04**",
+  "grader_explanation": "ground_truth='0.04' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3060,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "4",
+  "model_answer": "4",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the plot, I need to find the spatially highest labeled tick on the y-axis across all subplots.\n\nExamining the subplots from top to bottom:\n\n- **Subplot A** (top left): y-axis ticks go from -4 to 4, with the highest being **4**\n- **Subplot B** (top right): y-axis ticks go from -4 to 4, with the highest being **4**\n- **Subplot F** (bottom right): y-axis ticks go up to **500**\n\nSince subplot F's y-axis reaches 500, but spatially, subplots A and B are higher on the page. The spatially highest labeled tick on the y-axis would be in subplot A or B, which are at the top of the figure.\n\nThe highest labeled tick on the y-axis of subplot A is **4**.\n\n**4**",
+  "grader_explanation": "ground_truth='4' | extracted='4' | score=1",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3061,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "Which population group in panel (A) shows the darkest (highest coancestry) diagonal block among all population groups?",
+  "ground_truth": "Americas/Oceania",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided image, specifically panel (A), the darkest diagonal block (indicating the highest coancestry) corresponds to the population group labeled:\n\n**Oceania**",
+  "grader_explanation": "ground_truth='Americas/Oceania' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

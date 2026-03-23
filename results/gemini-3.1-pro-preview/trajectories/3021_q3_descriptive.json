@@ -1,0 +1,16 @@
+{
+  "figure_id": 3021,
+  "mode": "descriptive",
+  "qid": 3,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the label of the y-axis?",
+  "ground_truth": "Net removed CO2 emissions [GtCO2]",
+  "model_answer": "Net removed CO2 emissions [GtCO2]",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the provided image, there are multiple subplots, each with its own y-axis label. Following the standard convention of reading from top-left, the label for the y-axis of the first subplot (Panel A) is:\n\nNet removed CO2 emissions [GtCO2]",
+  "grader_explanation": "ground_truth='Net removed CO2 emissions [GtCO2]' | extracted='Net removed CO2 emissions [GtCO2]' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3059,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "In panel F (left histogram), which dataset \u2014 Cecropin or Cecropin_Improve \u2014 has its peak frequency at a lower Predicted_MIC value?",
+  "ground_truth": "Cecropin_Improve",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at panel F (left histogram), I need to compare the peak frequencies of the two datasets:\n\n- **Cecropin** (blue): The histogram and fitted curve show the peak frequency occurring at approximately Predicted_MIC \u2248 5\u201310.\n- **Cecropin_Improve** (orange): The histogram and fitted curve show the peak frequency occurring at approximately Predicted_MIC \u2248 10\u201315.\n\nThe **Cecropin** dataset has its peak frequency at a lower Predicted_MIC value compared to Cecropin_Improve.\n\n**Cecropin**",
+  "grader_explanation": "ground_truth='Cecropin_Improve' | extracted='' | score=0",
+  "run": "claude-opus-4-6"
+}

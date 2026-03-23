@@ -1,0 +1,16 @@
+{
+  "figure_id": 3081,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "4000",
+  "model_answer": "0",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided image, the spatially lowest labeled tick on the y-axis is located on the subplot at the very bottom (\"CEC2017-F30 (Dim =50)\"). The lowest explicitly written tick value on its y-axis is:\n\n0",
+  "grader_explanation": "ground_truth='4000' | extracted='0' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

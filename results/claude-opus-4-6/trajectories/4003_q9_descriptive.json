@@ -1,0 +1,16 @@
+{
+  "figure_id": 4003,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "0.5",
+  "model_answer": "Not Applicable",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Not Applicable\n\nThe left subplot has y-axis ticks at -1, 0, 1, 2, 3, 4 (difference of 1), while the right subplot has y-axis ticks at -1.5, -1.0, -0.5, 0.0, 0.5, 1.0, 1.5, 2.0, 2.5 (difference of 0.5). Since the y-axis is shared across multiple subplots but the differences are not the same, the answer is **Not Applicable**.",
+  "grader_explanation": "ground_truth='0.5' | extracted='Not Applicable' | score=0",
+  "run": "claude-opus-4-6"
+}

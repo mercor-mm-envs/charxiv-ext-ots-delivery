@@ -1,0 +1,16 @@
+{
+  "figure_id": 3025,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "34",
+  "model_answer": "38",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all four subplots.\n\n**Top-left subplot (Survival curve):**\n- X-axis: 0, 2000, 4000, 6000, 8000, 10000 \u2192 6 ticks\n- Y-axis: 0.0, 0.2, 0.4, 0.6, 0.8, 1.0 \u2192 6 ticks\n- Subtotal: 12\n\n**Top-right subplot (Boxplot):**\n- X-axis: FF, FM, MF, MM \u2192 4 ticks\n- Y-axis: 0, 2000, 4000, 6000, 8000, 10000 \u2192 6 ticks\n- Subtotal: 10\n\n**Bottom-left subplot (Violin plot - Donor Gender):**\n- X-axis: F, M \u2192 2 ticks\n- Y-axis: 0, 2000, 4000, 6000, 8000, 10000 \u2192 6 ticks\n- Subtotal: 8\n\n**Bottom-right subplot (Violin plot - Recipient Gender):**\n- X-axis: F, M \u2192 2 ticks\n- Y-axis: 0, 2000, 4000, 6000, 8000, 10000 \u2192 6 ticks\n- Subtotal: 8\n\n**Total: 12 + 10 + 8 + 8 = 38**\n\nThe total number of explicitly labeled ticks across all axes is **38**.",
+  "grader_explanation": "ground_truth='34' | extracted='38' | score=0",
+  "run": "claude-opus-4-6"
+}

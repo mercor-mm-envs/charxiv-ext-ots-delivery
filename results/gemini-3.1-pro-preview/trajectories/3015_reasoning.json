@@ -1,0 +1,16 @@
+{
+  "figure_id": 3015,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In panel (a), what is the approximate difference in Potential between the stable equilibrium near the 90th income percentile and the stable equilibrium near the 30th income percentile?",
+  "ground_truth": "0.4",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on panel (a) of the provided image:\n\n1.  **Locate the stable equilibria:** Stable equilibria are marked with solid black circles according to the legend.\n    *   The stable equilibrium near the 90th income percentile is located at approximately the 95th percentile.\n    *   The other stable equilibrium (which the prompt refers to as \"near the 30th\", likely a typo for the 50th) is located at approximately the 48th percentile.\n2.  **Estimate the Potential (y-axis) for each point:**\n    *   The right stable equilibrium (near 90th percentile) lies almost exactly on the horizontal grid line labeled **3.7**.\n    *   The left stable equilibrium lies between the horizontal grid lines labeled 3.2 and 3.7. Visually, it is positioned slightly below the midpoint between these two lines. The midpoint is $(3.2 + 3.7) / 2 = 3.45$. Estimating slightly below this gives a value of approximately **3.4**.\n3.  **Calculate the difference:**\n    *   $3.7 - 3.4 = 0.3$\n\nThe approximate difference in Potential is 0.3.\n\n0.3",
+  "grader_explanation": "ground_truth='0.4' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

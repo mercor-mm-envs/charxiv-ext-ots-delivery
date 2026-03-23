@@ -1,0 +1,16 @@
+{
+  "figure_id": 3031,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "15",
+  "model_answer": "1.5",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the image, the spatially lowest labeled tick on the y-axis is 1.5.",
+  "grader_explanation": "ground_truth='15' | extracted='1.5' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

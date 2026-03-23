@@ -1,0 +1,16 @@
+{
+  "figure_id": 3007,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate ratio of the peak value of CA (bottom panel) to the peak value of SP (middle panel) based on their y-axis values?",
+  "ground_truth": "2",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "From the plot:\n\n- **CA peak** \u2248 **330**\n- **SP peak** \u2248 **150**\n\nRatio \\( \\frac{330}{150} \\approx 2.2 \\), so the approximate integer ratio is:\n\n**2**",
+  "grader_explanation": "ground_truth='2' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

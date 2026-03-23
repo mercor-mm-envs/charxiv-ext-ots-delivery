@@ -1,0 +1,16 @@
+{
+  "figure_id": 3038,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "21",
+  "model_answer": "21",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Count the explicitly labeled ticks on the chart axes only:\n\n### Left plot\n- **X-axis:** 5 labels  \n  - Jun 2025, Jul 2025, Aug 2025, Sep 2025, Oct 2025\n- **Y-axis:** 5 labels  \n  - 140, 150, 160, 170, 180\n\n### Right plot\n- **X-axis:** 4 labels  \n  - Apr 2025, Aug 2025, Dec 2025, Dec 2026\n- **Y-axis:** 7 labels  \n  - $100, $150, $200, $250, $300, $350, $400\n\n### Total\n5 + 5 + 4 + 7 = **21**\n\n**Final answer: 21**",
+  "grader_explanation": "ground_truth='21' | extracted='21' | score=1",
+  "run": "gpt-5.4"
+}

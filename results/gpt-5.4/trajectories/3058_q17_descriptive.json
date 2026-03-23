@@ -1,0 +1,16 @@
+{
+  "figure_id": 3058,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "15",
+  "model_answer": "11",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "The plot has:\n\n- **X-axis:** 6 labeled ticks  \n  (`Jul 2020`, `Jan 2021`, `Jul 2021`, `Jan 2022`, `Jul 2022`, `Jan 2023`)\n- **Left Y-axis:** 3 labeled ticks  \n  (`0`, `50`, `100`)\n- **Right Y-axis:** 2 labeled ticks  \n  (`0.10`, `0.15`)\n\n**Total explicitly labeled ticks across all axes = 6 + 3 + 2 = 11.**",
+  "grader_explanation": "ground_truth='15' | extracted='11' | score=0",
+  "run": "gpt-5.4"
+}

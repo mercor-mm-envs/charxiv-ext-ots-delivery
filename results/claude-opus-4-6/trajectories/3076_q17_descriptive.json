@@ -1,0 +1,16 @@
+{
+  "figure_id": 3076,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "11",
+  "model_answer": "9",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks on both axes.\n\n**Y-axis ticks:**\n1. $0.00\n2. $50.00\n3. $100.00\n4. $150.00\n5. $200.00\n6. $250.00\n\nThat's 6 ticks on the y-axis.\n\n**X-axis ticks:**\n1. Proposed Approach\n2. SoH-based Allocation\n3. Capacity-based Allocation\n\nThat's 3 ticks on the x-axis.\n\n**Total: 6 + 3 = 9**\n\nThe answer is **9**.",
+  "grader_explanation": "ground_truth='11' | extracted='9' | score=0",
+  "run": "claude-opus-4-6"
+}

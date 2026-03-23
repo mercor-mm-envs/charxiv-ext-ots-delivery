@@ -1,0 +1,16 @@
+{
+  "figure_id": 3007,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate ratio of the peak value of CA (bottom panel) to the peak value of SP (middle panel) based on their y-axis values?",
+  "ground_truth": "2",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the provided graphs:\n\n1.  **Identify the peak value of CA (bottom panel):** The y-axis has labels for 0, 100, 200, and 300. The highest point on the green curve is slightly above the 300 mark. We can estimate this peak to be approximately 320-330.\n2.  **Identify the peak value of SP (middle panel):** The y-axis has labels for 0, 50, and 100, with another unmarked tick at the top, which by consistent spacing would be 150. The highest point on the red curve is just below this 150 mark. We can estimate this peak to be approximately 140-145.\n3.  **Calculate the approximate ratio:** Dividing the estimated peak of CA by the estimated peak of SP gives us a ratio of roughly 325 / 145 \u2248 2.24.\n\nRounding to the nearest exact integer, we get 2.\n\n2",
+  "grader_explanation": "ground_truth='2' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

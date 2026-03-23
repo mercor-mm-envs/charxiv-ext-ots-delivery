@@ -1,0 +1,16 @@
+{
+  "figure_id": 3001,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the difference between the peak value of Frozen Strawberries and the peak value of Frozen Orange Juice across all years?",
+  "ground_truth": "3",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "From the chart:\n\n- **Frozen Strawberries** peak value = **24**\n- **Frozen Orange Juice** peak value = **23**\n\nDifference = **24 - 23 = 1**\n\n**Final answer: 1**",
+  "grader_explanation": "ground_truth='3' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

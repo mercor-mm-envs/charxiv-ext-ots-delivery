@@ -1,0 +1,16 @@
+{
+  "figure_id": 3059,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "In panel F (left histogram), which dataset \u2014 Cecropin or Cecropin_Improve \u2014 has its peak frequency at a lower Predicted_MIC value?",
+  "ground_truth": "Cecropin_Improve",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "In panel **F (left histogram)**, **Cecropin_Improve** has its peak frequency at a lower **Predicted_MIC** value than **Cecropin**.",
+  "grader_explanation": "ground_truth='Cecropin_Improve' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

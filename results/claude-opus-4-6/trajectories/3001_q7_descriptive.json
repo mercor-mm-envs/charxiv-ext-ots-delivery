@@ -1,0 +1,16 @@
+{
+  "figure_id": 3001,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "25",
+  "model_answer": "25",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "25",
+  "grader_explanation": "ground_truth='25' | extracted='25' | score=1",
+  "run": "claude-opus-4-6"
+}

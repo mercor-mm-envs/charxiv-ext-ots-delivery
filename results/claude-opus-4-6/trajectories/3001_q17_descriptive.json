@@ -1,0 +1,16 @@
+{
+  "figure_id": 3001,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "15",
+  "model_answer": "15",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the axes:\n\n**X-axis (Year):** The labeled ticks are: 2, 4, 6, 8, 10, 12, 14, 16, 18 \u2192 **9 ticks**\n\n**Y-axis (Number of NTMs):** The labeled ticks are: 0, 5, 10, 15, 20, 25 \u2192 **6 ticks**\n\n**Total: 9 + 6 = 15**",
+  "grader_explanation": "ground_truth='15' | extracted='15' | score=1",
+  "run": "claude-opus-4-6"
+}

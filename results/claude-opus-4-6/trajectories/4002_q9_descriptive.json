@@ -1,0 +1,16 @@
+{
+  "figure_id": 4002,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "1",
+  "model_answer": "Not Applicable",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the y-axes across the subplots:\n\n- **GDP_per_Capita**: ticks at -1, 0, 1, 2, 3 \u2192 difference = 1\n- **Broad_Money**: ticks at -1, 0, 1, 2, 3, 4, 5 \u2192 difference = 1\n- **Inflation**: ticks at -1, 0, 1, 2, 3, 4, 5 \u2192 difference = 1\n- **Exchange_Rate**: ticks at -2, 0, 2, 4, 6 \u2192 difference = 2\n- **Trade**: ticks at -2, -1, 0, 1, 2, 3 \u2192 difference = 1\n\nSince the difference between consecutive y-axis tick values is not the same across all subplots (most are 1, but Exchange_Rate is 2), and each subplot has its own y-axis, the y-axes are not shared.\n\nSince the question asks about \"the current plot\" and the y-axis differences are not consistent across subplots:\n\n**Not Applicable**",
+  "grader_explanation": "ground_truth='1' | extracted='Not Applicable' | score=0",
+  "run": "claude-opus-4-6"
+}

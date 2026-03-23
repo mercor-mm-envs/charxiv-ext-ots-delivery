@@ -1,0 +1,16 @@
+{
+  "figure_id": 3013,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "200",
+  "model_answer": "200",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "200",
+  "grader_explanation": "ground_truth='200' | extracted='200' | score=1",
+  "run": "gpt-5.4"
+}

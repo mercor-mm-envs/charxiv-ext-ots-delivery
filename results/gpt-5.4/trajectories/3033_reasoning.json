@@ -1,0 +1,16 @@
+{
+  "figure_id": 3033,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the peak value in the Observed panel and the peak value in the Residual panel?",
+  "ground_truth": "8",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "The peak in the **Observed** panel is about **29**, and the peak in the **Residual** panel is about **23**.\n\nDifference: **29 - 23 = 6**\n\n**6**",
+  "grader_explanation": "ground_truth='8' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

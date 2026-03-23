@@ -1,0 +1,16 @@
+{
+  "figure_id": 4000,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "172",
+  "model_answer": "134",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Count labeled ticks on each subplot.\n\nThere are 9 subplots, each with x-axis labels at:\n- 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 \u2192 10 labeled x-ticks each\n\nSo total x-ticks:\n- 9 \u00d7 10 = 90\n\nNow y-ticks by subplot:\n\n1. **output**: 0, 0.01, 0.02, 0.03, 0.04 \u2192 5  \n2. **consumption**: 0, 0.002, 0.004, 0.006, 0.008, 0.01 \u2192 6  \n3. **employment**: 0, 2, 4, 6 with \u00d710\u207b\u00b3 scale \u2192 4  \n4. **energy consumption**: 0, 1, 2, 3 with \u00d710\u207b\u00b3 scale \u2192 4  \n5. **real wage**: 0, 0.5, 1, 1.5, 2, 2.5 with \u00d710\u207b\u00b3 scale \u2192 6  \n6. **investment**: 0, 2, 4, 6 with \u00d710\u207b\u00b3 scale \u2192 4  \n7. **real money holdings**: 0, 0.5, 1, 1.5, 2, 2.5 with \u00d710\u207b\u00b3 scale \u2192 6  \n8. **deposit interest rate**: -0.15, -0.10, -0.05, 0 \u2192 4  \n9. **loan interest rate**: -0.02, -0.015, -0.01, -0.005, 0 \u2192 5  \n\nTotal y-ticks:\n- 5 + 6 + 4 + 4 + 6 + 4 + 6 + 4 + 5 = 44\n\nGrand total:\n- 90 + 44 = **134**\n\n**134**",
+  "grader_explanation": "ground_truth='172' | extracted='134' | score=0",
+  "run": "gpt-5.4"
+}

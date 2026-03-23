@@ -1,0 +1,16 @@
+{
+  "figure_id": 3073,
+  "mode": "descriptive",
+  "qid": 3,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the label of the y-axis?",
+  "ground_truth": "Magnitude",
+  "model_answer": "Magnitude",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the provided plot, the explicitly written label for the y-axis is:\n**Magnitude**",
+  "grader_explanation": "ground_truth='Magnitude' | extracted='Magnitude' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

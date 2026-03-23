@@ -1,0 +1,16 @@
+{
+  "figure_id": 3075,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "50",
+  "model_answer": "50",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "The y-axis tick values are $0.00, $50.00, $100.00, $150.00, $200.00, $250.00, $300.00.\n\nThe difference between consecutive tick values is **50**.",
+  "grader_explanation": "ground_truth='50' | extracted='50' | score=1",
+  "run": "claude-opus-4-6"
+}

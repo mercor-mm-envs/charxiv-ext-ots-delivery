@@ -1,0 +1,16 @@
+{
+  "figure_id": 3073,
+  "mode": "descriptive",
+  "qid": 3,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the label of the y-axis?",
+  "ground_truth": "Magnitude",
+  "model_answer": "Not Applicable",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Not Applicable",
+  "grader_explanation": "ground_truth='Magnitude' | extracted='Not Applicable' | score=0",
+  "run": "gpt-5.4"
+}

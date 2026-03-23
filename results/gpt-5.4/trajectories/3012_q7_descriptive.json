@@ -1,0 +1,16 @@
+{
+  "figure_id": 3012,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "200 M",
+  "model_answer": "200 M",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "200 M",
+  "grader_explanation": "ground_truth='200 M' | extracted='200 M' | score=1",
+  "run": "gpt-5.4"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3074,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "Approximately how many orders of magnitude does the Outage Probability of Simulation IoT 2 (ideal HWI, solid magenta line) decrease from Pt = 0 dBm to Pt = 30 dBm?",
+  "ground_truth": "3",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "For the **solid magenta line** (Simulation IoT 2, ideal HWI):\n\n- At **\\(P_t = 0\\) dBm**, the outage probability is about **\\(10^0\\)**.\n- At **\\(P_t = 30\\) dBm**, it is about **\\(10^{-2}\\)**.\n\nSo the decrease is approximately **2 orders of magnitude**.\n\n**Final answer: 2**",
+  "grader_explanation": "ground_truth='3' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

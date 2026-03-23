@@ -1,0 +1,16 @@
+{
+  "figure_id": 5001,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the top-left subplot (\u03b5_GPT \u2192 TotalBeta), what is the approximate difference between the minimum value of the 1-period ahead (red) line and the minimum value of the 6-period (black dashed) line around their respective troughs near 2010-2015?",
+  "ground_truth": "-0.015",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "In the top-left subplot, the 1-period ahead red line reaches a trough around **-0.042**, while the 6-period black dashed line bottoms around **-0.034**.\n\nApproximate difference:\n\n**0.008**",
+  "grader_explanation": "ground_truth='-0.015' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

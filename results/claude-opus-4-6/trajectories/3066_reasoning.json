@@ -1,0 +1,16 @@
+{
+  "figure_id": 3066,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In panel A, what is the difference between the maximum coancestry value shown on the x-axis and the minimum coancestry value shown on the x-axis?",
+  "ground_truth": "0.48",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at panel A, the x-axis (Coancestry) shows values from **0** (minimum) to **0.48** (maximum).\n\nThe difference is:\n\n0.48 - 0 = **0.48**\n\nThe answer is **0.48**.",
+  "grader_explanation": "ground_truth='0.48' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

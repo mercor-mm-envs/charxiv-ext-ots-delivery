@@ -1,0 +1,16 @@
+{
+  "figure_id": 3067,
+  "mode": "descriptive",
+  "qid": 1,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the title of the plot?",
+  "ground_truth": "Not Applicable",
+  "model_answer": "Not Applicable",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Not Applicable",
+  "grader_explanation": "ground_truth='Not Applicable' | extracted='Not Applicable' | score=1",
+  "run": "gpt-5.4"
+}

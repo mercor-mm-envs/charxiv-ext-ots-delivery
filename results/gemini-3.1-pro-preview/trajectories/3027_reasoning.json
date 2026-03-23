@@ -1,0 +1,16 @@
+{
+  "figure_id": 3027,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the left panel (Donor Ethnicities), approximately what is the difference in mean survival time (blue line) between the 'Unknown' ethnicity group and the 'Pacific' ethnicity group?",
+  "ground_truth": "500",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the visual information in the left panel (\"Donor Ethnicities\"):\n\n1.  **Locate the 'Pacific' group:** It is the 6th violin plot from the left.\n2.  **Estimate the mean survival time (blue line) for 'Pacific':** The blue line is above the 2000 days mark. The distance from the 2000 mark to the next implied major tick (4000) represents 2000 days. The blue line appears to be roughly one-quarter ($1/4$) of the way up this interval. Therefore, the value is approximately $2000 + (0.25 \\times 2000) = 2500$ days.\n3.  **Locate the 'Unknown' group:** It is the 7th violin plot from the left.\n4.  **Estimate the mean survival time (blue line) for 'Unknown':** The blue line is significantly higher, appearing to be roughly three-quarters ($3/4$) of the way up the interval between 2000 and 4000. Therefore, the value is approximately $2000 + (0.75 \\times 2000) = 3500$ days.\n5.  **Calculate the difference:** The difference in mean survival time between the 'Unknown' group and the 'Pacific' group is approximately $3500 - 2500 = 1000$ days.\n\n1000",
+  "grader_explanation": "ground_truth='500' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

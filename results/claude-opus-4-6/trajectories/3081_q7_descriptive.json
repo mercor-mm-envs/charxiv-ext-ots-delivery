@@ -1,0 +1,16 @@
+{
+  "figure_id": 3081,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "14000",
+  "model_answer": "12",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at all the subplots and their y-axis tick values, I need to find the spatially highest labeled tick on the y-axis across all subplots.\n\nThe spatially highest labeled tick would be on the topmost row of subplots. Looking at the first subplot (CEC2017-F1), the highest y-axis tick is **12** (with a scale of \u00d710\u00b9\u2070).\n\nThe answer is **12**.",
+  "grader_explanation": "ground_truth='14000' | extracted='12' | score=0",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3009,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the highest y-axis value reached by lnFDI (in the Kenya section) and the lowest y-axis value reached by lnIMP (in the Kenya section)?",
+  "ground_truth": "2",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the **lnFDI** chart in the Kenya section:\nThe Kenya section shows the data points around KENYA_02 through KENYA_22. The highest y-axis value reached by lnFDI in the Kenya section appears to be approximately **15** (the line reaches close to 15-16 in that region, peaking around 15).\n\nLooking at the **lnIMP** chart in the Kenya section:\nThe lowest y-axis value reached by lnIMP in the Kenya section appears to be approximately **6** (there's a sharp dip around KENYA_02 area where it drops to roughly 6).\n\nThe difference: 15 - 6 = **9**\n\nThe answer is **9**.",
+  "grader_explanation": "ground_truth='2' | extracted='' | score=0",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3010,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "20",
+  "model_answer": "20",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the y-axis of any of the three subplots, the tick values are: 0, 20, 40, 60, 80, 100.\n\nThe difference between consecutive tick values is **20**.",
+  "grader_explanation": "ground_truth='20' | extracted='20' | score=1",
+  "run": "claude-opus-4-6"
+}

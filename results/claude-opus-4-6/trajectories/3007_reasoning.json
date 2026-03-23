@@ -1,0 +1,16 @@
+{
+  "figure_id": 3007,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate ratio of the peak value of CA (bottom panel) to the peak value of SP (middle panel) based on their y-axis values?",
+  "ground_truth": "2",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "From the bottom panel (CA), the peak value appears to be approximately 350.\n\nFrom the middle panel (SP), the peak value appears to be approximately 130.\n\nThe ratio of peak CA to peak SP is approximately 350 / 130 \u2248 3.\n\n**3**",
+  "grader_explanation": "ground_truth='2' | extracted='' | score=0",
+  "run": "claude-opus-4-6"
+}

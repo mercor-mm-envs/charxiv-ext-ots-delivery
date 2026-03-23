@@ -1,0 +1,16 @@
+{
+  "figure_id": 3021,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "29",
+  "model_answer": "30",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided plot, here is the count of explicitly labeled ticks for each axis:\n\n**Subplot A:**\n*   **Y-axis:** 0.0, 0.5, 1.0, 1.5, 2.0, 2.5 (6 labels)\n*   **X-axis:** 0, 200, 330, 900 (4 labels)\n*   **Total for A:** 10 labels\n\n**Subplot B:**\n*   **Y-axis:** 0, -1000, -2000, -3000, -4000, -5000 (6 labels)\n*   **X-axis:** 0, 920, 3000, 5000 (4 labels)\n*   **Total for B:** 10 labels\n\n**Subplot C:**\n*   **Y-axis:** 0, 5, 10, 15, 20 (5 labels)\n*   **X-axis:** 0, 200, 330, 400, 900 (5 labels)\n*   **Total for C:** 10 labels\n\nSumming these up across all subplots: 10 + 10 + 10 = 30.\n\n30",
+  "grader_explanation": "ground_truth='29' | extracted='30' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

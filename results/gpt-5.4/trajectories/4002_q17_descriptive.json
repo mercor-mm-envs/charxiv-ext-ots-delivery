@@ -1,0 +1,16 @@
+{
+  "figure_id": 4002,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "50",
+  "model_answer": "40",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Count labeled ticks on each visible subplot.\n\nThere are 5 visible subplots, each with x-axis ticks labeled `0` and `1`:\n- x ticks: 5 \u00d7 2 = 10\n\nNow y-axis labeled ticks:\n1. **GDP_per_Capita**: `-1, 0, 1, 2, 3` \u2192 5\n2. **Broad_Money**: `-1, 0, 1, 2, 3, 4, 5` \u2192 7\n3. **Inflation**: `-1, 0, 1, 2, 3, 4, 5` \u2192 7\n4. **Exchange_Rate**: `-2, 0, 2, 4, 6` \u2192 5\n5. **Trade**: `-2, -1, 0, 1, 2, 3` \u2192 6\n\nTotal y ticks = 5 + 7 + 7 + 5 + 6 = 30\n\nTotal labeled ticks across all axes = 10 + 30 = **40**",
+  "grader_explanation": "ground_truth='50' | extracted='40' | score=0",
+  "run": "gpt-5.4"
+}

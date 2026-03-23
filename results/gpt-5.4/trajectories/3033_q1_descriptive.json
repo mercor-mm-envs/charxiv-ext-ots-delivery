@@ -1,0 +1,16 @@
+{
+  "figure_id": 3033,
+  "mode": "descriptive",
+  "qid": 1,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the title of the plot?",
+  "ground_truth": "Seasonal Decomposition of Sejong Default Rates",
+  "model_answer": "Seasonal Decomposition of Sejong Default Rates",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Seasonal Decomposition of Sejong Default Rates",
+  "grader_explanation": "ground_truth='Seasonal Decomposition of Sejong Default Rates' | extracted='Seasonal Decomposition of Sejong Default Rates' | score=1",
+  "run": "gpt-5.4"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 5004,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "100",
+  "model_answer": "100",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at all the subplots and their y-axis tick values:\n\n- (a) GDPPCI: highest tick is 12\n- (b) GDPPCI: highest tick is .8\n- (c) Unemployment: highest tick is 15\n- (d) Unemployment: highest tick is 5\n- (e) EG: highest tick is 10\n- (f) EG: highest tick is 5\n- (g) Migration: highest tick is 1.5\n- (h) Migration: highest tick is .6\n- (i) HE: highest tick is **100**\n\nThe spatially highest labeled tick on the y-axis across all subplots is **100** (from subplot (i) HE).",
+  "grader_explanation": "ground_truth='100' | extracted='100' | score=1",
+  "run": "claude-opus-4-6"
+}

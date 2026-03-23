@@ -1,0 +1,16 @@
+{
+  "figure_id": 3048,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "14",
+  "model_answer": "14",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "The plot has:\n\n- **x-axis:** 8 labeled ticks (1 through 8)\n- **y-axis:** 6 labeled ticks (0, 20, 40, 60, 80, 100)\n\nTotal explicitly labeled ticks across all axes:\n\n**14**",
+  "grader_explanation": "ground_truth='14' | extracted='14' | score=1",
+  "run": "gpt-5.4"
+}

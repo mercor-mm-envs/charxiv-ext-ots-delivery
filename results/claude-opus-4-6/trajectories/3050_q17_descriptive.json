@@ -1,0 +1,16 @@
+{
+  "figure_id": 3050,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "114",
+  "model_answer": "84",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all 6 subplots.\n\n**Subplot 1 (LSTM):**\n- X-axis: \u22122.0, \u22121.5, \u22121.0, \u22120.5, 0.0, 0.5, 1.0, 1.5, 2.0 \u2192 9 ticks\n- Y-axis: \u22122.0, \u22121.5, \u22121.0, \u22120.5, 0.0, 0.5, 1.0, 1.5, 2.0 \u2192 9 ticks\n\n**Subplot 2 (Transformer):**\n- X-axis: \u22121.5, \u22121.0, \u22120.5, 0.0, 0.5, 1.0, 1.5 \u2192 7 ticks\n- Y-axis: \u22121.5, \u22121.0, \u22120.5, 0.0, 0.5, 1.0, 1.5 \u2192 7 ticks\n\n**Subplot 3 (NS-Transformer):**\n- X-axis: \u22121.5, \u22121.0, \u22120.5, 0.0, 0.5, 1.0, 1.5 \u2192 7 ticks\n- Y-axis: \u22121.5, \u22121.0, \u22120.5, 0.0, 0.5, 1.0, 1.5 \u2192 7 ticks\n\n**Subplot 4 (Informer):**\n- X-axis: \u22121.5, \u22121.0, \u22120.5, 0.0, 0.5, 1.0, 1.5 \u2192 7 ticks\n- Y-axis: \u22121.5, \u22121.0, \u22120.5, 0.0, 0.5, 1.0, 1.5 \u2192 7 ticks\n\n**Subplot 5 (ARTEMIS):**\n- X-axis: \u22121.0, \u22120.5, 0.0, 0.5, 1.0 \u2192 5 ticks\n- Y-axis: \u22121.0, \u22120.5, 0.0, 0.5, 1.0 \u2192 5 ticks\n\n**Subplot 6 (Chronos-2):**\n- X-axis: \u22121.5, \u22121.0, \u22120.5, 0.0, 0.5, 1.0, 1.5 \u2192 7 ticks\n- Y-axis: \u22121.5, \u22121.0, \u22120.5, 0.0, 0.5, 1.0, 1.5 \u2192 7 ticks\n\n**Total:** 9+9 + 7+7 + 7+7 + 7+7 + 5+5 + 7+7 = 18 + 14 + 14 + 14 + 10 + 14 = **84**\n\nThe total number of explicitly labeled ticks is **84**.",
+  "grader_explanation": "ground_truth='114' | extracted='84' | score=0",
+  "run": "claude-opus-4-6"
+}

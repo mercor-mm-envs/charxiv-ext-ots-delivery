@@ -1,0 +1,16 @@
+{
+  "figure_id": 3051,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "140",
+  "model_answer": "107",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "There are 7 visible subplots.\n\nEach subplot has:\n- 10 labeled x-axis ticks (1 through 10) \u2192 10\n- 5 labeled y-axis ticks (0.00, 0.01, 0.02, 0.03, 0.04), except the A6 MLP subplot which has 7 labeled y-axis ticks (0.00 through 0.06)\n\nSo:\n- For 6 regular subplots: \\(6 \\times (10 + 5) = 90\\)\n- For A6 MLP: \\(10 + 7 = 17\\)\n\nTotal labeled ticks:\n\\(90 + 17 = 107\\)\n\n107",
+  "grader_explanation": "ground_truth='140' | extracted='107' | score=0",
+  "run": "gpt-5.4"
+}

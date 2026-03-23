@@ -1,0 +1,16 @@
+{
+  "figure_id": 3083,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 3,
+  "inst_category_name": "NiC",
+  "question": "In the top subplot, at approximately what final time does the RCN curve computed from the differential equation level off to its steady-state value near 1\u00d710\u207b\u00b9\u2078?",
+  "ground_truth": "20",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the top subplot, the solid blue curve labeled \"From differential equation\" drops sharply and then levels off into a noisy horizontal line near $1 \\times 10^{-18}$. This transition from falling to roughly constant occurs between the x-axis values of 10 and 20.\n\nSince the constraint requires the answer to be an explicitly written number from the chart, the curve has definitively reached its steady-state leveled-off behavior by the time it reaches the next labeled tick mark.\n\n**20**",
+  "grader_explanation": "ground_truth='20' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

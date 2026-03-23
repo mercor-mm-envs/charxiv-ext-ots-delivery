@@ -1,0 +1,16 @@
+{
+  "figure_id": 3075,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the percentage savings in overall cost of the Proposed Approach compared to the Capacity-based Allocation?",
+  "ground_truth": "8.22%",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Overall cost values from the chart:\n\n- Proposed Approach = **251.47**\n- Capacity-based Allocation = **273.99**\n\nPercentage savings of Proposed Approach compared to Capacity-based Allocation:\n\n\\[\n\\frac{273.99 - 251.47}{273.99} \\times 100\n= \\frac{22.52}{273.99} \\times 100\n\\approx 8.219\\%\n\\]\n\n**8.219%**",
+  "grader_explanation": "ground_truth='8.22%' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

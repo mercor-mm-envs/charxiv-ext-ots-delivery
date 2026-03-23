@@ -1,0 +1,16 @@
+{
+  "figure_id": 3068,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "37",
+  "model_answer": "49",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Count labeled ticks on all axes, including colorbars:\n\nPanel A:\n- x-axis: 8 category labels\n- y-axis: 5 labels (0.00, 0.25, 0.50, 0.75, 1.00)\n\nPanel B heatmap:\n- x-axis: 8 category labels\n- y-axis: 8 category labels\n- colorbar: 5 labels (0.00, 0.02, 0.04, 0.06, 0.08)\n\nPanel C heatmap:\n- x-axis: 5 labels (0.00, 0.25, 0.50, 0.75, 1.00)\n- y-axis: 5 labels (0.00, 0.25, 0.50, 0.75, 1.00)\n- colorbar: 5 labels (0.00, 0.25, 0.50, 0.75, 1.00)\n\nTotal = 8 + 5 + 8 + 8 + 5 + 5 + 5 + 5 = 49\n\n49",
+  "grader_explanation": "ground_truth='37' | extracted='49' | score=0",
+  "run": "gpt-5.4"
+}

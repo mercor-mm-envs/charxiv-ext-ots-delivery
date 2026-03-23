@@ -1,0 +1,16 @@
+{
+  "figure_id": 3081,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the CEC2017-F16 subplot, what is the approximate difference between the highest labeled y-axis tick value and the lowest labeled y-axis tick value?",
+  "ground_truth": "10000",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "In the **CEC2017-F16** subplot, the lowest labeled y-axis tick is approximately **4000** and the highest is **14000**.\n\nSo the difference is:\n\n**10000**",
+  "grader_explanation": "ground_truth='10000' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3015,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "In panel (c), which country has the highest Expected Escape Time while having an AROPE Rate below 25%?",
+  "ground_truth": "IE",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at panel (c), I need to find the country with the highest Expected Escape Time (y-axis) that also has an AROPE Rate below 25% (x-axis).\n\nExamining the countries with AROPE Rate below 25%:\n\n- **EL** has an Expected Escape Time of approximately 6 years, but its AROPE Rate is around 28-30%, which is above 25%.\n- **IE** has an Expected Escape Time of approximately 4.5 years, with an AROPE Rate around 20%.\n- **CZ** has an Expected Escape Time of approximately 3 years.\n- **FI** has an Expected Escape Time of approximately 2 years.\n- **NL** is around 3 years.\n\nAmong countries with AROPE Rate below 25%, **IE** has the highest Expected Escape Time at approximately 4.5 years.\n\n**IE**",
+  "grader_explanation": "ground_truth='IE' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

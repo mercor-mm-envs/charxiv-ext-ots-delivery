@@ -1,0 +1,16 @@
+{
+  "figure_id": 3058,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the LS interest rate and the LP interest rate at Jan 2023, as read from the right y-axis?",
+  "ground_truth": "0.04",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the graph provided:\n\n1.  **Identify the lines and axes**:\n    *   **LS interest rate** is represented by the bright green line.\n    *   **LP interest rate** is represented by the purple line.\n    *   The values for these rates are read from the **right y-axis** (Interest Rate), which has major grid lines at 0.10 and 0.15.\n\n2.  **Estimate values at Jan 2023**:\n    *   Locate \"Jan 2023\" on the x-axis (Timestamps).\n    *   **LS interest rate (green line)** at Jan 2023 is slightly above the 0.15 mark. By visual estimation, it is approximately at **0.16**.\n    *   **LP interest rate (purple line)** at Jan 2023 is above the 0.10 mark, but below the halfway point (0.125) to 0.15. By visual estimation, it is approximately at **0.12**.\n\n3.  **Calculate the difference**:\n    *   Difference = LS interest rate - LP interest rate\n    *   Difference \u2248 0.16 - 0.12 = 0.04\n\n0.04",
+  "grader_explanation": "ground_truth='0.04' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

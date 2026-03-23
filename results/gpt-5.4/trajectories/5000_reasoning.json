@@ -1,0 +1,16 @@
+{
+  "figure_id": 5000,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the 'Response of LNCEA to LNCEA' subplot, what is the approximate difference between the peak response value (around period 2) and the stabilized response value (around period 20)?",
+  "ground_truth": "0.04",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "In the **\u201cResponse of LNCEA to LNCEA\u201d** subplot:\n\n- **Peak response around period 2** \u2248 **0.022**\n- **Stabilized response around period 20** \u2248 **0.024**\n\nApproximate difference:\n\n**0.02**",
+  "grader_explanation": "ground_truth='0.04' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}
