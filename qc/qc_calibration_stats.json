@@ -1,0 +1,59 @@
+{
+    "generated_at": "2026-03-23T16:00:35",
+    "target_pass_rate": 0.9,
+    "total_figures": 100,
+    "results": [
+        {
+            "check": "Image QC",
+            "pass": 90,
+            "total": 100,
+            "rate": 0.9,
+            "p_value": 0.5487,
+            "significant_worse": false,
+            "verdict": "OK \u2014 not significantly worse"
+        },
+        {
+            "check": "QA QC",
+            "pass": 90,
+            "total": 97,
+            "rate": 0.9278,
+            "p_value": 0.8634,
+            "significant_worse": false,
+            "verdict": "OK \u2014 not significantly worse"
+        },
+        {
+            "check": "Both",
+            "pass": 82,
+            "total": 97,
+            "rate": 0.8454,
+            "p_value": 0.0585,
+            "significant_worse": false,
+            "verdict": "OK \u2014 not significantly worse"
+        }
+    ],
+    "image_qc_failures": [
+        3007,
+        3030,
+        3039,
+        3040,
+        3067,
+        3085,
+        3086,
+        3109,
+        3114,
+        3116
+    ],
+    "qa_qc_failures": [
+        3029,
+        3038,
+        3040,
+        3060,
+        3062,
+        3112,
+        3114
+    ],
+    "thresholds": {
+        "image_avg_z": -0.8,
+        "qa_avg_score": 6.5
+    }
+}
