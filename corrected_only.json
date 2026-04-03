@@ -1,0 +1,1582 @@
+{
+  "generated_at": "2026-04-03",
+  "description": "All corrections from charxiv_wrong.pdf with question text, QC status, and model outcomes",
+  "summary": {
+    "total_corrections": 93,
+    "descriptive_value_corrections": 51,
+    "reasoning_value_corrections": 28,
+    "excluded_questions": 0,
+    "figures_flagged_for_removal": 0,
+    "design_issues": 8
+  },
+  "corrections": [
+    {
+      "task_id": "3013_q17_descriptive",
+      "figure_id": "3013",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3013. Original count 27 was incorrect, verified count is 25.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "27",
+      "gt": "25"
+    },
+    {
+      "task_id": "3021_q17_descriptive",
+      "figure_id": "3021",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 3,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3021. Original count 29 was incorrect; verified count is 30.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "29",
+      "gt": "30"
+    },
+    {
+      "task_id": "3027_q17_descriptive",
+      "figure_id": "3027",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3027. Original count 28 was incorrect; verified count is 24.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "28",
+      "gt": "24"
+    },
+    {
+      "task_id": "3029_q17_descriptive",
+      "figure_id": "3029",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": false
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3029. Original count 30 was incorrect; verified count is 24.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "30",
+      "gt": "24"
+    },
+    {
+      "task_id": "3029_q7_descriptive",
+      "figure_id": "3029",
+      "mode": "descriptive",
+      "question": "What is the highest labeled tick on the y-axis?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": false
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the highest labeled tick on the y-axis. Original value 12000 was misread; correct value is 9000.",
+      "flag": "wrong_ground_truth: axis value misread",
+      "false": "12000",
+      "gt": "9000"
+    },
+    {
+      "task_id": "3047_q17_descriptive",
+      "figure_id": "3047",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 6,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3047. Original count 23 was incorrect; verified count is 21.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "23",
+      "gt": "21"
+    },
+    {
+      "task_id": "3050_q17_descriptive",
+      "figure_id": "3050",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 6,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3050. Original count 114 was incorrect; verified count is 84.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "114",
+      "gt": "84"
+    },
+    {
+      "task_id": "3051_q17_descriptive",
+      "figure_id": "3051",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 7,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3051. Original count 140 was incorrect; verified count is 107.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "140",
+      "gt": "107"
+    },
+    {
+      "task_id": "3052_q17_descriptive",
+      "figure_id": "3052",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 3,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3052. Original count 30 was incorrect; verified count is 28.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "30",
+      "gt": "28"
+    },
+    {
+      "task_id": "3053_q17_descriptive",
+      "figure_id": "3053",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3053. Original count 24 was incorrect; verified count is 26.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "24",
+      "gt": "26"
+    },
+    {
+      "task_id": "3053_q9_descriptive",
+      "figure_id": "3053",
+      "mode": "descriptive",
+      "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the y-axis tick interval. Original value 0 was incorrect; correct interval is 0.0005.",
+      "flag": "wrong_ground_truth: tick interval misread",
+      "false": "0",
+      "gt": "0.0005"
+    },
+    {
+      "task_id": "3058_q17_descriptive",
+      "figure_id": "3058",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3058. Original count 15 was incorrect; verified count is 11.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "15",
+      "gt": "11"
+    },
+    {
+      "task_id": "3059_q17_descriptive",
+      "figure_id": "3059",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 11,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3059. Original count 96 was incorrect; verified count is 93.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "96",
+      "gt": "93"
+    },
+    {
+      "task_id": "3061_q17_descriptive",
+      "figure_id": "3061",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 5,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3061. Original count 106 was incorrect; verified count is 76.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "106",
+      "gt": "76"
+    },
+    {
+      "task_id": "3063_q17_descriptive",
+      "figure_id": "3063",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 4,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3063. Original count 50 was incorrect; verified count is 34.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "50",
+      "gt": "34"
+    },
+    {
+      "task_id": "3064_q17_descriptive",
+      "figure_id": "3064",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 13,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3064. Original count 142 was incorrect; verified count is 158.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "142",
+      "gt": "158"
+    },
+    {
+      "task_id": "3064_q6_descriptive",
+      "figure_id": "3064",
+      "mode": "descriptive",
+      "question": "What is the lowest labeled tick on the y-axis?",
+      "num_subplots": 13,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models passed",
+      "how_fixed": "Re-read the lowest labeled tick on the y-axis. Original value -2000 was misread; correct value is -2.",
+      "flag": "wrong_ground_truth: axis value misread",
+      "false": "-2000",
+      "gt": "-2"
+    },
+    {
+      "task_id": "3064_q7_descriptive",
+      "figure_id": "3064",
+      "mode": "descriptive",
+      "question": "What is the highest labeled tick on the y-axis?",
+      "num_subplots": 13,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the highest labeled tick on the y-axis. Original value 2500 was misread; correct value is 2.",
+      "flag": "wrong_ground_truth: axis value misread",
+      "false": "2500",
+      "gt": "2"
+    },
+    {
+      "task_id": "3065_q17_descriptive",
+      "figure_id": "3065",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 6,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3065. Original count 52 was incorrect; verified count is 37.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "52",
+      "gt": "37"
+    },
+    {
+      "task_id": "3066_q17_descriptive",
+      "figure_id": "3066",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 3,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3066. Original count 25 was incorrect; verified count is 26.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "25",
+      "gt": "26"
+    },
+    {
+      "task_id": "3068_q17_descriptive",
+      "figure_id": "3068",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 3,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3068. Original count 37 was incorrect; verified count is 39.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "37",
+      "gt": "39"
+    },
+    {
+      "task_id": "3072_q17_descriptive",
+      "figure_id": "3072",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 4,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3072. Original count 48 was incorrect; verified count is 28.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "48",
+      "gt": "28"
+    },
+    {
+      "task_id": "3072_q6_descriptive",
+      "figure_id": "3072",
+      "mode": "descriptive",
+      "question": "What is the lowest labeled tick on the y-axis?",
+      "num_subplots": 4,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models passed",
+      "how_fixed": "Re-read the lowest labeled tick on the y-axis. Original value -55 was misread; correct value is -50.",
+      "flag": "wrong_ground_truth: axis value misread",
+      "false": "-55",
+      "gt": "-50"
+    },
+    {
+      "task_id": "3073_q17_descriptive",
+      "figure_id": "3073",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 8,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3073. Original count 80 was incorrect; verified count is 56.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "80",
+      "gt": "56"
+    },
+    {
+      "task_id": "3074_q17_descriptive",
+      "figure_id": "3074",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3074. Original count 19 was incorrect; verified count is 23.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "19",
+      "gt": "23"
+    },
+    {
+      "task_id": "3076_q17_descriptive",
+      "figure_id": "3076",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3076. Original count 11 was incorrect; verified count is 9.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "11",
+      "gt": "9"
+    },
+    {
+      "task_id": "3081_q7_descriptive",
+      "figure_id": "3081",
+      "mode": "descriptive",
+      "question": "What is the highest labeled tick on the y-axis?",
+      "num_subplots": 29,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the highest labeled tick on the y-axis. Original value 14000 was misread; correct value is 12.",
+      "flag": "wrong_ground_truth: axis value misread",
+      "false": "14000",
+      "gt": "12"
+    },
+    {
+      "task_id": "3083_q17_descriptive",
+      "figure_id": "3083",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3083. Original count 36 was incorrect; verified count is 28.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "36",
+      "gt": "28"
+    },
+    {
+      "task_id": "3091_q17_descriptive",
+      "figure_id": "3091",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3091. Original count 24 was incorrect; verified count is 19.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "24",
+      "gt": "19"
+    },
+    {
+      "task_id": "3092_q17_descriptive",
+      "figure_id": "3092",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3092. Original count 5 was incorrect; verified count is 3.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "5",
+      "gt": "3"
+    },
+    {
+      "task_id": "3093_q17_descriptive",
+      "figure_id": "3093",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3093. Original count 17 was incorrect; verified count is 20.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "17",
+      "gt": "20"
+    },
+    {
+      "task_id": "3094_q17_descriptive",
+      "figure_id": "3094",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3094. Original count 15 was incorrect; verified count is 11.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "15",
+      "gt": "11"
+    },
+    {
+      "task_id": "3094_q6_descriptive",
+      "figure_id": "3094",
+      "mode": "descriptive",
+      "question": "What is the lowest labeled tick on the y-axis?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the lowest labeled tick on the y-axis. Original value 0 was misread; correct value is 0.98.",
+      "flag": "wrong_ground_truth: axis value misread",
+      "false": "0",
+      "gt": "0.98"
+    },
+    {
+      "task_id": "3095_q17_descriptive",
+      "figure_id": "3095",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": "N/A"
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 3095. Original count 17 was incorrect; verified count is 13.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "17",
+      "gt": "13"
+    },
+    {
+      "task_id": "4001_q17_descriptive",
+      "figure_id": "4001",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 9,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 4001. Original count 180 was incorrect; verified count is 135.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "180",
+      "gt": "135"
+    },
+    {
+      "task_id": "4002_q17_descriptive",
+      "figure_id": "4002",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 5,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 4002. Original count 50 was incorrect; verified count is 40.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "50",
+      "gt": "40"
+    },
+    {
+      "task_id": "4002_q7_descriptive",
+      "figure_id": "4002",
+      "mode": "descriptive",
+      "question": "What is the highest labeled tick on the y-axis?",
+      "num_subplots": 5,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the highest labeled tick on the y-axis. Original value 7 was misread; correct value is 5.",
+      "flag": "wrong_ground_truth: axis value misread",
+      "false": "7",
+      "gt": "5"
+    },
+    {
+      "task_id": "4004_q17_descriptive",
+      "figure_id": "4004",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 6,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 4004. Original count 36 was incorrect; verified count is 41.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "36",
+      "gt": "41"
+    },
+    {
+      "task_id": "4005_q17_descriptive",
+      "figure_id": "4005",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 6,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 4005. Original count 76 was incorrect; verified count is 56.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "76",
+      "gt": "56"
+    },
+    {
+      "task_id": "4007_q17_descriptive",
+      "figure_id": "4007",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 5,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 4007. Original count 21 was incorrect; verified count is 22.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "21",
+      "gt": "22"
+    },
+    {
+      "task_id": "4009_q17_descriptive",
+      "figure_id": "4009",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 5,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models passed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 4009. Original count 19 was incorrect; verified count is 11.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "19",
+      "gt": "11"
+    },
+    {
+      "task_id": "4010_q17_descriptive",
+      "figure_id": "4010",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 6,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 4010. Original count 18 was incorrect; verified count is 121.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "18",
+      "gt": "121"
+    },
+    {
+      "task_id": "5000_q17_descriptive",
+      "figure_id": "5000",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 9,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 5000. Original count 180 was incorrect; verified count is 147.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "180",
+      "gt": "147"
+    },
+    {
+      "task_id": "5001_q17_descriptive",
+      "figure_id": "5001",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 8,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 5001. Original count 88 was incorrect; verified count is 63.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "88",
+      "gt": "63"
+    },
+    {
+      "task_id": "5002_q17_descriptive",
+      "figure_id": "5002",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 8,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 5002. Original count 160 was incorrect; verified count is 56.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "160",
+      "gt": "56"
+    },
+    {
+      "task_id": "5002_q7_descriptive",
+      "figure_id": "5002",
+      "mode": "descriptive",
+      "question": "What is the highest labeled tick on the y-axis?",
+      "num_subplots": 8,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-read the highest labeled tick on the y-axis. Original value 0.05 was misread; correct value is 0.",
+      "flag": "wrong_ground_truth: axis value misread",
+      "false": "0.05",
+      "gt": "0"
+    },
+    {
+      "task_id": "5003_q17_descriptive",
+      "figure_id": "5003",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 9,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 5003. Original count 72 was incorrect; verified count is 79.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "72",
+      "gt": "79"
+    },
+    {
+      "task_id": "5003_q7_descriptive",
+      "figure_id": "5003",
+      "mode": "descriptive",
+      "question": "What is the highest labeled tick on the y-axis?",
+      "num_subplots": 9,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-read the highest labeled tick on the y-axis. Original value 200 was misread; correct value is 100.",
+      "flag": "wrong_ground_truth: axis value misread",
+      "false": "200",
+      "gt": "100"
+    },
+    {
+      "task_id": "5004_q6_descriptive",
+      "figure_id": "5004",
+      "mode": "descriptive",
+      "question": "What is the lowest labeled tick on the y-axis?",
+      "num_subplots": 9,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models passed",
+      "how_fixed": "Re-read the lowest labeled tick on the y-axis. Original value 0 was misread; correct value is 8.",
+      "flag": "wrong_ground_truth: axis value misread",
+      "false": "0",
+      "gt": "8"
+    },
+    {
+      "task_id": "5005_q17_descriptive",
+      "figure_id": "5005",
+      "mode": "descriptive",
+      "question": "What is the total number of explicitly labeled ticks across all axes?",
+      "num_subplots": 21,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Recounted all explicitly labeled ticks across all axes on figure 5005. Original count 358 was incorrect; verified count is 309.",
+      "flag": "wrong_ground_truth: tick miscount",
+      "false": "358",
+      "gt": "309"
+    },
+    {
+      "task_id": "3001_reasoning",
+      "figure_id": "3001",
+      "mode": "reasoning",
+      "question": "What is the difference between the peak value of Frozen Strawberries and the peak value of Frozen Orange Juice across all years?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 3 corrected to 1.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "3",
+      "gt": "1"
+    },
+    {
+      "task_id": "3009_reasoning",
+      "figure_id": "3009",
+      "mode": "reasoning",
+      "question": "What is the approximate difference between the highest y-axis value reached by lnFDI (in the Kenya section) and the lowest y-axis value reached by lnIMP (in the Kenya section)?",
+      "num_subplots": 5,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 2 corrected to 4.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "2",
+      "gt": "4"
+    },
+    {
+      "task_id": "3013_b_reasoning",
+      "figure_id": "3013",
+      "mode": "reasoning",
+      "question": "In approximately which year did the UK GDP first exceed 1800 billion GBP according to the left panel?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-examined the chart to identify the correct value/entity. Original answer '2015' corrected to '2013'.",
+      "flag": "wrong_ground_truth: value misread from chart",
+      "false": "2015",
+      "gt": "2013"
+    },
+    {
+      "task_id": "3028_reasoning",
+      "figure_id": "3028",
+      "mode": "reasoning",
+      "question": "In the right panel, at approximately t=2000, what is the difference in S(t) between the curve with the highest survival probability (7_5) and the curve with the lowest survival probability (2_7)?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 0.35 corrected to 0.3.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "0.35",
+      "gt": "0.3"
+    },
+    {
+      "task_id": "3029_reasoning",
+      "figure_id": "3029",
+      "mode": "reasoning",
+      "question": "In the right panel (line chart), what is the approximate difference in mean survival time between female (F) donors of ethnicity 998 and female donors of ethnicity 9?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": false
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 2300 corrected to 1500.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "2300",
+      "gt": "1500"
+    },
+    {
+      "task_id": "3030_b_reasoning",
+      "figure_id": "3030",
+      "mode": "reasoning",
+      "question": "What is the approximate survival probability of the KM Kidney Survival curve at 10 years post kidney transplant?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": false,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-examined the chart to identify the correct value/entity. Original answer '0.68' corrected to '0.72'.",
+      "flag": "wrong_ground_truth: value misread from chart",
+      "false": "0.68",
+      "gt": "0.72"
+    },
+    {
+      "task_id": "3031_reasoning",
+      "figure_id": "3031",
+      "mode": "reasoning",
+      "question": "What is the approximate difference between the highest average default rate of Gyeonggi at Month 1 and the lowest average default rate of Sejong at Month 1?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 34 corrected to 40.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "34",
+      "gt": "40"
+    },
+    {
+      "task_id": "3038_reasoning",
+      "figure_id": "3038",
+      "mode": "reasoning",
+      "question": "In the left line chart (NVDA Stock Price June-Sept 2025), what is the approximate price increase in dollars from the lowest point in the July period to the highest point shown on the chart around October 2025?",
+      "num_subplots": 6,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": false
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-examined the chart to identify the correct value/entity. Original answer '40' corrected to '33'.",
+      "flag": "wrong_ground_truth: value misread from chart",
+      "false": "40",
+      "gt": "33"
+    },
+    {
+      "task_id": "3042_reasoning",
+      "figure_id": "3042",
+      "mode": "reasoning",
+      "question": "What is the difference between the highest IECGA value and the lowest IECGA value across all datasets?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 23.95 corrected to 24.05.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "23.95",
+      "gt": "24.05"
+    },
+    {
+      "task_id": "3043_reasoning",
+      "figure_id": "3043",
+      "mode": "reasoning",
+      "question": "What is the difference in 'No FS-Accuracy %' between the dataset with the highest value (PC3) and the dataset with the lowest value (MC2)?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 27 corrected to 22.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "27",
+      "gt": "22"
+    },
+    {
+      "task_id": "3051_reasoning",
+      "figure_id": "3051",
+      "mode": "reasoning",
+      "question": "In the A6 MLP subplot, what is the approximate difference in MSE Loss between the validation curve and the training curve at Epoch 1?",
+      "num_subplots": 7,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models passed",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 0.01 corrected to 0.005.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "0.01",
+      "gt": "0.005"
+    },
+    {
+      "task_id": "3052_reasoning",
+      "figure_id": "3052",
+      "mode": "reasoning",
+      "question": "What is the approximate difference in RMSE between ARTEMIS and Chronos-2 in the Crash (test) regime?",
+      "num_subplots": 3,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 0.0022 corrected to 0.0017.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "0.0022",
+      "gt": "0.0017"
+    },
+    {
+      "task_id": "3054_reasoning",
+      "figure_id": "3054",
+      "mode": "reasoning",
+      "question": "In Panel A, what is the approximate difference between the highest value reached by the Upper Bound (LHS) and the highest value reached by the Lower Bound (LHS)?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 1500 corrected to 1750.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "1500",
+      "gt": "1750"
+    },
+    {
+      "task_id": "3058_reasoning",
+      "figure_id": "3058",
+      "mode": "reasoning",
+      "question": "What is the approximate difference between the LS interest rate and the LP interest rate at Jan 2023, as read from the right y-axis?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 0.04 corrected to 0.05.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "0.04",
+      "gt": "0.05"
+    },
+    {
+      "task_id": "3059_reasoning",
+      "figure_id": "3059",
+      "mode": "reasoning",
+      "question": "In panel C (left, E. coli histogram), what is the approximate difference between the peak Predicted_MIC value for pos_Ecoli and the peak Predicted_MIC value for generate_Ecoli?",
+      "num_subplots": 11,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 5 corrected to 9.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "5",
+      "gt": "9"
+    },
+    {
+      "task_id": "3063_b_reasoning",
+      "figure_id": "3063",
+      "mode": "reasoning",
+      "question": "Which model achieves the lowest median predicted MIC for S. aureus in panel B?",
+      "num_subplots": 4,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read which model has lowest median MIC for S. aureus. 'Our Model' corrected to 'LLM-Based'.",
+      "flag": "wrong_ground_truth: wrong entity identified",
+      "false": "Our Model",
+      "gt": "LLM-Based"
+    },
+    {
+      "task_id": "3074_reasoning",
+      "figure_id": "3074",
+      "mode": "reasoning",
+      "question": "Approximately how many orders of magnitude does the Outage Probability of Simulation IoT 2 (ideal HWI, solid magenta line) decrease from Pt = 0 dBm to Pt = 30 dBm?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-analyzed the chart data. Original answer '3' corrected to '2'.",
+      "flag": "wrong_ground_truth: value misread from chart",
+      "false": "3",
+      "gt": "2"
+    },
+    {
+      "task_id": "3080_reasoning",
+      "figure_id": "3080",
+      "mode": "reasoning",
+      "question": "In subplot (a), what is the approximate difference in peak probability density between the Original (R1) curve and the Original (R2) curve?",
+      "num_subplots": 3,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 0.004 corrected to 0.003.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "0.004",
+      "gt": "0.003"
+    },
+    {
+      "task_id": "3083_b_reasoning",
+      "figure_id": "3083",
+      "mode": "reasoning",
+      "question": "In the top subplot, at approximately what final time does the RCN curve computed from the differential equation level off to its steady-state value near 1\u00d710\u207b\u00b9\u2078?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-examined the chart to identify the correct value/entity. Original answer '20' corrected to '16'.",
+      "flag": "wrong_ground_truth: value misread from chart",
+      "false": "20",
+      "gt": "16"
+    },
+    {
+      "task_id": "3089_reasoning",
+      "figure_id": "3089",
+      "mode": "reasoning",
+      "question": "What is the approximate difference in \u03c1(\u03c9)/\u03c9 between the Gaussian method and the Unsupervised learning method at \u03c9/T = 30?",
+      "num_subplots": 1,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": "N/A"
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read spectral function values \u2014 the curves overlap at this point, so the difference is 0, not 0.03.",
+      "flag": "wrong_ground_truth: missed curve overlap",
+      "false": "0.03",
+      "gt": "0"
+    },
+    {
+      "task_id": "3091_reasoning",
+      "figure_id": "3091",
+      "mode": "reasoning",
+      "question": "In the upper panel, what is the approximate ratio of the peak fraction of events (around p_T^l \u2248 39 GeV) to the fraction of events at p_T^l = 32 GeV for the Nominal distribution?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-examined the chart to identify the correct value/entity. Original answer '1.6' corrected to '1.5'.",
+      "flag": "wrong_ground_truth: value misread from chart",
+      "false": "1.6",
+      "gt": "1.5"
+    },
+    {
+      "task_id": "3094_reasoning",
+      "figure_id": "3094",
+      "mode": "reasoning",
+      "question": "In the upper panel, approximately what is the ratio of the peak number of events per GeV (\u00d710\u00b3) to the value at the leftmost bin (pT \u2248 30 GeV)?",
+      "num_subplots": 2,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-examined the chart to identify the correct value/entity. Original answer '1.7' corrected to '1.6'.",
+      "flag": "wrong_ground_truth: value misread from chart",
+      "false": "1.7",
+      "gt": "1.6"
+    },
+    {
+      "task_id": "3112_b_reasoning",
+      "figure_id": "3112",
+      "mode": "reasoning",
+      "question": "what is the approximate observed test value of the most extreme outlier (farthest from the red diagonal line) in panel A?",
+      "num_subplots": "?",
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": false
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-examined the chart to identify the correct value/entity. Original answer '1.9' corrected to '2.4'.",
+      "flag": "wrong_ground_truth: value misread from chart",
+      "false": "1.9",
+      "gt": "2.4"
+    },
+    {
+      "task_id": "4007_reasoning",
+      "figure_id": "4007",
+      "mode": "reasoning",
+      "question": "What is the approximate difference between the Russian Federation's highest FDI net outflow value and its lowest FDI net outflow value across all years shown?",
+      "num_subplots": 5,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 3.7 corrected to 2.8.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "3.7",
+      "gt": "2.8"
+    },
+    {
+      "task_id": "4007_b_reasoning",
+      "figure_id": "4007",
+      "mode": "reasoning",
+      "question": "In which year does Brazil show the most negative (lowest) FDI net outflow value?",
+      "num_subplots": 5,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Fixed typo: comma-separated '20,20' was meant to be the year '2020'.",
+      "flag": "wrong_ground_truth: typo (20,20 \u2192 2020)",
+      "false": "20,20",
+      "gt": "2020"
+    },
+    {
+      "task_id": "5000_reasoning",
+      "figure_id": "5000",
+      "mode": "reasoning",
+      "question": "In the 'Response of LNCEA to LNCEA' subplot, what is the approximate difference between the peak response value (around period 2) and the stabilized response value (around period 20)?",
+      "num_subplots": 9,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-read the relevant values from the chart and recomputed the difference. Original answer 0.04 corrected to 0.035.",
+      "flag": "wrong_ground_truth: numeric difference miscalculated",
+      "false": "0.04",
+      "gt": "0.035"
+    },
+    {
+      "task_id": "5001_b_reasoning",
+      "figure_id": "5001",
+      "mode": "reasoning",
+      "question": "In the right-column subplot for \u03b5_GPHA \u2192 TotalBeta, what is the approximate minimum y-axis value reached by the 1-period ahead (red solid) line around 2010?",
+      "num_subplots": 8,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-examined the chart to identify the correct value/entity. Original answer '-0.10' corrected to '-0.075'.",
+      "flag": "wrong_ground_truth: value misread from chart",
+      "false": "-0.10",
+      "gt": "-0.075"
+    },
+    {
+      "task_id": "5002_b_reasoning",
+      "figure_id": "5002",
+      "mode": "reasoning",
+      "question": "In the subplot showing \u03b5_GPHA \u2192 TotalBeta, which time period (color/series) shows the most negative initial impulse response at time 0?",
+      "num_subplots": 8,
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Re-examined the chart to identify the correct value/entity. Original answer '2022.2' corrected to '2003.3'.",
+      "flag": "wrong_ground_truth: wrong entity identified",
+      "false": "2022.2",
+      "gt": "2003.3"
+    },
+    {
+      "task_id": "3062_descriptive",
+      "figure_id": "3062",
+      "mode": "descriptive",
+      "question": "Q1 (title), Q2 (x-axis label), Q3 (y-axis label), Q4 (leftmost x-tick) \u2014 all 4 questions fixed",
+      "num_subplots": 5,
+      "false": "All 4 answers were 'Not Applicable'; num_subplots was 1",
+      "gt": "Dataset timeseries: 2023-01-23-15 / t (min) / x_i(t) / 2; num_subplots fixed to 5; QIDs changed from [3,2,5,1] to [1,2,3,4]",
+      "source": "manual image review",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": false
+      },
+      "model_outcome": "N/A \u2014 no valid ground truth existed before",
+      "how_fixed": "Examined image: 5-panel figure (a-e). Answered all 4 descriptive questions based on primary panel (a). Fixed num_subplots from 1 to 5. Swapped Q5 for Q4 since panel (a) x-axis starts at 2.",
+      "flag": "bad_questions: all answers incorrectly marked N/A \u2014 NOW FIXED"
+    },
+    {
+      "task_id": "3073_q10_descriptive",
+      "figure_id": "3073",
+      "mode": "descriptive",
+      "question": "How many lines are there?",
+      "num_subplots": 8,
+      "false": "Q9 was EXCLUDED (ambiguous across subplots)",
+      "gt": "3",
+      "source": "manual image review",
+      "figure_qc": {},
+      "model_outcome": "N/A \u2014 new question",
+      "how_fixed": "Replaced excluded Q9 with Q10 (line count). Image has no x-axis label so Q5 was unreliable. 3 lines visible: Mean, GT, xRIR. \u00b13 Std is a shaded region.",
+      "flag": "replaced_excluded_question"
+    },
+    {
+      "task_id": "4003_q1_descriptive",
+      "figure_id": "4003",
+      "mode": "descriptive",
+      "question": "What is the title of the plot?",
+      "num_subplots": 6,
+      "false": "Q9 was EXCLUDED (ambiguous across subplots)",
+      "gt": "Monetary Policy Effect on GDP",
+      "source": "manual image review",
+      "figure_qc": {},
+      "model_outcome": "N/A \u2014 new question",
+      "how_fixed": "Replaced excluded Q9 with Q1. Title of left panel, clearly visible.",
+      "flag": "replaced_excluded_question"
+    },
+    {
+      "task_id": "4004_q3_descriptive",
+      "figure_id": "4004",
+      "mode": "descriptive",
+      "question": "What is the label of the y-axis?",
+      "num_subplots": 6,
+      "false": "Q9 was EXCLUDED (ambiguous across subplots)",
+      "gt": "Density",
+      "source": "manual image review",
+      "figure_qc": {},
+      "model_outcome": "N/A \u2014 new question",
+      "how_fixed": "Replaced excluded Q9 with Q3. Y-axis label shared across all 4 histogram panels.",
+      "flag": "replaced_excluded_question"
+    },
+    {
+      "task_id": "4005_q2_descriptive",
+      "figure_id": "4005",
+      "mode": "descriptive",
+      "question": "What is the label of the x-axis?",
+      "num_subplots": 6,
+      "false": "Q9 was EXCLUDED (ambiguous across subplots)",
+      "gt": "Quantile",
+      "source": "manual image review",
+      "figure_qc": {},
+      "model_outcome": "N/A \u2014 new question",
+      "how_fixed": "Replaced excluded Q9 with Q2. X-axis label shared across all 4 quantile regression panels.",
+      "flag": "replaced_excluded_question"
+    },
+    {
+      "task_id": "5003_q5_descriptive",
+      "figure_id": "5003",
+      "mode": "descriptive",
+      "question": "What is the rightmost labeled tick on the x-axis?",
+      "num_subplots": 9,
+      "false": "Q9 was EXCLUDED (ambiguous across subplots)",
+      "gt": "2024",
+      "source": "manual image review",
+      "figure_qc": {},
+      "model_outcome": "N/A \u2014 new question",
+      "how_fixed": "Replaced excluded Q9 with Q5. Rightmost x-axis tick shared across all 9 stacked area panels.",
+      "flag": "replaced_excluded_question"
+    }
+  ],
+  "excluded_questions": [],
+  "figures_flagged_for_removal": [
+    {
+      "figure_id": "3040",
+      "reason": "Was an infographic, not a chart. REPLACED with sourcing figure 3002 (econ_011.png) \u2014 dual y-axis time series of Exports, Quota Level, and Number of NTMs from CC-BY 4.0 paper (doi:10.3390/economies13010001).",
+      "flag": "irrelevant_image: not a data chart \u2014 REPLACED",
+      "action_needed": "DONE"
+    }
+  ],
+  "design_issues": [
+    {
+      "task_id": "3006_q13_descriptive",
+      "figure_id": "3006",
+      "mode": "descriptive",
+      "question": "What are the names of the labels in the legend (from top to bottom, then left to right)?",
+      "num_subplots": 1,
+      "false": "LBSE, LDJIA, LJKSE, LKLCI, LKS11, LN225, LPSEI, LSSE, LSTI",
+      "gt": "LBSE, LDJIA, LJKSE, LKLCI, LKS11, LN225, LPSEI, LSSE, LSTI",
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models passed",
+      "how_fixed": "Kept as-is. Legend reads left-to-right naturally. PDF notes layout is horizontal, not columnar.",
+      "flag": "question_design: legend reading order doesnt match template \u2014 FIXED",
+      "action_needed": "REWRITE: Update Q13 question text to specify the actual legend reading direction for this figure, or reorder the answer."
+    },
+    {
+      "task_id": "4003_reasoning",
+      "figure_id": "4003",
+      "mode": "reasoning",
+      "question": "In the left panel (Monetary Policy Effect on GDP), what is the approximate difference in GDP_per_Capita between Francophone and Anglophone countries when Broad_Money equals 5?",
+      "num_subplots": 6,
+      "false": "3.0",
+      "gt": "1.75",
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Changed question to use right panel (Trade) at value 2 instead of left panel at Broad_Money=5 which has no data point. GDP difference between Francophone and Anglophone at Trade=2 is approximately 1.75.",
+      "flag": "question_design: question doesnt match graph content \u2014 FIXED",
+      "action_needed": "REPLACE: Reasoning question needs to be rewritten or replaced with a new question that works with this figure."
+    },
+    {
+      "task_id": "4005_reasoning",
+      "figure_id": "4005",
+      "mode": "reasoning",
+      "question": "What is the approximate difference between the peak quantile regression coefficient for Natural Resource Depletion (top-left panel) and the peak quantile regression coefficient for Domestic Credit to Private Sector (top-right panel) at their respective highest points?",
+      "num_subplots": 6,
+      "false": "0.05",
+      "gt": "0.055",
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Changed to compare peak values at quantile 0.8: natural resource depletion peak (0.13) minus domestic credit to private sector peak (0.075) = 0.055.",
+      "flag": "question_design: question doesnt match graph content \u2014 FIXED",
+      "action_needed": "REPLACE: Reasoning question needs to be rewritten or replaced with a new question that works with this figure."
+    },
+    {
+      "task_id": "4006_q13_descriptive",
+      "figure_id": "4006",
+      "mode": "descriptive",
+      "question": "What are the names of the labels in the legend (from top to bottom, then left to right)?",
+      "num_subplots": 5,
+      "false": "Australia, Austria, Belgium, Canada, Chile, Colombia, czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Latvia, Lithuania, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Slovakia, Slovenia",
+      "gt": "Australia, Colombia, France, Ireland, Lithuania, Norway, Austria, czechia, Germany, Israel, Luxembourg, Poland, Belgium, Denmark, Greece, Italy, Mexico, Portugal, Canada, Estonia, Hungary, Japan, Netherlands, Slovakia, Chile, Finland, Iceland, Latvia, New Zealand, Slovenia",
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models passed",
+      "how_fixed": "Reordered legend labels top-to-bottom then left-to-right per Q13 template. Legend is 6 rows x 5 columns.",
+      "flag": "question_design: legend reading order doesnt match template \u2014 FIXED",
+      "action_needed": "REWRITE: Update Q13 question text to specify the actual legend reading direction for this figure, or reorder the answer."
+    },
+    {
+      "task_id": "4006_reasoning",
+      "figure_id": "4006",
+      "mode": "reasoning",
+      "question": "What is the difference between the highest and lowest Financial Freedom Index values shown in 2007?",
+      "num_subplots": 5,
+      "false": "-30",
+      "gt": "50",
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Replaced country-specific question. New question asks about overall spread in 2007: max=90, min=40, difference=50. No line identification needed.",
+      "flag": "question_design: relies on line color but multiple series share colors \u2014 FIXED",
+      "action_needed": "REPLACE: Reasoning question needs to be rewritten or replaced with a new question that works with this figure."
+    },
+    {
+      "task_id": "4008_q13_descriptive",
+      "figure_id": "4008",
+      "mode": "descriptive",
+      "question": "What are the names of the labels in the legend (from top to bottom, then left to right)?",
+      "num_subplots": 5,
+      "false": "Australia, Austria, Belgium, Brazil, Canada, Switzerland, Chile, China, Colombia, Germany, Denmark, Spain, Estonia, Finland, France, United Kingdom, Greece, Hungary, India, Ireland, Iceland, Israel, Italy, Japan, Korea, Rep., Lithuania, Luxembourg, Latvia, Mexico, Netherlands, Norway, New Zealand, Poland, Portugal, Russian Federation, Slovak Republic, Slovenia, Sweden, United States, South Africa",
+      "gt": "Australia, Switzerland, Denmark, United Kingdom, Iceland, Lithuania, Norway, Slovak Republic, Austria, Chile, Spain, Greece, Israel, Luxembourg, New Zealand, Slovenia, Belgium, China, Estonia, Hungary, Italy, Latvia, Poland, Sweden, Brazil, Colombia, Finland, India, Japan, Mexico, Portugal, United States, Canada, Germany, France, Ireland, Korea, Rep., Netherlands, Russian Federation, South Africa",
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "Mixed results",
+      "how_fixed": "Reordered legend labels top-to-bottom then left-to-right per Q13 template. Legend is 8 rows x 5 columns.",
+      "flag": "question_design: legend reading order doesnt match template \u2014 FIXED",
+      "action_needed": "REWRITE: Update Q13 question text to specify the actual legend reading direction for this figure, or reorder the answer."
+    },
+    {
+      "task_id": "4008_reasoning",
+      "figure_id": "4008",
+      "mode": "reasoning",
+      "question": "What is the approximate difference between the highest bank credit value shown in 2008 and the lowest bank credit value shown in 2020?",
+      "num_subplots": 5,
+      "false": "155",
+      "gt": "210",
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models failed",
+      "how_fixed": "Replaced country-specific question. New question asks about extreme values: highest 2008\u2248230, lowest 2020\u224820, difference\u2248210. No line identification needed.",
+      "flag": "question_design: relies on line color but multiple series share colors \u2014 FIXED",
+      "action_needed": "REPLACE: Reasoning question needs to be rewritten or replaced with a new question that works with this figure."
+    },
+    {
+      "task_id": "4009_q13_descriptive",
+      "figure_id": "4009",
+      "mode": "descriptive",
+      "question": "What are the names of the labels in the legend (from top to bottom, then left to right)?",
+      "num_subplots": 5,
+      "false": "france, finland, spain, colombia, chile, slovakia, portogal, netherlands, luxembourg, japan, estonia, belgium, austria, poland, mexico, italy, israel, iceland, czech, usa, india, south africa, russia, canada",
+      "gt": "france, portogal, austria, czech, finland, netherlands, poland, usa, spain, luxembourg, mexico, india, colombia, japan, italy, south africa, chile, estonia, israel, russia, slovakia, belgium, iceland, canada",
+      "source": "charxiv_wrong.pdf",
+      "figure_qc": {
+        "image_qc_pass": true,
+        "qa_qc_pass": true
+      },
+      "model_outcome": "All models passed",
+      "how_fixed": "Reordered legend labels top-to-bottom then left-to-right per Q13 template. Legend is 4 rows x 6 columns.",
+      "flag": "question_design: legend reading order doesnt match template \u2014 FIXED",
+      "action_needed": "REWRITE: Update Q13 question text to specify the actual legend reading direction for this figure, or reorder the answer."
+    }
+  ]
+}

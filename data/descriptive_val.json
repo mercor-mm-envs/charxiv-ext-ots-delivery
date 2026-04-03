@@ -246,7 +246,7 @@
       9
     ],
     "answers": [
-      "27",
+      "25",
       "28",
       "2000",
       "200"
@@ -310,7 +310,7 @@
       3
     ],
     "answers": [
-      "29",
+      "30",
       "-5000",
       "20",
       "Net removed CO2 emissions [GtCO2]"
@@ -352,7 +352,7 @@
       9
     ],
     "answers": [
-      "28",
+      "24",
       "0",
       "10000",
       "2000"
@@ -392,9 +392,9 @@
       9
     ],
     "answers": [
-      "30",
+      "24",
       "0",
-      "12000",
+      "9000",
       "500"
     ]
   },
@@ -596,16 +596,16 @@
       1
     ],
     "qids": [
-      1,
-      2,
-      3,
-      12
+      13,
+      17,
+      6,
+      7
     ],
     "answers": [
-      "Not Applicable",
-      "Not Applicable",
-      "Not Applicable",
-      "Not Applicable"
+      "Exports (left), Quota Level (left), Number of NTMs (right)",
+      "20",
+      "0",
+      "70,000"
     ]
   },
   "3041": {
@@ -740,7 +740,7 @@
       1
     ],
     "answers": [
-      "23",
+      "21",
       "140",
       "180",
       "NVDA Stock Price (June - Sept 2025)"
@@ -783,7 +783,7 @@
       1
     ],
     "answers": [
-      "114",
+      "84",
       "-2.0",
       "2.0",
       "DSLOB Benchmark \u2014 Prediction Scatter, All 6 Models (Test Set \u2014 Crash Regime)"
@@ -808,7 +808,7 @@
       9
     ],
     "answers": [
-      "140",
+      "107",
       "0.00",
       "0.04",
       "0.01"
@@ -830,7 +830,7 @@
     ],
     "answers": [
       "LSTM, Transformer, NS-Transformer, Informer, ARTEMIS, Chronos-2",
-      "30",
+      "28",
       "0.0025",
       "0.0055"
     ]
@@ -850,9 +850,9 @@
     ],
     "answers": [
       "\u03b8 = 0.3, \u03b8 = 1, \u03b8 = 1.5",
-      "24",
+      "26",
       "0.007",
-      "0"
+      "0.0005"
     ]
   },
   "3054": {
@@ -908,7 +908,7 @@
     ],
     "answers": [
       "LS count, LP count, LS interest, LP interest",
-      "15",
+      "11",
       "0",
       "100"
     ]
@@ -937,7 +937,7 @@
     ],
     "answers": [
       "Molecular Weight, Isoelectric Point (PI), GRAVY, Aromaticity, Instability Index, Disulfide Bonds, Molecular Volume, Alpha-Helix, BetaSheet, Random Coil, generate_Ecoli, pos_Ecoli, neg_Ecoli, generate_Saureus, pos_Saureus, neg_Saureus, Cecropin, Cecropin_Improve",
-      "96",
+      "93",
       "0",
       "1.0"
     ]
@@ -983,7 +983,7 @@
       9
     ],
     "answers": [
-      "106",
+      "76",
       "0",
       "0.5",
       "0.1"
@@ -991,21 +991,25 @@
   },
   "3062": {
     "figure_id": 3062,
-    "num_subplots": 1,
+    "num_subplots": 5,
     "subplot_loc": [
-      1
+      1,
+      2,
+      3,
+      4,
+      5
     ],
     "qids": [
-      3,
+      1,
       2,
-      5,
-      1
+      3,
+      4
     ],
     "answers": [
-      "Not Applicable",
-      "Not Applicable",
-      "Not Applicable",
-      "Not Applicable"
+      "Dataset timeseries: 2023-01-23-15",
+      "t (min)",
+      "x_i(t)",
+      "2"
     ]
   },
   "3063": {
@@ -1025,7 +1029,7 @@
     ],
     "answers": [
       "HydrAMP, LLM-Based, DiffAMP, Latent Diffusion, PPGC-DVAE, Our Model",
-      "50",
+      "34",
       "0",
       "80"
     ]
@@ -1056,9 +1060,9 @@
     ],
     "answers": [
       "fraction time in Forward, fraction time in Reversal",
-      "142",
-      "-2000",
-      "2500"
+      "158",
+      "-2",
+      "2"
     ]
   },
   "3065": {
@@ -1080,7 +1084,7 @@
     ],
     "answers": [
       "\u2202 ERK/\u2202 x, \u2202 \u03c1/\u2202 x, \u2202 v_x\u00b2/\u2202 x\u00b2, \u2202 v_x\u00b2/\u2202 y\u00b2, v_x",
-      "52",
+      "37",
       "-0.2",
       "0.3"
     ]
@@ -1101,7 +1105,7 @@
     ],
     "answers": [
       "S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11",
-      "25",
+      "26",
       "0",
       "0.48"
     ]
@@ -1143,7 +1147,7 @@
       9
     ],
     "answers": [
-      "37",
+      "39",
       "0.00",
       "1.00",
       "0.25"
@@ -1185,8 +1189,8 @@
     ],
     "answers": [
       "Mean, \u00b13 Std, GT, xRIR",
-      "48",
-      "-55",
+      "28",
+      "-50",
       "-20"
     ]
   },
@@ -1207,13 +1211,13 @@
       13,
       17,
       3,
-      9
+      10
     ],
     "answers": [
       "Mean, \u00b13 Std, GT, xRIR",
-      "80",
-      "Magnitude",
-      "4"
+      "56",
+      "Not Applicable",
+      "3"
     ]
   },
   "3074": {
@@ -1230,7 +1234,7 @@
     ],
     "answers": [
       "Simulation IoT 1, Simulation IoT 2, Theoretical",
-      "19",
+      "23",
       "10^-6",
       "10"
     ]
@@ -1268,7 +1272,7 @@
     ],
     "answers": [
       "Energy Loss Costs, Degradation Costs, Decommissioning Costs, Overall",
-      "11",
+      "9",
       "$0.00",
       "$250.00"
     ]
@@ -1357,7 +1361,7 @@
     "answers": [
       "DBO",
       "EDBO",
-      "14000",
+      "12",
       "4000"
     ]
   },
@@ -1395,7 +1399,7 @@
     ],
     "answers": [
       "From differential equation, From proposed steady-state solution, Conventional method, Proposed metric",
-      "36",
+      "28",
       "-100",
       "1"
     ]
@@ -1548,7 +1552,7 @@
     ],
     "answers": [
       "Nominal, \u0394m_W=+60 MeV, \u0394m_W=-60 MeV, \u0394\u0393_W=+200 MeV, \u0394\u0393_W=-200 MeV",
-      "24",
+      "19",
       "0.99",
       "Fraction of events"
     ]
@@ -1566,7 +1570,7 @@
       2
     ],
     "answers": [
-      "5",
+      "3",
       "80200",
       "80600",
       "m_W [MeV]"
@@ -1586,7 +1590,7 @@
     ],
     "answers": [
       "CT14, MMHT2014, NNPDF3.1",
-      "17",
+      "20",
       "0.94",
       "1.1"
     ]
@@ -1606,8 +1610,8 @@
     ],
     "answers": [
       "Data, W\u207a\u2192e\u207a\u03bd\u2091, W\u207a\u2192\u03c4\u207a\u03bd\u03c4, Backgrounds, Post-fit ratio, Pre-fit ratio, Stat \u2295 Syst",
-      "15",
-      "0",
+      "11",
+      "0.98",
       "400"
     ]
   },
@@ -1625,7 +1629,7 @@
     ],
     "answers": [
       "Gaussian, MEM, Unsupervised learning, Multipoint",
-      "17",
+      "13",
       "0.00",
       "0.16"
     ]
@@ -1678,7 +1682,7 @@
       7
     ],
     "answers": [
-      "180",
+      "135",
       "2",
       "20",
       "20"
@@ -1701,9 +1705,9 @@
       9
     ],
     "answers": [
-      "50",
+      "40",
       "-2",
-      "7",
+      "5",
       "1"
     ]
   },
@@ -1722,13 +1726,13 @@
       17,
       6,
       7,
-      9
+      1
     ],
     "answers": [
       "28",
       "-1.5",
       "4",
-      "0.5"
+      "Monetary Policy Effect on GDP"
     ]
   },
   "4004": {
@@ -1746,13 +1750,13 @@
       17,
       6,
       7,
-      9
+      3
     ],
     "answers": [
-      "36",
+      "41",
       "0",
       ".4",
-      "0.1"
+      "Density"
     ]
   },
   "4005": {
@@ -1770,13 +1774,13 @@
       17,
       6,
       7,
-      9
+      2
     ],
     "answers": [
-      "76",
+      "56",
       "-0.05",
       "0.15",
-      "0.05"
+      "Quantile"
     ]
   },
   "4006": {
@@ -1796,7 +1800,7 @@
       7
     ],
     "answers": [
-      "Australia, Austria, Belgium, Canada, Chile, Colombia, czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Latvia, Lithuania, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Slovakia, Slovenia",
+      "Australia, Colombia, France, Ireland, Lithuania, Norway, Austria, czechia, Germany, Israel, Luxembourg, Poland, Belgium, Denmark, Greece, Italy, Mexico, Portugal, Canada, Estonia, Hungary, Japan, Netherlands, Slovakia, Chile, Finland, Iceland, Latvia, New Zealand, Slovenia",
       "20",
       "40",
       "100"
@@ -1820,7 +1824,7 @@
     ],
     "answers": [
       "brazil, China, India, Russian Federation, South Africa",
-      "21",
+      "22",
       "-3",
       "4"
     ]
@@ -1842,7 +1846,7 @@
       7
     ],
     "answers": [
-      "Australia, Austria, Belgium, Brazil, Canada, Switzerland, Chile, China, Colombia, Germany, Denmark, Spain, Estonia, Finland, France, United Kingdom, Greece, Hungary, India, Ireland, Iceland, Israel, Italy, Japan, Korea, Rep., Lithuania, Luxembourg, Latvia, Mexico, Netherlands, Norway, New Zealand, Poland, Portugal, Russian Federation, Slovak Republic, Slovenia, Sweden, United States, South Africa",
+      "Australia, Switzerland, Denmark, United Kingdom, Iceland, Lithuania, Norway, Slovak Republic, Austria, Chile, Spain, Greece, Israel, Luxembourg, New Zealand, Slovenia, Belgium, China, Estonia, Hungary, Italy, Latvia, Poland, Sweden, Brazil, Colombia, Finland, India, Japan, Mexico, Portugal, United States, Canada, Germany, France, Ireland, Korea, Rep., Netherlands, Russian Federation, South Africa",
       "20",
       "0",
       "250"
@@ -1865,8 +1869,8 @@
       7
     ],
     "answers": [
-      "france, finland, spain, colombia, chile, slovakia, portogal, netherlands, luxembourg, japan, estonia, belgium, austria, poland, mexico, italy, israel, iceland, czech, usa, india, south africa, russia, canada",
-      "19",
+      "france, portogal, austria, czech, finland, netherlands, poland, usa, spain, luxembourg, mexico, india, colombia, japan, italy, south africa, chile, estonia, israel, russia, slovakia, belgium, iceland, canada",
+      "11",
       "2007",
       "2020"
     ]
@@ -1889,7 +1893,7 @@
       5
     ],
     "answers": [
-      "18",
+      "121",
       "Country",
       "1960",
       "2020"
@@ -1916,7 +1920,7 @@
       7
     ],
     "answers": [
-      "180",
+      "147",
       "2",
       "20",
       ".07"
@@ -1943,7 +1947,7 @@
     ],
     "answers": [
       "1-period ahead, 6-period, 12-period",
-      "88",
+      "63",
       "-0.10",
       "0.05"
     ]
@@ -1969,9 +1973,9 @@
     ],
     "answers": [
       "2003.3, 2012.9, 2022.2",
-      "160",
+      "56",
       "-0.10",
-      "0.05"
+      "0"
     ]
   },
   "5003": {
@@ -1992,13 +1996,13 @@
       17,
       6,
       7,
-      9
+      5
     ],
     "answers": [
-      "72",
+      "79",
       "0",
-      "200",
-      "20"
+      "100",
+      "2024"
     ]
   },
   "5004": {
@@ -2023,7 +2027,7 @@
     ],
     "answers": [
       "76",
-      "0",
+      "8",
       "100",
       "1990"
     ]
@@ -2061,7 +2065,7 @@
       1
     ],
     "answers": [
-      "358",
+      "309",
       "1",
       "10",
       "Response to Cholesky One S.D. (d.f. adjusted) Innovations 95% CI using analytic asymptotic S.E.s"

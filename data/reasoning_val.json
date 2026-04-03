@@ -16,7 +16,7 @@
   "3001": {
     "figure_id": 3001,
     "query": "What is the difference between the peak value of Frozen Strawberries and the peak value of Frozen Orange Juice across all years?",
-    "answer": "3",
+    "answer": "1",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -65,7 +65,7 @@
   "3009": {
     "figure_id": 3009,
     "query": "What is the approximate difference between the highest y-axis value reached by lnFDI (in the Kenya section) and the lowest y-axis value reached by lnIMP (in the Kenya section)?",
-    "answer": "2",
+    "answer": "4",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -114,7 +114,7 @@
   "3013_b": {
     "figure_id": 3013,
     "query": "In approximately which year did the UK GDP first exceed 1800 billion GBP according to the left panel?",
-    "answer": "2015",
+    "answer": "2013",
     "inst_category": 3,
     "qa_source": 3
   },
@@ -170,7 +170,7 @@
   "3028": {
     "figure_id": 3028,
     "query": "In the right panel, at approximately t=2000, what is the difference in S(t) between the curve with the highest survival probability (7_5) and the curve with the lowest survival probability (2_7)?",
-    "answer": "0.35",
+    "answer": "0.3",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -184,7 +184,7 @@
   "3029": {
     "figure_id": 3029,
     "query": "In the right panel (line chart), what is the approximate difference in mean survival time between female (F) donors of ethnicity 998 and female donors of ethnicity 9?",
-    "answer": "2300",
+    "answer": "1500",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -198,14 +198,14 @@
   "3030_b": {
     "figure_id": 3030,
     "query": "What is the approximate survival probability of the KM Kidney Survival curve at 10 years post kidney transplant?",
-    "answer": "0.68",
+    "answer": "0.72",
     "inst_category": 3,
     "qa_source": 3
   },
   "3031": {
     "figure_id": 3031,
     "query": "What is the approximate difference between the highest average default rate of Gyeonggi at Month 1 and the lowest average default rate of Sejong at Month 1?",
-    "answer": "34",
+    "answer": "40",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -254,7 +254,7 @@
   "3038": {
     "figure_id": 3038,
     "query": "In the left line chart (NVDA Stock Price June-Sept 2025), what is the approximate price increase in dollars from the lowest point in the July period to the highest point shown on the chart around October 2025?",
-    "answer": "40",
+    "answer": "33",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -262,13 +262,6 @@
     "figure_id": 3039,
     "query": "What is the range (difference between the highest and lowest labeled tick values) on the y-axis of the heatmap subplot?",
     "answer": "8",
-    "inst_category": 4,
-    "qa_source": 3
-  },
-  "3040": {
-    "figure_id": 3040,
-    "query": "If the fridge is located at position 0 on a horizontal axis and the target goal is 2 meters to the right, what would be the total distance in meters if someone needed to go to the target goal and back to the fridge?",
-    "answer": "4",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -282,14 +275,14 @@
   "3042": {
     "figure_id": 3042,
     "query": "What is the difference between the highest IECGA value and the lowest IECGA value across all datasets?",
-    "answer": "23.95",
+    "answer": "24.05",
     "inst_category": 4,
     "qa_source": 3
   },
   "3043": {
     "figure_id": 3043,
     "query": "What is the difference in 'No FS-Accuracy %' between the dataset with the highest value (PC3) and the dataset with the lowest value (MC2)?",
-    "answer": "27",
+    "answer": "22",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -338,14 +331,14 @@
   "3051": {
     "figure_id": 3051,
     "query": "In the A6 MLP subplot, what is the approximate difference in MSE Loss between the validation curve and the training curve at Epoch 1?",
-    "answer": "0.01",
+    "answer": "0.005",
     "inst_category": 4,
     "qa_source": 3
   },
   "3052": {
     "figure_id": 3052,
     "query": "What is the approximate difference in RMSE between ARTEMIS and Chronos-2 in the Crash (test) regime?",
-    "answer": "0.0022",
+    "answer": "0.0017",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -359,7 +352,7 @@
   "3054": {
     "figure_id": 3054,
     "query": "In Panel A, what is the approximate difference between the highest value reached by the Upper Bound (LHS) and the highest value reached by the Lower Bound (LHS)?",
-    "answer": "1500",
+    "answer": "1750",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -387,14 +380,14 @@
   "3058": {
     "figure_id": 3058,
     "query": "What is the approximate difference between the LS interest rate and the LP interest rate at Jan 2023, as read from the right y-axis?",
-    "answer": "0.04",
+    "answer": "0.05",
     "inst_category": 4,
     "qa_source": 3
   },
   "3059": {
     "figure_id": 3059,
     "query": "In panel C (left, E. coli histogram), what is the approximate difference between the peak Predicted_MIC value for pos_Ecoli and the peak Predicted_MIC value for generate_Ecoli?",
-    "answer": "5",
+    "answer": "9",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -436,7 +429,7 @@
   "3063_b": {
     "figure_id": 3063,
     "query": "Which model achieves the lowest median predicted MIC for S. aureus in panel B?",
-    "answer": "Our Model",
+    "answer": "LLM-Based",
     "inst_category": 1,
     "qa_source": 3
   },
@@ -513,7 +506,7 @@
   "3074": {
     "figure_id": 3074,
     "query": "Approximately how many orders of magnitude does the Outage Probability of Simulation IoT 2 (ideal HWI, solid magenta line) decrease from Pt = 0 dBm to Pt = 30 dBm?",
-    "answer": "3",
+    "answer": "2",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -541,7 +534,7 @@
   "3080": {
     "figure_id": 3080,
     "query": "In subplot (a), what is the approximate difference in peak probability density between the Original (R1) curve and the Original (R2) curve?",
-    "answer": "0.004",
+    "answer": "0.003",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -576,7 +569,7 @@
   "3083_b": {
     "figure_id": 3083,
     "query": "In the top subplot, at approximately what final time does the RCN curve computed from the differential equation level off to its steady-state value near 1\u00d710\u207b\u00b9\u2078?",
-    "answer": "20",
+    "answer": "16",
     "inst_category": 3,
     "qa_source": 3
   },
@@ -618,7 +611,7 @@
   "3089": {
     "figure_id": 3089,
     "query": "What is the approximate difference in \u03c1(\u03c9)/\u03c9 between the Gaussian method and the Unsupervised learning method at \u03c9/T = 30?",
-    "answer": "0.03",
+    "answer": "0",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -632,7 +625,7 @@
   "3091": {
     "figure_id": 3091,
     "query": "In the upper panel, what is the approximate ratio of the peak fraction of events (around p_T^l \u2248 39 GeV) to the fraction of events at p_T^l = 32 GeV for the Nominal distribution?",
-    "answer": "1.6",
+    "answer": "1.5",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -653,7 +646,7 @@
   "3094": {
     "figure_id": 3094,
     "query": "In the upper panel, approximately what is the ratio of the peak number of events per GeV (\u00d710\u00b3) to the value at the leftmost bin (pT \u2248 30 GeV)?",
-    "answer": "1.7",
+    "answer": "1.6",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -701,8 +694,8 @@
   },
   "4003": {
     "figure_id": 4003,
-    "query": "In the left panel (Monetary Policy Effect on GDP), what is the approximate difference in GDP_per_Capita between Francophone and Anglophone countries when Broad_Money equals 5?",
-    "answer": "3.0",
+    "query": "In the right panel (Trade Effect on GDP), what is the approximate difference in GDP_per_Capita between Francophone and Anglophone countries when Trade equals 2?",
+    "answer": "1.75",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -715,15 +708,15 @@
   },
   "4005": {
     "figure_id": 4005,
-    "query": "What is the approximate difference between the peak quantile regression coefficient for Natural Resource Depletion (top-left panel) and the peak quantile regression coefficient for Domestic Credit to Private Sector (top-right panel) at their respective highest points?",
-    "answer": "0.05",
+    "query": "At quantile 0.8, what is the difference between the peak coefficient value for natural resource depletion and the peak coefficient value for domestic credit to the private sector?",
+    "answer": "0.055",
     "inst_category": 4,
     "qa_source": 3
   },
   "4006": {
     "figure_id": 4006,
-    "query": "What is the difference between Australia's Financial Freedom Index in 2007 and its value in 2019?",
-    "answer": "-30",
+    "query": "What is the difference between the highest and lowest Financial Freedom Index values shown in 2007?",
+    "answer": "50",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -737,21 +730,21 @@
   "4007": {
     "figure_id": 4007,
     "query": "What is the approximate difference between the Russian Federation's highest FDI net outflow value and its lowest FDI net outflow value across all years shown?",
-    "answer": "3.7",
+    "answer": "2.8",
     "inst_category": 4,
     "qa_source": 3
   },
   "4007_b": {
     "figure_id": 4007,
     "query": "In which year does Brazil show the most negative (lowest) FDI net outflow value?",
-    "answer": "20,20",
+    "answer": "2020",
     "inst_category": 1,
     "qa_source": 3
   },
   "4008": {
     "figure_id": 4008,
-    "query": "What is the approximate difference between Ireland's bank credit to the private sector in 2007 and in 2020?",
-    "answer": "155",
+    "query": "What is the approximate difference between the highest bank credit value shown in 2008 and the lowest bank credit value shown in 2020?",
+    "answer": "210",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -779,7 +772,7 @@
   "5000": {
     "figure_id": 5000,
     "query": "In the 'Response of LNCEA to LNCEA' subplot, what is the approximate difference between the peak response value (around period 2) and the stabilized response value (around period 20)?",
-    "answer": "0.04",
+    "answer": "0.035",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -793,7 +786,7 @@
   "5001_b": {
     "figure_id": 5001,
     "query": "In the right-column subplot for \u03b5_GPHA \u2192 TotalBeta, what is the approximate minimum y-axis value reached by the 1-period ahead (red solid) line around 2010?",
-    "answer": "-0.10",
+    "answer": "-0.075",
     "inst_category": 3,
     "qa_source": 3
   },
@@ -807,7 +800,7 @@
   "5002_b": {
     "figure_id": 5002,
     "query": "In the subplot showing \u03b5_GPHA \u2192 TotalBeta, which time period (color/series) shows the most negative initial impulse response at time 0?",
-    "answer": "2022.2",
+    "answer": "2003.3",
     "inst_category": 1,
     "qa_source": 3
   },
@@ -870,7 +863,7 @@
   "3112_b": {
     "figure_id": 3112,
     "query": "what is the approximate observed test value of the most extreme outlier (farthest from the red diagonal line) in panel A?",
-    "answer": "1.9",
+    "answer": "2.4",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -900,6 +893,20 @@
     "query": "how many countries had a higher value in 2021 than in 2006?",
     "answer": "2",
     "inst_category": 4,
+    "qa_source": 3
+  },
+  "3040": {
+    "figure_id": 3040,
+    "query": "What is the approximate difference in tonnes between the peak Quota Level and the peak Exports value observed in the chart?",
+    "answer": "11000",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3040_b": {
+    "figure_id": 3040,
+    "query": "What is the highest labeled tick value on the right y-axis (Number)?",
+    "answer": "24",
+    "inst_category": 3,
     "qa_source": 3
   }
 }
