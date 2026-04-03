@@ -8,7 +8,11 @@ April 2026
 
 The dataset was evaluated across 100 figures and 497 tasks using three frontier models (Claude Opus 4.6, GPT-5.4, Gemini 3.1 Pro Preview). QC was run on both image quality and answer quality.
 
+![Model Pass Rates](figures/fig1_model_pass_rates.png)
+
 ### 1a. QC Pass Rates
+
+![QC Pass Rates](figures/fig3_qc_pass_rates.png)
 
 | Check | Pass | Total | Rate |
 |-------|------|-------|------|
@@ -36,6 +40,8 @@ Several question types lack specificity on multi-panel figures. Q9 (y-axis tick 
 After applying 78 ground truth corrections, some tasks previously classified as all-model failures may have had correct model answers graded against wrong ground truth. True model accuracy is 2-5 percentage points higher than the pre-correction figures above.
 
 ---
+
+![Correction Breakdown](figures/fig2_correction_breakdown.png)
 
 ## 2. Corrections Summary
 
