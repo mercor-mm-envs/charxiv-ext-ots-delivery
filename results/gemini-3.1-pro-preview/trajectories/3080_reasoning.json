@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "In subplot (a), what is the approximate difference in peak probability density between the Original (R1) curve and the Original (R2) curve?",
-  "ground_truth": "0.004",
+  "ground_truth": "0.003",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Based on subplot (a):\n\n1.  **Identify the curves:** The legend indicates that the **Original (R1)** curve is the solid blue line and the **Original (R2)** curve is the solid orange line.\n2.  **Find the peak for Original (R1):** The highest point of the solid blue line on the y-axis (Probability density) is approximately at the **0.007** mark.\n3.  **Find the peak for Original (R2):** The highest point of the solid orange line on the y-axis is approximately at the **0.005** mark.\n4.  **Calculate the difference:** Subtract the peak value of Original (R2) from that of Original (R1):\n    $$0.007 - 0.005 = 0.002$$\n\n0.002",
-  "grader_explanation": "ground_truth='0.004' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='0.003' | extracted='' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

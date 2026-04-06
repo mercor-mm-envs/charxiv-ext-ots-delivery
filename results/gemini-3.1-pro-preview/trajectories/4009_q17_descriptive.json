@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "19",
+  "ground_truth": "11",
   "model_answer": "19",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "Based on the image provided, here is the count of explicitly labeled ticks on each axis:\n\n*   **Y-axis (years):** There are **14** labeled ticks (from 2020 down to 2007).\n*   **X-axis (Imports):** There are **5** labeled ticks (1,000,000, 21,000,000, 41,000,000, 61,000,000, 81,000,000).\n\nAdding these together, the total number of explicitly labeled ticks across all axes is 14 + 5 = **19**.\n\n19",
-  "grader_explanation": "ground_truth='19' | extracted='19' | score=1",
+  "grader_explanation": "ground_truth='11' | extracted='19' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

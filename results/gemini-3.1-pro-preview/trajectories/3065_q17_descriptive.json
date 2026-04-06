@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "52",
+  "ground_truth": "37",
   "model_answer": "47",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Based on the image provided, here is the count of explicitly labeled ticks across all axes:\n\n1.  **Panel A (Heatmaps - Colorbars):**\n    *   **Orthogonal to wound colorbar:** 5 ticks (1, 0.5, 0, -0.5, -1)\n    *   **Parallel to wound colorbar:** 5 ticks (1, 0.5, 0, -0.5, -1)\n\n2.  **Panel B (PCA Plot):**\n    *   **y-axis:** 8 ticks (0.2, 0.15, 0.1, 0.05, 0, -0.05, -0.1, -0.15)\n    *   **x-axis:** 9 ticks (-0.2, -0.15, -0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2)\n\n3.  **Panel C (Line Plot 1):**\n    *   **y-axis:** 6 ticks (0.3, 0.2, 0.1, 0, -0.1, -0.2)\n    *   **x-axis:** 4 ticks (0, 5, 10, 15)\n\n4.  **Panel D (Line Plot 2):**\n    *   **y-axis:** 6 ticks (0.3, 0.2, 0.1, 0, -0.1, -0.2)\n    *   **x-axis:** 4 ticks (0, 5, 10, 15)\n\n*Note: The small \"Response function\" plots in Panel A do not have explicitly labeled ticks, and text annotations like \"high\" and \"low\" are not tick marks.*\n\nTotal = 5 + 5 + 8 + 9 + 6 + 4 + 6 + 4 = 47\n\n**47**",
-  "grader_explanation": "ground_truth='52' | extracted='47' | score=0",
+  "grader_explanation": "ground_truth='37' | extracted='47' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

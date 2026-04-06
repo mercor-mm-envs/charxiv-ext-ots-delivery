@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "What is the approximate difference between Ireland's bank credit to the private sector in 2007 and in 2020?",
-  "ground_truth": "155",
+  "ground_truth": "210",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "From the chart, Ireland is approximately:\n\n- **2007:** 95\n- **2020:** 34\n\nDifference: **95 - 34 = 61**\n\n**61**",
-  "grader_explanation": "ground_truth='155' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='210' | extracted='' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

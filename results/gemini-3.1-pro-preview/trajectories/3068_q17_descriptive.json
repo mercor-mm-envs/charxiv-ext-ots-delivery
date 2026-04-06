@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "37",
+  "ground_truth": "39",
   "model_answer": "49",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Based on the provided plot, here is the count of explicitly labeled ticks across all axes (including the colorbars, which function as axes for the color scales):\n\n*   **Subplot A:**\n    *   Y-axis (Sensitivity index): 5 ticks (0.00, 0.25, 0.50, 0.75, 1.00)\n    *   X-axis (Variables): 8 ticks\n*   **Subplot B:**\n    *   Colorbar axis (Sensitivity index): 5 ticks (0.00, 0.02, 0.04, 0.06, 0.08)\n    *   Y-axis (Variables): 8 ticks\n    *   X-axis (Variables): 8 ticks\n*   **Subplot C:**\n    *   Colorbar axis ($i_{max}$): 5 ticks (0.00, 0.25, 0.50, 0.75, 1.00)\n    *   Y-axis (First case timing): 5 ticks (0.00, 0.25, 0.50, 0.75, 1.00)\n    *   X-axis (Seasonality strength): 5 ticks (0.00, 0.25, 0.50, 0.75, 1.00)\n\nTotal = 5 + 8 + 5 + 8 + 8 + 5 + 5 + 5 = 49\n\n**49**",
-  "grader_explanation": "ground_truth='37' | extracted='49' | score=0",
+  "grader_explanation": "ground_truth='39' | extracted='49' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "180",
+  "ground_truth": "147",
   "model_answer": "180",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "180",
-  "grader_explanation": "ground_truth='180' | extracted='180' | score=1",
+  "grader_explanation": "ground_truth='147' | extracted='180' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the spatially lowest labeled tick on the y-axis?",
-  "ground_truth": "-2000",
+  "ground_truth": "-2",
   "model_answer": "-2000",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "-2000",
-  "grader_explanation": "ground_truth='-2000' | extracted='-2000' | score=1",
+  "grader_explanation": "ground_truth='-2' | extracted='-2000' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

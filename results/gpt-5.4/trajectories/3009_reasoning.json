@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "What is the approximate difference between the highest y-axis value reached by lnFDI (in the Kenya section) and the lowest y-axis value reached by lnIMP (in the Kenya section)?",
-  "ground_truth": "2",
+  "ground_truth": "4",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "In the Kenya section:\n\n- **lnFDI** reaches a highest value of about **5**\n- **lnIMP** reaches a lowest value of about **6**\n\nApproximate difference:\n\n**5 - 6 = -1**\n\nSince they ask for the difference between the highest lnFDI value and the lowest lnIMP value, the magnitude is approximately:\n\n**1**",
-  "grader_explanation": "ground_truth='2' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='4' | extracted='' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

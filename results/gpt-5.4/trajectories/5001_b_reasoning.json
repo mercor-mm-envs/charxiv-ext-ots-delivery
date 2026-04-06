@@ -5,12 +5,12 @@
   "inst_category": 3,
   "inst_category_name": "NiC",
   "question": "In the right-column subplot for \u03b5_GPHA \u2192 TotalBeta, what is the approximate minimum y-axis value reached by the 1-period ahead (red solid) line around 2010?",
-  "ground_truth": "-0.10",
+  "ground_truth": "-0.075",
   "model_answer": "",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "In the right-column **\u03b5_GPHA \u2192 TotalBeta** subplot, the **1-period ahead** red solid line reaches a minimum around 2010 of approximately **-0.10**.",
-  "grader_explanation": "ground_truth='-0.10' | extracted='' | score=1",
+  "grader_explanation": "ground_truth='-0.075' | extracted='' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

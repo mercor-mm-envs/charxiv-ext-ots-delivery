@@ -1814,5 +1814,11 @@
         "accuracy": 100.0
       }
     }
+  },
+  "post_correction": {
+    "total": 497,
+    "correct": 341,
+    "accuracy": 68.6,
+    "note": "Re-graded against corrected ground truth. Original breakdowns above are pre-correction."
   }
 }

@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "In Panel A, what is the approximate difference between the highest value reached by the Upper Bound (LHS) and the highest value reached by the Lower Bound (LHS)?",
-  "ground_truth": "1500",
+  "ground_truth": "1750",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "In Panel A, the **Upper Bound (LHS)** peaks at about **3900**, and the **Lower Bound (LHS)** peaks at about **2300**.\n\nSo the approximate difference is:\n\n**3900 - 2300 = 1600**\n\n**Final answer: 1600**",
-  "grader_explanation": "ground_truth='1500' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='1750' | extracted='' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

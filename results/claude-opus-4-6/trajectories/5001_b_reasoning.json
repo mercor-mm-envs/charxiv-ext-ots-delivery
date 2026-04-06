@@ -5,12 +5,12 @@
   "inst_category": 3,
   "inst_category_name": "NiC",
   "question": "In the right-column subplot for \u03b5_GPHA \u2192 TotalBeta, what is the approximate minimum y-axis value reached by the 1-period ahead (red solid) line around 2010?",
-  "ground_truth": "-0.10",
+  "ground_truth": "-0.075",
   "model_answer": "",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "Looking at the right-column subplot for **\u03b5_GPHA \u2192 TotalBeta** (second row, right side), I need to find the minimum y-axis value of the red solid line (1-period ahead) around 2010.\n\nThe y-axis has gridlines at 0.00, -0.05, and -0.10. Around 2010, the red solid line dips to its lowest point, which appears to reach approximately **-0.10**.\n\nThe approximate minimum y-axis value reached by the 1-period ahead (red solid) line around 2010 is **-0.10**.",
-  "grader_explanation": "ground_truth='-0.10' | extracted='' | score=1",
+  "grader_explanation": "ground_truth='-0.075' | extracted='' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

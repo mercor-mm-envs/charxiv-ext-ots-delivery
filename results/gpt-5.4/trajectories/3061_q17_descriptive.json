@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "106",
+  "ground_truth": "76",
   "model_answer": "83",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Count the explicitly labeled ticks visible on each axis:\n\nPanels:\n- (A): x-axis 11 labels, y-axis 11 labels\n- (B): x-axis 11 labels, y-axis 0 labels\n- (C): x-axis 11 labels, y-axis 0 labels\n- (D): x-axis 11 labels, y-axis 11 labels\n- (E): x-axis 11 labels, y-axis 0 labels\n\nColorbar:\n- 6 labeled ticks: 0, 0.1, 0.2, 0.3, 0.4, 0.5\n\nTotal:\n- X-axis labels: 5 \u00d7 11 = 55\n- Y-axis labels: 2 \u00d7 11 = 22\n- Colorbar: 6\n\nGrand total = 55 + 22 + 6 = **83**",
-  "grader_explanation": "ground_truth='106' | extracted='83' | score=0",
+  "grader_explanation": "ground_truth='76' | extracted='83' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

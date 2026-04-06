@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the spatially highest labeled tick on the y-axis?",
-  "ground_truth": "12000",
+  "ground_truth": "9000",
   "model_answer": "3500",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "3500",
-  "grader_explanation": "ground_truth='12000' | extracted='3500' | score=0",
+  "grader_explanation": "ground_truth='9000' | extracted='3500' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

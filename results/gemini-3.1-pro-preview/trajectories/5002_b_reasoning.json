@@ -5,12 +5,12 @@
   "inst_category": 1,
   "inst_category_name": "TiG",
   "question": "In the subplot showing \u03b5_GPHA \u2192 TotalBeta, which time period (color/series) shows the most negative initial impulse response at time 0?",
-  "ground_truth": "2022.2",
+  "ground_truth": "2003.3",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Based on the subplot titled **\u03b5_GPHA \u2191 \u2192 TotalBeta** (second row, right column), the initial impulse response at time 0 is represented by the points on the y-axis where x=0.\n\n*   The cyan line (2022.2) is slightly above 0.\n*   The light green dashed line (2012.9) is around -0.015.\n*   The red solid line is the lowest, starting around -0.12.\n\nAccording to the legend in the top-left subplot, the red solid line corresponds to **2003.3**. Therefore, it shows the most negative initial impulse response.\n\n2003.3",
-  "grader_explanation": "ground_truth='2022.2' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='2003.3' | extracted='' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

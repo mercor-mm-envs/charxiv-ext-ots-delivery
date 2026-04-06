@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "In the left panel (Monetary Policy Effect on GDP), what is the approximate difference in GDP_per_Capita between Francophone and Anglophone countries when Broad_Money equals 5?",
-  "ground_truth": "3.0",
+  "ground_truth": "1.75",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Looking at the left panel at Broad_Money = 5:\n\n- **Francophone (blue line):** GDP_per_Capita \u2248 3.3\n- **Anglophone (orange line):** GDP_per_Capita \u2248 0.4\n\nDifference = 3.3 - 0.4 = **2.9**\n\nThe approximate difference is **2.9**.",
-  "grader_explanation": "ground_truth='3.0' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='1.75' | extracted='' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

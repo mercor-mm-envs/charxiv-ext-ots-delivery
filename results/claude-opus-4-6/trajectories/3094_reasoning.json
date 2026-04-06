@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "In the upper panel, approximately what is the ratio of the peak number of events per GeV (\u00d710\u00b3) to the value at the leftmost bin (pT \u2248 30 GeV)?",
-  "ground_truth": "1.7",
+  "ground_truth": "1.6",
   "model_answer": "",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "Looking at the upper panel:\n\n- **Peak value**: The peak occurs around pT \u2248 37-39 GeV, where the number of events per GeV reaches approximately **280 \u00d7 10\u00b3**.\n\n- **Leftmost bin value** (pT \u2248 30 GeV): The value at the leftmost bin is approximately **165 \u00d7 10\u00b3**.\n\n**Ratio** = 280 / 165 \u2248 **1.7**\n\n$$\\boxed{1.7}$$",
-  "grader_explanation": "ground_truth='1.7' | extracted='' | score=1",
+  "grader_explanation": "ground_truth='1.6' | extracted='' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

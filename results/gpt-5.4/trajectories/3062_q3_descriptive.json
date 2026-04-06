@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the label of the y-axis?",
-  "ground_truth": "Not Applicable",
+  "ground_truth": "x_i(t)",
   "model_answer": "Not Applicable",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "Not Applicable",
-  "grader_explanation": "ground_truth='Not Applicable' | extracted='Not Applicable' | score=1",
+  "grader_explanation": "ground_truth='x_i(t)' | extracted='Not Applicable' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

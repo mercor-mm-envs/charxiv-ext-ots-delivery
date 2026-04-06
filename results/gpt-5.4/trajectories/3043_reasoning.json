@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "What is the difference in 'No FS-Accuracy %' between the dataset with the highest value (PC3) and the dataset with the lowest value (MC2)?",
-  "ground_truth": "27",
+  "ground_truth": "22",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "PC3 has the highest No FS-Accuracy at **98%**, and MC2 has the lowest at **74%**.\n\n**Difference = 98 - 74 = 24**",
-  "grader_explanation": "ground_truth='27' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='22' | extracted='' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

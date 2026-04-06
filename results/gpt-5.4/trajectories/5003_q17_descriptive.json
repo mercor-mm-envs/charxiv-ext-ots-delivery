@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "72",
+  "ground_truth": "79",
   "model_answer": "88",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Each of the 9 subplots has:\n\n- **4 labeled x-axis ticks**: 2018, 2020, 2022, 2024\n- **Y-axis labeled ticks**:\n  - 7 subplots range 0\u2013100 \u2192 **6 labeled ticks each**: 0, 20, 40, 60, 80, 100\n  - 2 subplots range 0\u2013200 \u2192 **5 labeled ticks each**: 0, 50, 100, 150, 200\n\nSo total labeled ticks:\n\n- X-axis: \\(9 \\times 4 = 36\\)\n- Y-axis: \\(7 \\times 6 + 2 \\times 5 = 42 + 10 = 52\\)\n\n**Total = 36 + 52 = 88**\n\n**88**",
-  "grader_explanation": "ground_truth='72' | extracted='88' | score=0",
+  "grader_explanation": "ground_truth='79' | extracted='88' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

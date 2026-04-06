@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "76",
+  "ground_truth": "56",
   "model_answer": "54",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "I need to count all explicitly labeled ticks across all four subplots.\n\n**Top-left subplot (Natural Resource Depletion):**\n- X-axis: .1, .2, .3, .4, .5, .6, .7, .8, .9 \u2192 9 ticks\n- Y-axis: -0.05, 0.00, 0.05, 0.10, 0.15 \u2192 5 ticks\n\n**Top-right subplot (Domestic Credit to Private Sector):**\n- X-axis: .1, .2, .3, .4, .5, .6, .7, .8, .9 \u2192 9 ticks\n- Y-axis: 0.00, 0.02, 0.04, 0.06, 0.08 \u2192 5 ticks\n\n**Bottom-left subplot (Economic Growth Percentage):**\n- X-axis: .1, .2, .3, .4, .5, .6, .7, .8, .9 \u2192 9 ticks\n- Y-axis: -0.05, 0.00, 0.05, 0.10, 0.15 \u2192 5 ticks\n\n**Bottom-right subplot (Economic Growth Square):**\n- X-axis: .1, .2, .3, .4, .5, .6, .7, .8, .9 \u2192 9 ticks\n- Y-axis: -0.01, 0.00, 0.01 \u2192 3 ticks\n\n**Total:** 9 + 5 + 9 + 5 + 9 + 5 + 9 + 3 = **54**\n\nThe total number of explicitly labeled ticks across all axes is **54**.",
-  "grader_explanation": "ground_truth='76' | extracted='54' | score=0",
+  "grader_explanation": "ground_truth='56' | extracted='54' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

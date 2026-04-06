@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the spatially highest labeled tick on the y-axis?",
-  "ground_truth": "0.05",
+  "ground_truth": "0",
   "model_answer": "0.05",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "0.05",
-  "grader_explanation": "ground_truth='0.05' | extracted='0.05' | score=1",
+  "grader_explanation": "ground_truth='0' | extracted='0.05' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

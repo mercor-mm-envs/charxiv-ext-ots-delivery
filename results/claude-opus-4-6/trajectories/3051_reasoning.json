@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "In the A6 MLP subplot, what is the approximate difference in MSE Loss between the validation curve and the training curve at Epoch 1?",
-  "ground_truth": "0.01",
+  "ground_truth": "0.005",
   "model_answer": "",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "Looking at the A6 MLP subplot at Epoch 1:\n\n- The **validation curve** (dashed blue) appears to be at approximately **0.06** MSE Loss.\n- The **training curve** (solid blue) appears to be at approximately **0.05** MSE Loss.\n\nThe difference between the validation and training curves at Epoch 1 is approximately:\n\n0.06 - 0.05 = **0.01**\n\nThe answer is **0.01**.",
-  "grader_explanation": "ground_truth='0.01' | extracted='' | score=1",
+  "grader_explanation": "ground_truth='0.005' | extracted='' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

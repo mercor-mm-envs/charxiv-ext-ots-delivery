@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "What is the approximate difference between the highest average default rate of Gyeonggi at Month 1 and the lowest average default rate of Sejong at Month 1?",
-  "ground_truth": "34",
+  "ground_truth": "40",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "At Month 1:\n\n- **Gyeonggi** \u2248 **4.77%**\n- **Sejong** \u2248 **1.38%**\n\nDifference \u2248 **4.77 - 1.38 = 3.39**, which rounds to the exact integer:\n\n**3**",
-  "grader_explanation": "ground_truth='34' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='40' | extracted='' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

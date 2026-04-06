@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "28",
+  "ground_truth": "24",
   "model_answer": "28",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "I need to count all explicitly labeled ticks across all axes in both subplots.\n\n**Left subplot:**\n\n- Y-axis (Survival time (Days)): The labeled ticks are 0, 2000, 4000, 6000, 8000, 10000 \u2192 **6 ticks**\n- X-axis (Donor Ethnicities): Asian, Black, Hispanic, Multiracial, Native, Pacific, Unknown, White \u2192 **8 ticks**\n\n**Right subplot:**\n\n- Y-axis (Survival time (Days)): The labeled ticks are 0, 2000, 4000, 6000, 8000, 10000 \u2192 **6 ticks**\n- X-axis (Recipient Ethnicities): Asian, Black, Hispanic, Multiracial, Native, Pacific, Unknown, White \u2192 **8 ticks**\n\n**Total: 6 + 8 + 6 + 8 = 28**\n\nThe total number of explicitly labeled ticks across all axes is **28**.",
-  "grader_explanation": "ground_truth='28' | extracted='28' | score=1",
+  "grader_explanation": "ground_truth='24' | extracted='28' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

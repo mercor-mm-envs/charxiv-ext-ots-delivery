@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "37",
+  "ground_truth": "39",
   "model_answer": "49",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "I need to count all explicitly labeled ticks across all axes in all three subplots (A, B, and C).\n\n**Subplot A:**\n- Y-axis: 0.00, 0.25, 0.50, 0.75, 1.00 \u2192 5 ticks\n- X-axis: Average infectivity, Seasonality strength, First case timing, Infectious period, Average mobility, Mobility skewness, Social structure, Family cluster size \u2192 8 ticks\n\n**Subplot B:**\n- Y-axis (row labels): Family cluster size, Social structure, Mobility skewness, Average mobility, Infectious period, First case timing, Seasonality strength, Average infectivity \u2192 8 ticks\n- X-axis (column labels): Average infectivity, Seasonality strength, First case timing, Infectious period, Average mobility, Mobility skewness, Social structure, Family cluster size \u2192 8 ticks\n\n**Subplot C:**\n- Y-axis (First case timing): 0.00, 0.25, 0.50, 0.75, 1.00 \u2192 5 ticks\n- X-axis (Seasonality strength): 0.00, 0.25, 0.50, 0.75, 1.00 \u2192 5 ticks\n\n**Colorbar for Subplot B (Sensitivity index):**\n- 0.00, 0.02, 0.04, 0.06, 0.08 \u2192 5 ticks\n\n**Colorbar for Subplot C (i_max):**\n- 0.00, 0.25, 0.50, 0.75, 1.00 \u2192 5 ticks\n\n**Total:** 5 + 8 + 8 + 8 + 5 + 5 + 5 + 5 = **49**\n\nThe total number of explicitly labeled ticks across all axes is **49**.",
-  "grader_explanation": "ground_truth='37' | extracted='49' | score=0",
+  "grader_explanation": "ground_truth='39' | extracted='49' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

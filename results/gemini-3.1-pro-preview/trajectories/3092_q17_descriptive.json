@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "5",
+  "ground_truth": "3",
   "model_answer": "18",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Based on the image provided, here is the count of explicitly labeled ticks across all axes:\n\n*   **Y-axis (left):** There are 15 categorical labels defining the vertical positions (e.g., \"$\\mu, |\\eta|<0.8, q=-1$\", ..., \"Combination\").\n*   **X-axis (bottom):** There are 3 explicitly labeled major ticks (\"80200\", \"80400\", \"80600\").\n\nTotal number of explicitly labeled ticks = 15 + 3 = 18.\n\n**18**",
-  "grader_explanation": "ground_truth='5' | extracted='18' | score=0",
+  "grader_explanation": "ground_truth='3' | extracted='18' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

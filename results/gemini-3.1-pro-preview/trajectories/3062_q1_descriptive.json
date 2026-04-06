@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the title of the plot?",
-  "ground_truth": "Not Applicable",
+  "ground_truth": "Dataset timeseries: 2023-01-23-15",
   "model_answer": "Not Applicable",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "Not Applicable",
-  "grader_explanation": "ground_truth='Not Applicable' | extracted='Not Applicable' | score=1",
+  "grader_explanation": "ground_truth='Dataset timeseries: 2023-01-23-15' | extracted='Not Applicable' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

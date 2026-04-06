@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the label of the y-axis?",
-  "ground_truth": "Magnitude",
+  "ground_truth": "Not Applicable",
   "model_answer": "Magnitude",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "Based on the provided plot, the explicitly written label for the y-axis is:\n**Magnitude**",
-  "grader_explanation": "ground_truth='Magnitude' | extracted='Magnitude' | score=1",
+  "grader_explanation": "ground_truth='Not Applicable' | extracted='Magnitude' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

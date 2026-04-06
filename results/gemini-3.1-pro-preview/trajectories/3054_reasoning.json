@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "In Panel A, what is the approximate difference between the highest value reached by the Upper Bound (LHS) and the highest value reached by the Lower Bound (LHS)?",
-  "ground_truth": "1500",
+  "ground_truth": "1750",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Based on Panel A of the image, we need to find the approximate difference between the highest value of the 'Upper Bound (LHS)' and the highest value of the 'Lower Bound (LHS)'.\n\n1.  **Locate the highest value of the Upper Bound (LHS):**\n    *   The Upper Bound is represented by the solid grey line.\n    *   Its highest peak occurs near the right side of the chart, just before early 2020.\n    *   Looking at the Left Hand Side (LHS) y-axis, the peak is slightly below the 4000 mark. By carefully estimating the distance, it is approximately at 3900.\n\n2.  **Locate the highest value of the Lower Bound (LHS):**\n    *   The Lower Bound is represented by the solid yellow line.\n    *   Its highest peak also occurs near the right side of the chart, around the same time.\n    *   Looking at the LHS y-axis, this peak lies almost exactly on the line marking 2000.\n\n3.  **Calculate the difference:**\n    *   Approximate highest value of Upper Bound $\\approx$ 3900\n    *   Approximate highest value of Lower Bound $\\approx$ 2000\n    *   Difference = 3900 - 2000 = 1900\n\n1900",
-  "grader_explanation": "ground_truth='1500' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='1750' | extracted='' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

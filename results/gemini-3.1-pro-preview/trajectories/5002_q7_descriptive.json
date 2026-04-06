@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the spatially highest labeled tick on the y-axis?",
-  "ground_truth": "0.05",
+  "ground_truth": "0",
   "model_answer": "0.025",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Based on the provided image, we need to find the spatially highest labeled tick on any y-axis.\n\n1.  **Identify all y-axes:** The image contains 8 subplots, each with its own y-axis located on its left side.\n2.  **Locate the highest ticks:** The spatially highest subplots are the two in the top row.\n    *   For the top-left subplot, the highest labeled y-axis tick is **0.00**.\n    *   For the top-right subplot, the highest labeled y-axis tick is **0.025**.\n3.  **Compare spatial positions:** Visually comparing the position of these two labels in the image, the tick label **0.025** in the top-right subplot is physically closer to the top edge of the image than the label **0.00** in the top-left subplot.\n\nTherefore, the spatially highest labeled tick on the y-axis is 0.025.\n\n0.025",
-  "grader_explanation": "ground_truth='0.05' | extracted='0.025' | score=0",
+  "grader_explanation": "ground_truth='0' | extracted='0.025' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

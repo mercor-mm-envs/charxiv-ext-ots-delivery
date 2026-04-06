@@ -25,13 +25,13 @@ The dataset was evaluated across 100 figures and 497 tasks using three frontier 
 
 ### 1b. Model Pass Rates
 
-| Model | Pass | Fail | Rate |
-|-------|------|------|------|
-| Claude Opus 4.6 | 335 | 162 | 67.4% |
-| GPT-5.4 | 311 | 186 | 62.6% |
-| Gemini 3.1 Pro | 312 | 185 | 62.8% |
+| Model | Before Corrections | After Corrections | Change |
+|-------|-------------------|-------------------|--------|
+| Claude Opus 4.6 | 67.4% | 68.6% | +1.2pp |
+| GPT-5.4 | 62.6% | 65.8% | +3.2pp |
+| Gemini 3.1 Pro | 62.8% | 65.6% | +2.8pp |
 
-Of 497 tasks, 255 (51.3%) were answered correctly by all three models, 119 (23.9%) were answered incorrectly by all three, and 123 (24.7%) had mixed results. The 119 shared failures are concentrated in Q17 tick counting (55.6% failure rate across models) and numeric extraction from dense charts. These represent genuine task difficulty rather than model-specific weaknesses.
+All three models gained accuracy after corrections, with GPT-5.4 and Gemini showing the largest gains (3.2pp and 2.8pp). 140 trajectories changed correctness status, concentrated in Q17 tick counting where models had the right count but were graded against incorrect ground truth. The 119 shared failures are concentrated in Q17 tick counting (55.6% failure rate across models) and numeric extraction from dense charts. These represent genuine task difficulty rather than model-specific weaknesses.
 
 ### 1c. Image Quality and Question Specificity
 

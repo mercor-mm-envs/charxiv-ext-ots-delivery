@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "In panel C (left, E. coli histogram), what is the approximate difference between the peak Predicted_MIC value for pos_Ecoli and the peak Predicted_MIC value for generate_Ecoli?",
-  "ground_truth": "5",
+  "ground_truth": "9",
   "model_answer": "",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "Looking at panel C (left, E. coli histogram):\n\n- **pos_Ecoli** (orange): The peak frequency appears to occur at approximately **Predicted_MIC \u2248 5**\n- **generate_Ecoli** (blue): The peak frequency appears to occur at approximately **Predicted_MIC \u2248 10**\n\nThe approximate difference between the peak Predicted_MIC value for pos_Ecoli and the peak Predicted_MIC value for generate_Ecoli is:\n\n10 - 5 = **5**",
-  "grader_explanation": "ground_truth='5' | extracted='' | score=1",
+  "grader_explanation": "ground_truth='9' | extracted='' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

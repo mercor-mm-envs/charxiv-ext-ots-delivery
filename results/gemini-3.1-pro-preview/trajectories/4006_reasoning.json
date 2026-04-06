@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "What is the difference between Australia's Financial Freedom Index in 2007 and its value in 2019?",
-  "ground_truth": "-30",
+  "ground_truth": "50",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Based on the provided line chart, we can determine Australia's Financial Freedom Index for the given years by tracing its corresponding line.\n\n1.  **Identify Australia's line:** In the legend, Australia is listed first and is represented by a **light blue line with circular markers**.\n2.  **Find the value in 2007:** Looking at the vertical axis for the year 2007, there is a light blue marker at the value of **80**. (There is another light blue line starting at 40, but given Australia's status as a developed economy, it corresponds to the higher value of 80. The line at 40 likely belongs to Greece, which shares a similar color in the legend).\n3.  **Find the value in 2019:** Trace the light blue line that started at 80. It stays at 80 from 2007 to 2009, drops to 70 from 2010 to 2013, then rises to 90 in 2014 and remains at **90** through 2019.\n4.  **Calculate the difference:** The difference between the 2007 value (80) and the 2019 value (90) is $|90 - 80| = 10$.\n\n10",
-  "grader_explanation": "ground_truth='-30' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='50' | extracted='' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

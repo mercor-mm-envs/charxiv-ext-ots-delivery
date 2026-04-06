@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "What is the difference in 'No FS-Accuracy %' between the dataset with the highest value (PC3) and the dataset with the lowest value (MC2)?",
-  "ground_truth": "27",
+  "ground_truth": "22",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Based on the provided bar chart:\n\n1.  **Identify the 'No FS-Accuracy %' metric:** This corresponds to the blue bars in the chart, as indicated by the legend.\n2.  **Find the value for the dataset with the highest 'No FS-Accuracy %' (PC3):** Locate PC3 on the x-axis. The top of the blue bar for PC3 is very close to the 100 mark, approximately at **98**.\n3.  **Find the value for the dataset with the lowest 'No FS-Accuracy %' (MC2):** Locate MC2 on the x-axis. The top of the blue bar for MC2 is between 60 and 80, roughly estimating to be at **74**.\n4.  **Calculate the difference:** Subtract the lower value from the higher value.\n    $$98 - 74 = 24$$\n\n24",
-  "grader_explanation": "ground_truth='27' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='22' | extracted='' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

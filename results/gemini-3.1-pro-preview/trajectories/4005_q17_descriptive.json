@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "76",
+  "ground_truth": "56",
   "model_answer": "55",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "To find the total number of explicitly labeled ticks across all axes, we can count the labels on the x-axis and y-axis for each of the four subplots:\n\n1.  **Top-Left Subplot:**\n    *   **X-axis:** .1, .2, .3, .4, .5, .6, .7, .8, .9 (9 labels)\n    *   **Y-axis:** -0.05, 0.00, 0.05, 0.10, 0.15 (5 labels)\n    *   *Subtotal:* 9 + 5 = 14\n\n2.  **Top-Right Subplot:**\n    *   **X-axis:** .1, .2, .3, .4, .5, .6, .7, .8, .9 (9 labels)\n    *   **Y-axis:** 0.00, 0.02, 0.04, 0.06, 0.08 (5 labels)\n    *   *Subtotal:* 9 + 5 = 14\n\n3.  **Bottom-Left Subplot:**\n    *   **X-axis:** .1, .2, .3, .4, .5, .6, .7, .8, .9 (9 labels)\n    *   **Y-axis:** -0.05, 0.00, 0.05, 0.10, 0.15 (5 labels)\n    *   *Subtotal:* 9 + 5 = 14\n\n4.  **Bottom-Right Subplot:**\n    *   **X-axis:** .1, .2, .3, .4, .5, .6, .7, .8, .9 (9 labels)\n    *   **Y-axis:** -0.01, 0.00, 0.01, 0.01 (4 labels)\n    *   *Subtotal:* 9 + 4 = 13\n\n**Total Count:**\n14 + 14 + 14 + 13 = 55\n\n55",
-  "grader_explanation": "ground_truth='76' | extracted='55' | score=0",
+  "grader_explanation": "ground_truth='56' | extracted='55' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

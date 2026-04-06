@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "In the right panel (line chart), what is the approximate difference in mean survival time between female (F) donors of ethnicity 998 and female donors of ethnicity 9?",
-  "ground_truth": "2300",
+  "ground_truth": "1500",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "From the right panel, the mean survival time for female donors is approximately:\n\n- Ethnicity **998**: **3340**\n- Ethnicity **9**: **1760**\n\nDifference: **3340 - 1760 = 1580**\n\n**1580**",
-  "grader_explanation": "ground_truth='2300' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='1500' | extracted='' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

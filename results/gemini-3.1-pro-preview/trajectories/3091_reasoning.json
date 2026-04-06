@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "In the upper panel, what is the approximate ratio of the peak fraction of events (around p_T^l \u2248 39 GeV) to the fraction of events at p_T^l = 32 GeV for the Nominal distribution?",
-  "ground_truth": "1.6",
+  "ground_truth": "1.5",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "To find the approximate ratio, we first need to estimate the values from the \"Nominal\" (solid blue) distribution in the upper panel.\n\n1.  **Find the peak fraction of events:**\n    *   The peak occurs in the bin just before 40 GeV, specifically the bin from 38 to 39 GeV (as indicated by \"around $p_T^\\ell \\approx 39$ GeV\").\n    *   Looking at the y-axis, there are major tick marks every 0.02 units. There are three minor tick marks between 0.06 and 0.08, meaning each interval is 0.005.\n    *   The top of the peak bin is slightly above the third minor tick mark after 0.06 (which is 0.075).\n    *   We can estimate the peak value to be approximately **0.076**.\n\n2.  **Find the fraction of events at $p_T^\\ell = 32$ GeV:**\n    *   The value at 32 GeV falls into the bin starting at exactly 32 (from 32 to 33 GeV), following standard histogram conventions $[lower, upper)$.\n    *   Looking at the height of this bin, it is below the 0.06 line.\n    *   It is located between the 0.055 minor tick and the 0.06 line, appearing slightly above the midpoint.\n    *   We can estimate this value to be approximately **0.058**.\n\n3.  **Calculate the ratio:**\n    *   Ratio = (Peak fraction) / (Fraction at 32 GeV)\n    *   Ratio $\\approx \\frac{0.076}{0.058} \\approx 1.3103$\n\nRounding to one decimal place, we get 1.3.\n\n**1.3**",
-  "grader_explanation": "ground_truth='1.6' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='1.5' | extracted='' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

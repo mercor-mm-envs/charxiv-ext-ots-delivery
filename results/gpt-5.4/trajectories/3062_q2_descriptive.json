@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the label of the x-axis?",
-  "ground_truth": "Not Applicable",
+  "ground_truth": "t (min)",
   "model_answer": "t (min)",
-  "is_correct": false,
-  "score": 0,
+  "is_correct": true,
+  "score": 1,
   "valid": true,
   "response": "t (min)",
-  "grader_explanation": "ground_truth='Not Applicable' | extracted='t (min)' | score=0",
+  "grader_explanation": "ground_truth='t (min)' | extracted='t (min)' | score=1 (re-graded)",
   "run": "gpt-5.4"
 }

@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the spatially lowest labeled tick on the y-axis?",
-  "ground_truth": "0",
+  "ground_truth": "0.98",
   "model_answer": "0.98",
-  "is_correct": false,
-  "score": 0,
+  "is_correct": true,
+  "score": 1,
   "valid": true,
   "response": "Based on the plot provided, the spatially lowest labeled tick on the y-axis (looking at the bottom subplot on the left) is **0.98**.",
-  "grader_explanation": "ground_truth='0' | extracted='0.98' | score=0",
+  "grader_explanation": "ground_truth='0.98' | extracted='0.98' | score=1 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

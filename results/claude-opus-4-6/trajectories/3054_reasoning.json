@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "In Panel A, what is the approximate difference between the highest value reached by the Upper Bound (LHS) and the highest value reached by the Lower Bound (LHS)?",
-  "ground_truth": "1500",
+  "ground_truth": "1750",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Looking at Panel A:\n\n- The **Upper Bound (LHS)** (gray line) reaches its highest value around 2019-2020, peaking at approximately **3,500**.\n- The **Lower Bound (LHS)** (orange line) reaches its highest value around 2019-2020, peaking at approximately **2,200**.\n\nThe difference between these two highest values is approximately:\n\n3,500 - 2,200 = **1300**\n\nThe answer is **1300**.",
-  "grader_explanation": "ground_truth='1500' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='1750' | extracted='' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

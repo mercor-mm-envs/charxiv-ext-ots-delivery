@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the spatially highest labeled tick on the y-axis?",
-  "ground_truth": "200",
+  "ground_truth": "100",
   "model_answer": "200",
-  "is_correct": true,
-  "score": 1,
+  "is_correct": false,
+  "score": 0,
   "valid": true,
   "response": "Looking at the y-axes across all subplots, I need to find the spatially highest labeled tick.\n\nThe subplots \"BRENT\" and \"WTI\" both have y-axes going up to 200 (with ticks at 0, 40, 80, 120, 160, 200 for BRENT and 0, 50, 100, 150, 200 for WTI).\n\nThe spatially highest labeled tick on the y-axis is **200**.",
-  "grader_explanation": "ground_truth='200' | extracted='200' | score=1",
+  "grader_explanation": "ground_truth='100' | extracted='200' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

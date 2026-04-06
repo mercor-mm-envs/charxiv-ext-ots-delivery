@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "15",
+  "ground_truth": "11",
   "model_answer": "13",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "I need to count all explicitly labeled ticks across all axes in both subplots.\n\n**X-axis (shared between top and bottom subplots):**\nThe x-axis shows: 30, 35, 40, 45, 50\nThat's **5 ticks**.\n\n**Top subplot Y-axis (Events / GeV):**\nThe labels are: 0, 100, 200, 300, 400 (with \u00d710\u00b3)\nThat's **5 ticks**.\n\n**Bottom subplot Y-axis (Data / Pred.):**\nThe labels are: 0.98, 1, 1.02\nThat's **3 ticks**.\n\n**Total: 5 + 5 + 3 = 13**\n\nThe total number of explicitly labeled ticks across all axes is **13**.",
-  "grader_explanation": "ground_truth='15' | extracted='13' | score=0",
+  "grader_explanation": "ground_truth='11' | extracted='13' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

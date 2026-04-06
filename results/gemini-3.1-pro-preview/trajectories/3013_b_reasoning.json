@@ -5,12 +5,12 @@
   "inst_category": 3,
   "inst_category_name": "NiC",
   "question": "In approximately which year did the UK GDP first exceed 1800 billion GBP according to the left panel?",
-  "ground_truth": "2015",
+  "ground_truth": "2013",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Based on the left panel \"GDP in the United Kingdom (1968-2021)\":\n\n1.  Locate the horizontal line corresponding to **1800** on the y-axis (\"GDP (Billions GBP)\").\n2.  Follow the orange GDP curve from left to right to find where it first crosses above this 1800 line.\n3.  The curve reaches a peak just below the 1800 line before a sharp dip. After recovering, it continues upward and clearly crosses the 1800 line.\n4.  Tracing down from this crossing point to the x-axis (\"Year\"), the intersection occurs after the vertical line for 2010 and before halfway to 2020 (roughly around 2012-2014).\n5.  According to the constraints, the answer must be an explicitly written number on the chart. The closest explicitly marked year to this crossing point is **2010**.\n\n2010",
-  "grader_explanation": "ground_truth='2015' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='2013' | extracted='' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }

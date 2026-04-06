@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "11",
+  "ground_truth": "9",
   "model_answer": "6",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "The plot has:\n\n- **Y-axis:** 6 labeled ticks \u2014 $0.00, $50.00, $100.00, $150.00, $200.00, $250.00\n- **X-axis:** 0 labeled ticks shown on the axis itself\n\nTotal explicitly labeled ticks across all axes = **6**",
-  "grader_explanation": "ground_truth='11' | extracted='6' | score=0",
+  "grader_explanation": "ground_truth='9' | extracted='6' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

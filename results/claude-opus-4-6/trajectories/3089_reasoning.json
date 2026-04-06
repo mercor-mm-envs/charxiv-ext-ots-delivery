@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "What is the approximate difference in \u03c1(\u03c9)/\u03c9 between the Gaussian method and the Unsupervised learning method at \u03c9/T = 30?",
-  "ground_truth": "0.03",
+  "ground_truth": "0",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "At \u03c9/T = 30, I need to read the values of \u03c1(\u03c9)/\u03c9 for both methods:\n\n- **Gaussian method (pink/red band):** At \u03c9/T = 30, the value appears to be approximately 0.12\n- **Unsupervised learning method (green band):** At \u03c9/T = 30, the value appears to be approximately 0.11\n\nThe difference is approximately 0.12 - 0.11 = 0.01.\n\nWait, let me look more carefully. At \u03c9/T = 30:\n\n- The **Gaussian** (red/pink) band appears to be at roughly 0.12-0.13, so approximately 0.12.\n- The **Unsupervised learning** (green) band appears to be at roughly 0.10, as the green band dips down around \u03c9/T = 28-30 before rising again.\n\nLooking more carefully at \u03c9/T = 30:\n- Gaussian: ~0.12\n- Unsupervised learning: ~0.10\n\nDifference \u2248 0.12 - 0.10 = 0.02\n\n**0.02**",
-  "grader_explanation": "ground_truth='0.03' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='0' | extracted='' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

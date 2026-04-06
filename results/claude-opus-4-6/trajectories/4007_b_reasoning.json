@@ -5,12 +5,12 @@
   "inst_category": 1,
   "inst_category_name": "TiG",
   "question": "In which year does Brazil show the most negative (lowest) FDI net outflow value?",
-  "ground_truth": "20,20",
+  "ground_truth": "2020",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "Looking at the chart, I need to identify the year where Brazil (light blue bars) shows the most negative FDI net outflow value.\n\nExamining the Brazil bars across all years, I can see negative values in a few years, but the most notably negative value appears in **2020**, where Brazil's bar drops to approximately -2 on the FDI net Outflows axis.\n\n**2020**",
-  "grader_explanation": "ground_truth='20,20' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='2020' | extracted='' | score=0 (re-graded)",
   "run": "claude-opus-4-6"
 }

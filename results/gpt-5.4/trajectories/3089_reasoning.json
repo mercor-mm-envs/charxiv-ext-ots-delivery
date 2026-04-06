@@ -5,12 +5,12 @@
   "inst_category": 4,
   "inst_category_name": "NG",
   "question": "What is the approximate difference in \u03c1(\u03c9)/\u03c9 between the Gaussian method and the Unsupervised learning method at \u03c9/T = 30?",
-  "ground_truth": "0.03",
+  "ground_truth": "0",
   "model_answer": "",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "At \\( \\omega/T = 30 \\), the Gaussian curve is about \\(0.12\\) and the Unsupervised learning curve is about \\(0.16\\).\n\nSo the approximate difference is:\n\n\\[\n0.16 - 0.12 = 0.04\n\\]\n\n**0.04**",
-  "grader_explanation": "ground_truth='0.03' | extracted='' | score=0",
+  "grader_explanation": "ground_truth='0' | extracted='' | score=0 (re-graded)",
   "run": "gpt-5.4"
 }

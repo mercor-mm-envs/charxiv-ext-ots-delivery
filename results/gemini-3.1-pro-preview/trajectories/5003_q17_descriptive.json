@@ -5,12 +5,12 @@
   "inst_category": null,
   "inst_category_name": null,
   "question": "What is the total number of explicitly labeled ticks across all axes?",
-  "ground_truth": "72",
+  "ground_truth": "79",
   "model_answer": "86",
   "is_correct": false,
   "score": 0,
   "valid": true,
   "response": "86 labeled ticks can be seen in this photo.",
-  "grader_explanation": "ground_truth='72' | extracted='86' | score=0",
+  "grader_explanation": "ground_truth='79' | extracted='86' | score=0 (re-graded)",
   "run": "gemini-3.1-pro-preview"
 }
