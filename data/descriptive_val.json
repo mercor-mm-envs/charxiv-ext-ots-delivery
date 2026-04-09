@@ -1,71 +1,4 @@
 {
-  "3000": {
-    "figure_id": 3000,
-    "num_subplots": 49,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49
-    ],
-    "qids": [
-      17,
-      4,
-      5,
-      7
-    ],
-    "answers": [
-      "284",
-      "5",
-      "25",
-      "30"
-    ]
-  },
   "3001": {
     "figure_id": 3001,
     "num_subplots": 1,
@@ -83,70 +16,6 @@
       "15",
       "0",
       "25"
-    ]
-  },
-  "3006": {
-    "figure_id": 3006,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "LBSE, LDJIA, LJKSE, LKLCI, LKS11, LN225, LPSEI, LSSE, LSTI",
-      "18",
-      "7",
-      "12"
-    ]
-  },
-  "3007": {
-    "figure_id": 3007,
-    "num_subplots": 3,
-    "subplot_loc": [
-      1,
-      2,
-      3
-    ],
-    "qids": [
-      17,
-      4,
-      5,
-      6
-    ],
-    "answers": [
-      "14",
-      "1960-01-01",
-      "2020-01-01",
-      "0"
-    ]
-  },
-  "3008": {
-    "figure_id": 3008,
-    "num_subplots": 6,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "qids": [
-      17,
-      6,
-      7,
-      4
-    ],
-    "answers": [
-      "79",
-      "-30",
-      "30",
-      "1970"
     ]
   },
   "3009": {
@@ -172,66 +41,6 @@
       "NIGERIA - 01"
     ]
   },
-  "3010": {
-    "figure_id": 3010,
-    "num_subplots": 3,
-    "subplot_loc": [
-      1,
-      2,
-      3
-    ],
-    "qids": [
-      17,
-      6,
-      7,
-      9
-    ],
-    "answers": [
-      "97",
-      "0",
-      "100",
-      "20"
-    ]
-  },
-  "3011": {
-    "figure_id": 3011,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      17,
-      6,
-      7,
-      9
-    ],
-    "answers": [
-      "15",
-      "-",
-      "1.20",
-      "0.20"
-    ]
-  },
-  "3012": {
-    "figure_id": 3012,
-    "num_subplots": 2,
-    "subplot_loc": [
-      1,
-      2
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "4000, 3300, 2000, 1650",
-      "17",
-      "-100 M",
-      "200 M"
-    ]
-  },
   "3013": {
     "figure_id": 3013,
     "num_subplots": 2,
@@ -250,49 +59,6 @@
       "28",
       "2000",
       "200"
-    ]
-  },
-  "3015": {
-    "figure_id": 3015,
-    "num_subplots": 3,
-    "subplot_loc": [
-      1,
-      2,
-      3
-    ],
-    "qids": [
-      17,
-      6,
-      7,
-      3
-    ],
-    "answers": [
-      "40",
-      "1.5",
-      "4.3",
-      "Potential"
-    ]
-  },
-  "3018": {
-    "figure_id": 3018,
-    "num_subplots": 4,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "qids": [
-      17,
-      6,
-      7,
-      9
-    ],
-    "answers": [
-      "62",
-      "0",
-      "1000",
-      "100"
     ]
   },
   "3021": {
@@ -314,28 +80,6 @@
       "-5000",
       "20",
       "Net removed CO2 emissions [GtCO2]"
-    ]
-  },
-  "3025": {
-    "figure_id": 3025,
-    "num_subplots": 4,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "FF, FM, MF, MM",
-      "34",
-      "0",
-      "10000"
     ]
   },
   "3027": {
@@ -436,113 +180,6 @@
       "45"
     ]
   },
-  "3032": {
-    "figure_id": 3032,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "Gangwon, Gyeonggi, Gyeongnam, Gyeongbuk, Gwangju, Daegu, Daejeon, Busan, Seoul, Sejong, Ulsan, Incheon, Jeonnam, Jeonbuk, Jeju, Chungnam, Chungbuk",
-      "21",
-      "0",
-      "8"
-    ]
-  },
-  "3033": {
-    "figure_id": 3033,
-    "num_subplots": 4,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "qids": [
-      17,
-      7,
-      6,
-      1
-    ],
-    "answers": [
-      "41",
-      "30",
-      "-1",
-      "Seasonal Decomposition of Sejong Default Rates"
-    ]
-  },
-  "3035": {
-    "figure_id": 3035,
-    "num_subplots": 3,
-    "subplot_loc": [
-      1,
-      2,
-      3
-    ],
-    "qids": [
-      17,
-      6,
-      7,
-      1
-    ],
-    "answers": [
-      "39",
-      "-10",
-      "10",
-      "Seoul Prophet Components with Weekends and Holidays Considered"
-    ]
-  },
-  "3036": {
-    "figure_id": 3036,
-    "num_subplots": 6,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "Participants, GPT-4o Baseline, Claude Code Baseline, Median (submitters)",
-      "53",
-      "0",
-      "1.0"
-    ]
-  },
-  "3037": {
-    "figure_id": 3037,
-    "num_subplots": 3,
-    "subplot_loc": [
-      1,
-      2,
-      3
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "LR, DT, SVM, RF, Proposed Ensemble Model",
-      "30",
-      "0",
-      "100"
-    ]
-  },
   "3038": {
     "figure_id": 3038,
     "num_subplots": 6,
@@ -565,66 +202,6 @@
       "100",
       "400",
       "NVDA Stock Price (June - Sept 2025)"
-    ]
-  },
-  "3039": {
-    "figure_id": 3039,
-    "num_subplots": 4,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "qids": [
-      13,
-      6,
-      7,
-      1
-    ],
-    "answers": [
-      "Anchor Object, Agent, MSP Target Guess",
-      "-2",
-      "6",
-      "Step 2 Point-Estimation Heatmap"
-    ]
-  },
-  "3040": {
-    "figure_id": 3040,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "Exports (left), Quota Level (left), Number of NTMs (right)",
-      "20",
-      "0",
-      "70,000"
-    ]
-  },
-  "3041": {
-    "figure_id": 3041,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "Competition Participants, GPT-4o Baseline (0.143), Claude Code Baseline (0.458), Median (0.156)",
-      "37",
-      "0.0",
-      "1.0"
     ]
   },
   "3042": {
@@ -665,63 +242,6 @@
       "13"
     ]
   },
-  "3044": {
-    "figure_id": 3044,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      6,
-      7,
-      9,
-      17
-    ],
-    "answers": [
-      "0",
-      "100",
-      "20",
-      "13"
-    ]
-  },
-  "3045": {
-    "figure_id": 3045,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "RF, SVM, NB, IECGA",
-      "11",
-      "0",
-      "100"
-    ]
-  },
-  "3046": {
-    "figure_id": 3046,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      17,
-      4,
-      5,
-      3
-    ],
-    "answers": [
-      "29",
-      "0.0",
-      "0.8",
-      "Variables"
-    ]
-  },
   "3047": {
     "figure_id": 3047,
     "num_subplots": 6,
@@ -744,25 +264,6 @@
       "140",
       "180",
       "NVDA Stock Price (June - Sept 2025)"
-    ]
-  },
-  "3048": {
-    "figure_id": 3048,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "not specified (underlying), Commodities, Cryptocurrencies, Currencies, Indexes, Interest Rates, Stocks",
-      "14",
-      "0",
-      "100"
     ]
   },
   "3050": {
@@ -875,25 +376,6 @@
       "4000"
     ]
   },
-  "3057": {
-    "figure_id": 3057,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "LP interest, LS interest, Pool Utilization",
-      "11",
-      "0.10",
-      "0.15"
-    ]
-  },
   "3058": {
     "figure_id": 3058,
     "num_subplots": 1,
@@ -940,30 +422,6 @@
       "93",
       "0",
       "1.0"
-    ]
-  },
-  "3060": {
-    "figure_id": 3060,
-    "num_subplots": 6,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "qids": [
-      13,
-      17,
-      7,
-      6
-    ],
-    "answers": [
-      "observation, prediction",
-      "72",
-      "4",
-      "-4"
     ]
   },
   "3061": {
@@ -1110,28 +568,6 @@
       "0.48"
     ]
   },
-  "3067": {
-    "figure_id": 3067,
-    "num_subplots": 4,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "qids": [
-      1,
-      12,
-      17,
-      16
-    ],
-    "answers": [
-      "Not Applicable",
-      "Not Applicable",
-      "0",
-      "Not Applicable"
-    ]
-  },
   "3068": {
     "figure_id": 3068,
     "num_subplots": 3,
@@ -1151,25 +587,6 @@
       "0.00",
       "1.00",
       "0.25"
-    ]
-  },
-  "3069": {
-    "figure_id": 3069,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      13,
-      12,
-      1,
-      17
-    ],
-    "answers": [
-      "Information transfer from CHU to CMUs, Information transfer from CMUs to IoT, Energy transfer",
-      "3",
-      "Not Applicable",
-      "0"
     ]
   },
   "3072": {
@@ -1239,25 +656,6 @@
       "10"
     ]
   },
-  "3075": {
-    "figure_id": 3075,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      13,
-      6,
-      7,
-      9
-    ],
-    "answers": [
-      "Energy Loss Costs, Degradation Costs, Decommissioning Costs, Overall",
-      "$0.00",
-      "$300.00",
-      "50"
-    ]
-  },
   "3076": {
     "figure_id": 3076,
     "num_subplots": 1,
@@ -1275,26 +673,6 @@
       "9",
       "$0.00",
       "$250.00"
-    ]
-  },
-  "3077": {
-    "figure_id": 3077,
-    "num_subplots": 2,
-    "subplot_loc": [
-      1,
-      2
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "Type 1, Type 2, Type 3, Type 4",
-      "16",
-      "0.00",
-      "45.00"
     ]
   },
   "3080": {
@@ -1365,25 +743,6 @@
       "4000"
     ]
   },
-  "3082": {
-    "figure_id": 3082,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "DBO, PIO, SCA, BOA, WOA, COA, SA, EDBO",
-      "11",
-      "265",
-      "290"
-    ]
-  },
   "3083": {
     "figure_id": 3083,
     "num_subplots": 2,
@@ -1404,101 +763,6 @@
       "1"
     ]
   },
-  "3084": {
-    "figure_id": 3084,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      17,
-      12,
-      1,
-      16
-    ],
-    "answers": [
-      "Not Applicable",
-      "Not Applicable",
-      "Not Applicable",
-      "Not Applicable"
-    ]
-  },
-  "3085": {
-    "figure_id": 3085,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      17,
-      13,
-      3,
-      2
-    ],
-    "answers": [
-      "0",
-      "Not Applicable",
-      "Not Applicable",
-      "Not Applicable"
-    ]
-  },
-  "3086": {
-    "figure_id": 3086,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      12,
-      17,
-      3,
-      2
-    ],
-    "answers": [
-      "Not Applicable",
-      "0",
-      "Not Applicable",
-      "Not Applicable"
-    ]
-  },
-  "3087": {
-    "figure_id": 3087,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      17,
-      6,
-      7,
-      9
-    ],
-    "answers": [
-      "19",
-      "0",
-      "40",
-      "5"
-    ]
-  },
-  "3088": {
-    "figure_id": 3088,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      17,
-      6,
-      7,
-      9
-    ],
-    "answers": [
-      "19",
-      "0",
-      "40",
-      "5"
-    ]
-  },
   "3089": {
     "figure_id": 3089,
     "num_subplots": 1,
@@ -1516,25 +780,6 @@
       "13",
       "0.00",
       "0.16"
-    ]
-  },
-  "3090": {
-    "figure_id": 3090,
-    "num_subplots": 1,
-    "subplot_loc": [
-      1
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "Gaussian, Multipoint, Unsupervised learning, MEM",
-      "12",
-      "0",
-      "5"
     ]
   },
   "3091": {
@@ -1632,33 +877,6 @@
       "13",
       "0.00",
       "0.16"
-    ]
-  },
-  "4000": {
-    "figure_id": 4000,
-    "num_subplots": 9,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
-    "qids": [
-      17,
-      4,
-      5,
-      7
-    ],
-    "answers": [
-      "172",
-      "2",
-      "20",
-      "0.04"
     ]
   },
   "4001": {
@@ -1783,29 +1001,6 @@
       "Quantile"
     ]
   },
-  "4006": {
-    "figure_id": 4006,
-    "num_subplots": 5,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "Australia, Colombia, France, Ireland, Lithuania, Norway, Austria, czechia, Germany, Israel, Luxembourg, Poland, Belgium, Denmark, Greece, Italy, Mexico, Portugal, Canada, Estonia, Hungary, Japan, Netherlands, Slovakia, Chile, Finland, Iceland, Latvia, New Zealand, Slovenia",
-      "20",
-      "40",
-      "100"
-    ]
-  },
   "4007": {
     "figure_id": 4007,
     "num_subplots": 5,
@@ -1827,29 +1022,6 @@
       "22",
       "-3",
       "4"
-    ]
-  },
-  "4008": {
-    "figure_id": 4008,
-    "num_subplots": 5,
-    "subplot_loc": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "qids": [
-      13,
-      17,
-      6,
-      7
-    ],
-    "answers": [
-      "Australia, Switzerland, Denmark, United Kingdom, Iceland, Lithuania, Norway, Slovak Republic, Austria, Chile, Spain, Greece, Israel, Luxembourg, New Zealand, Slovenia, Belgium, China, Estonia, Hungary, Italy, Latvia, Poland, Sweden, Brazil, Colombia, Finland, India, Japan, Mexico, Portugal, United States, Canada, Germany, France, Ireland, Korea, Rep., Netherlands, Russian Federation, South Africa",
-      "20",
-      "0",
-      "250"
     ]
   },
   "4009": {
