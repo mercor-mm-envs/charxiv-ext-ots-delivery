@@ -1,0 +1,16 @@
+{
+  "figure_id": 3050,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "2.0",
+  "model_answer": "2.0",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the instructions to prioritize the axis at the left when there is ambiguity, we look at the leftmost y-axis of the figure (the one for the \"LSTM\" subplot). The labeled ticks on this axis are -2.0, -1.5, -1.0, -0.5, 0.0, 0.5, 1.0, 1.5, and 2.0. The tick that is spatially highest (closest to the top of the plot) on this axis is 2.0.\n\n2.0",
+  "grader_explanation": "ground_truth='2.0' | extracted='2.0' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3025,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the top-left survival curve plot, what is the approximate difference in survival probability S(t) between the FF group and the MM group at t = 4000?",
+  "ground_truth": "0.05",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the top-left survival curve plot at t = 4000:\n\n- The **FF group** (black line) appears to have a survival probability S(t) of approximately **0.15**\n- The **MM group** (blue/cyan line) appears to have a survival probability S(t) of approximately **0.10**\n\nThe approximate difference is: 0.15 - 0.10 = **0.05**\n\n$$\\boxed{0.05}$$",
+  "grader_explanation": "ground_truth='0.05' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3080,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 3,
+  "inst_category_name": "NiC",
+  "question": "In subplot (b), what is the approximate minimum value on the y-axis (Quantiles of distribution of E_Z values for R1 structures) observed among the data points?",
+  "ground_truth": "345",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at subplot (b), I need to find the lowest data point on the y-axis (Quantiles of distribution of E_Z values for R1 structures).\n\nThe lowest data point appears in the bottom-left corner of the plot, at approximately **345** on the y-axis.",
+  "grader_explanation": "ground_truth='345' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

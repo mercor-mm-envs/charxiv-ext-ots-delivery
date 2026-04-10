@@ -1,0 +1,16 @@
+{
+  "figure_id": 3061,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "0",
+  "model_answer": "Americas Oceania",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the y-axis labels on the left side of the plots, the spatially lowest labeled tick is **Americas Oceania** (appearing at the bottom of both the upper and lower rows of subplots).\n\n\\boxed{Americas Oceania}",
+  "grader_explanation": "ground_truth='0' | extracted='Americas Oceania' | score=0",
+  "run": "claude-opus-4-6"
+}

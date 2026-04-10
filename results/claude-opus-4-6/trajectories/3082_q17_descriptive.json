@@ -1,0 +1,16 @@
+{
+  "figure_id": 3082,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "11",
+  "model_answer": "11",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "**X-axis ticks:** 0, 50, 100, 150, 200 \u2192 **5 ticks**\n\n**Y-axis ticks:** 265, 270, 275, 280, 285, 290 \u2192 **6 ticks**\n\n**Total: 5 + 6 = 11**",
+  "grader_explanation": "ground_truth='11' | extracted='11' | score=1",
+  "run": "claude-opus-4-6"
+}

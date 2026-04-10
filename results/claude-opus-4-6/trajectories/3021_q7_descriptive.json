@@ -1,0 +1,16 @@
+{
+  "figure_id": 3021,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "20",
+  "model_answer": "2.5",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the y-axes of all subplots, I need to find the spatially highest labeled tick.\n\nThe spatially highest labeled tick on the y-axis is **2.5** (from subplot A, which shows \"Net removed CO2 emissions [GtCO2]\").",
+  "grader_explanation": "ground_truth='20' | extracted='2.5' | score=0",
+  "run": "claude-opus-4-6"
+}

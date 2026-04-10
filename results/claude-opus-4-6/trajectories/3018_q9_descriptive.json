@@ -1,0 +1,16 @@
+{
+  "figure_id": 3018,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "100",
+  "model_answer": "Not Applicable",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the y-axis tick values for each subplot:\n\n- **(a)**: 0, 100, 200, 300, 400, 500 \u2192 difference = 100\n- **(b)**: 0, 200, 400, 600, 800, 1000 \u2192 difference = 200\n- **(c)**: 0, 100, 200, 300, 400, 500, 600, 700 \u2192 difference = 100\n- **(d)**: 0, 100, 200, 300, 400, 500, 600 \u2192 difference = 100\n\nThe difference is not the same across all subplots (subplots a, c, d have 100, while subplot b has 200).\n\n**Not Applicable**",
+  "grader_explanation": "ground_truth='100' | extracted='Not Applicable' | score=0",
+  "run": "claude-opus-4-6"
+}

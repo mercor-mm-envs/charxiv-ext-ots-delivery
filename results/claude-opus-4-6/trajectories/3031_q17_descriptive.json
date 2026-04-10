@@ -1,0 +1,16 @@
+{
+  "figure_id": 3031,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "19",
+  "model_answer": "19",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the plot, I need to count all explicitly labeled ticks on both axes.\n\n**X-axis (Month):**\nThe ticks are labeled: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\nThat's **12** labeled ticks.\n\n**Y-axis (Average Default Rate %):**\nThe ticks are labeled: 15, 20, 25, 30, 35, 40, 45\nThat's **7** labeled ticks.\n\n**Total: 12 + 7 = 19**",
+  "grader_explanation": "ground_truth='19' | extracted='19' | score=1",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3001,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "Frozen Strawberries, Canned Pears. Apricots and Peaches, Canned Fruit Mixtures, Frozen Orange Juice, Apple and Pineapple Juice",
+  "model_answer": "Frozen Strawberries, Canned Pears. Apricots and Peaches, Canned Fruit Mixtures, Frozen Orange Juice, Apple and Pineapple Juice",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Frozen Strawberries, Canned Pears. Apricots and Peaches, Canned Fruit Mixtures, Frozen Orange Juice, Apple and Pineapple Juice",
+  "grader_explanation": "ground_truth='Frozen Strawberries, Canned Pears. Apricots and Peaches, Canned Fruit Mixtures, Frozen Orange Juice, Apple and Pineapple Juice' | extracted='Frozen Strawberries, Canned Pears. Apricots and Peaches, Canned Fruit Mixtures, Frozen Orange Juice, Apple and Pineapple Juice' | score=1",
+  "run": "claude-opus-4-6"
+}

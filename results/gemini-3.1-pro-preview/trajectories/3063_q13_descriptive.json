@@ -1,0 +1,16 @@
+{
+  "figure_id": 3063,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "HydrAMP, LLM-Based, DiffAMP, Latent Diffusion, PPGC-DVAE, Our Model",
+  "model_answer": "HydrAMP, LLM-Based, DiffAMP, Latent Diffusion, PPGC-DVAE, Our Model",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the image provided, the legend located outside the main plots (on the right side, relevant to plots A and B) contains the following labels from top to bottom:\n\nHydrAMP, LLM-Based, DiffAMP, Latent Diffusion, PPGC-DVAE, Our Model",
+  "grader_explanation": "ground_truth='HydrAMP, LLM-Based, DiffAMP, Latent Diffusion, PPGC-DVAE, Our Model' | extracted='HydrAMP, LLM-Based, DiffAMP, Latent Diffusion, PPGC-DVAE, Our Model' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

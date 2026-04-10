@@ -1,0 +1,16 @@
+{
+  "figure_id": 3073,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the Classroom column, what is the approximate difference in Magnitude between the Mean value at the leftmost x-axis point for K=8 (top row) and K=1 (bottom row)?",
+  "ground_truth": "1",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the Classroom column:\n\n**K=8 (top row):** At the leftmost x-axis point, the Mean value (blue line with squares) is approximately **-36**.\n\n**K=1 (bottom row):** At the leftmost x-axis point, the Mean value (blue line with squares) is approximately **-35**.\n\nThe difference in magnitude is approximately **|-36 - (-35)| = 1**.\n\nThe answer is **1**.",
+  "grader_explanation": "ground_truth='1' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

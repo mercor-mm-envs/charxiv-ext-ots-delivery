@@ -1,0 +1,16 @@
+{
+  "figure_id": 3009,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "123",
+  "model_answer": "123",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes in all 5 subplots.\n\n**Subplot 1 (lnTXR):**\n- Y-axis: 6, 8, 10, 12, 14, 16 \u2192 6 ticks\n- X-axis: NIGERIA_01, NIGERIA_06, NIGERIA_11, NIGERIA_16, NIGERIA_21, GHANA_04, GHANA_09, GHANA_14, GHANA_19, KENYA_02, KENYA_07, KENYA_12, KENYA_17, KENYA_22, SOUTH AFRICA_05, SOUTH AFRICA_10, SOUTH AFRICA_15, SOUTH AFRICA_20 \u2192 18 ticks\n\n**Subplot 2 (lnFDI):**\n- Y-axis: 4, 6, 8, 10, 12, 14, 16 \u2192 7 ticks\n- X-axis: Same 18 labels \u2192 18 ticks\n\n**Subplot 3 (lnEXP):**\n- Y-axis: 6, 7, 8, 9, 10, 11, 12 \u2192 7 ticks\n- X-axis: Same 18 labels \u2192 18 ticks\n\n**Subplot 4 (lnIMP):**\n- Y-axis: 5, 6, 7, 8, 9, 10, 11, 12 \u2192 8 ticks\n- X-axis: Same 18 labels \u2192 18 ticks\n\n**Subplot 5 (lnXGR):**\n- Y-axis: 4.2, 4.4, 4.6, 4.8, 5.0 \u2192 5 ticks\n- X-axis: Same 18 labels \u2192 18 ticks\n\n**Total:** (6+18) + (7+18) + (7+18) + (8+18) + (5+18) = 24 + 25 + 25 + 26 + 23 = **123**\n\nThe total number of explicitly labeled ticks is **123**.",
+  "grader_explanation": "ground_truth='123' | extracted='123' | score=1",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3057,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference in the LP interest rate between Jul 2020 and Jan 2023?",
+  "ground_truth": "0.03",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "From the chart, the **LP interest rate** is approximately:\n\n- **Jul 2020:** 0.095\n- **Jan 2023:** 0.120\n\nDifference:\n\n**0.120 - 0.095 = 0.03**\n\n**Final answer: 0.03**",
+  "grader_explanation": "ground_truth='0.03' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

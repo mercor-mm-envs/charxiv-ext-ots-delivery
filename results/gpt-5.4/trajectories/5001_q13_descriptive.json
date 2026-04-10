@@ -1,0 +1,16 @@
+{
+  "figure_id": 5001,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "1-period ahead, 6-period, 12-period",
+  "model_answer": "1-period ahead, 6-period, 12-period",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "1-period ahead, 6-period, 12-period",
+  "grader_explanation": "ground_truth='1-period ahead, 6-period, 12-period' | extracted='1-period ahead, 6-period, 12-period' | score=1",
+  "run": "gpt-5.4"
+}

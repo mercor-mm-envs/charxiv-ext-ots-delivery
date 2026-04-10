@@ -1,0 +1,16 @@
+{
+  "figure_id": 3095,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate ratio of the \u03c1(\u03c9)/\u03c9 value of the Unsupervised learning curve at \u03c9/T \u2248 25 to its value at \u03c9/T \u2248 0?",
+  "ground_truth": "10",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the Unsupervised learning (green) curve:\n\n- At \u03c9/T \u2248 0: \u03c1(\u03c9)/\u03c9 \u2248 0.01\n- At \u03c9/T \u2248 25: \u03c1(\u03c9)/\u03c9 \u2248 0.10\n\nThe ratio is 0.10 / 0.01 = **10**",
+  "grader_explanation": "ground_truth='10' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

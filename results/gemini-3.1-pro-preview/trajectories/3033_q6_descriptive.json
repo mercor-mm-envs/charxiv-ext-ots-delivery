@@ -1,0 +1,16 @@
+{
+  "figure_id": 3033,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "-1",
+  "model_answer": "0",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the image, the spatially lowest labeled tick on the y-axis is **0**. It is located on the y-axis of the bottommost subplot (labeled \"Residual\").",
+  "grader_explanation": "ground_truth='-1' | extracted='0' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

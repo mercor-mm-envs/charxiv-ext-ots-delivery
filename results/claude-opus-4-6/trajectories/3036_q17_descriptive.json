@@ -1,0 +1,16 @@
+{
+  "figure_id": 3036,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "53",
+  "model_answer": "53",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes in all 6 subplots.\n\n**Y-axes (Quantile Score):** Each subplot has the same y-axis labels: 0, 0.2, 0.4, 0.6, 0.8, 1.0 \u2014 that's 6 ticks per subplot.\n\n6 subplots \u00d7 6 ticks = 36\n\n**X-axes:** \n- Insurance: Ch. 1, Ch. 2, Ch. 3 \u2192 3 ticks\n- Commerce: Ch. 1, Ch. 2, Ch. 3 \u2192 3 ticks\n- FoodProduction: Ch. 1, Ch. 2, Ch. 3 \u2192 3 ticks\n- Healthcare: Ch. 1, Ch. 2, Ch. 3 \u2192 3 ticks\n- Manufacturing: Ch. 1, Ch. 2, Ch. 3 \u2192 3 ticks\n- Retailbanking: Ch. 1, Ch. 2 \u2192 2 ticks\n\nX-axis total: 3 + 3 + 3 + 3 + 3 + 2 = 17\n\n**Total:** 36 + 17 = **53**",
+  "grader_explanation": "ground_truth='53' | extracted='53' | score=1",
+  "run": "claude-opus-4-6"
+}

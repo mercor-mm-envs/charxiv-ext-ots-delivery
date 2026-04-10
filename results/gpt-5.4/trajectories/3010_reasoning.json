@@ -1,0 +1,16 @@
+{
+  "figure_id": 3010,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the top panel (Oceania, North America and Latin America), what is the approximate difference in GDP per capita ($000) between the highest marker for USA and the highest marker for BRA?",
+  "ground_truth": "45",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "In the top panel:\n\n- Highest **USA** marker is about **55**\n- Highest **BRA** marker is about **15**\n\nDifference: **55 - 15 = 40**\n\n**40**",
+  "grader_explanation": "ground_truth='45' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

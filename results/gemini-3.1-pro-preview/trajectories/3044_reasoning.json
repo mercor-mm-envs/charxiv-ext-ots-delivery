@@ -1,0 +1,16 @@
+{
+  "figure_id": 3044,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference in accuracy percentage between the FS-Accuracy and No FS-Accuracy for MC2?",
+  "ground_truth": "3",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "To find the approximate difference in accuracy percentage between FS-Accuracy and No FS-Accuracy for the MC2 category, we need to estimate the values of the two bars corresponding to \"MC2\" on the graph.\n\n1.  **Locate MC2:** Find the group of bars labeled \"MC2\" on the horizontal axis (the third pair from the left).\n2.  **Estimate No FS-Accuracy (Blue Bar):** The blue bar for MC2 represents \"No FS-Accuracy %\". The top of this bar is slightly below the halfway mark between 60 and 80 (which would be 70). It appears to be around **68%**.\n3.  **Estimate FS-Accuracy (Orange Bar):** The orange bar for MC2 represents \"FS-Accuracy %\". The top of this bar is slightly above the halfway mark of 70. It appears to be around **71%**.\n4.  **Calculate the Difference:** Subtract the value of the blue bar from the value of the orange bar:\n    71% - 68% = 3%\n\nThe approximate difference is 3.\n\n3",
+  "grader_explanation": "ground_truth='3' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

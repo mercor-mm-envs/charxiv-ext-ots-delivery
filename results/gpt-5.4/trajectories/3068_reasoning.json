@@ -1,0 +1,16 @@
+{
+  "figure_id": 3068,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In panel A, what is the difference between the total effect sensitivity index of Average infectivity and the first order effect sensitivity index of Average mobility?",
+  "ground_truth": "0.32",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "In panel A:\n\n- Total effect of **Average infectivity** = **0.58**\n- First order effect of **Average mobility** = **0.26**\n\nDifference = **0.58 - 0.26 = 0.32**\n\n**Final answer: 0.32**",
+  "grader_explanation": "ground_truth='0.32' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

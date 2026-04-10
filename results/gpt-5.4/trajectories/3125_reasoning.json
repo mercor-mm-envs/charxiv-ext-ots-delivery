@@ -1,0 +1,16 @@
+{
+  "figure_id": 3125,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "how many countries had a higher value in 2021 than in 2006?",
+  "ground_truth": "2",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Compare 2021 vs 2006 for each country:\n\n- **Albania:** 0.63 vs 0.57 \u2192 higher\n- **Bosnia and Herzegovina:** 0.51 vs 0.70 \u2192 lower\n- **Kosovo\\*:** 0.64 vs 0.57 \u2192 higher\n- **Montenegro:** 1.00 vs 1.00 \u2192 not higher\n- **North Macedonia:** 0.62 vs 0.80 \u2192 lower\n- **Serbia:** 0.49 vs 0.77 \u2192 lower\n\nCountries with a higher value in 2021 than in 2006: **2**",
+  "grader_explanation": "ground_truth='2' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

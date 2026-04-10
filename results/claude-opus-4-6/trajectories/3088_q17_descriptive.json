@@ -1,0 +1,16 @@
+{
+  "figure_id": 3088,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "19",
+  "model_answer": "19",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across both axes.\n\n**X-axis (horizontal):** The labeled ticks are: 0, 5, 10, 15, 20, 25, 30, 35, 40 \u2192 **9 ticks**\n\n**Y-axis (vertical):** The labeled ticks are the category names:\n1. Applied Soft Computing\n2. Soft computing\n3. Expert Systems with Application\n4. Neural computing & applications\n5. International journal of electrical power and energy systems\n6. Mathematical Problems in Engineering\n7. Information Sciences\n8. Applied Intelligence\n9. Engineering Applications of Artificial Intelligence\n10. Knowledge-based systems\n\n\u2192 **10 ticks**\n\n**Total = 9 + 10 = 19**",
+  "grader_explanation": "ground_truth='19' | extracted='19' | score=1",
+  "run": "claude-opus-4-6"
+}

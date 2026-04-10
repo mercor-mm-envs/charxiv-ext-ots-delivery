@@ -1,0 +1,16 @@
+{
+  "figure_id": 3066,
+  "mode": "descriptive",
+  "qid": 5,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the rightmost labeled tick on the x-axis?",
+  "ground_truth": "0.48",
+  "model_answer": "Oceania",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Oceania",
+  "grader_explanation": "ground_truth='0.48' | extracted='Oceania' | score=0",
+  "run": "gpt-5.4"
+}

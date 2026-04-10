@@ -1,0 +1,16 @@
+{
+  "figure_id": 3065,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In panel C (region \u2460), what is the approximate difference between the peak value of \u2202 ERK/\u2202 x (red curve) and the minimum value of \u2202 \u03c1/\u2202 x (magenta curve)?",
+  "ground_truth": "0.4",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at panel C (region \u2460), I need to identify:\n\n1. **Peak value of \u2202 ERK/\u2202 x (red curve):** The red curve starts high and decreases. Its peak value appears to be approximately **0.3** (at the very beginning/leftmost point of the curve).\n\n2. **Minimum value of \u2202 \u03c1/\u2202 x (magenta curve):** The magenta curve dips down to its minimum value, which appears to be approximately **-0.1**.\n\nThe difference between the peak of the red curve and the minimum of the magenta curve:\n\n0.3 - (-0.1) = **0.4**\n\nThe approximate difference is **0.4**.",
+  "grader_explanation": "ground_truth='0.4' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

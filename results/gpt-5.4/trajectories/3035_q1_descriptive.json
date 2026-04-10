@@ -1,0 +1,16 @@
+{
+  "figure_id": 3035,
+  "mode": "descriptive",
+  "qid": 1,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the title of the plot?",
+  "ground_truth": "Seoul Prophet Components with Weekends and Holidays Considered",
+  "model_answer": "Seoul Prophet Components with Weekends and Holidays Considered",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Seoul Prophet Components with Weekends and Holidays Considered",
+  "grader_explanation": "ground_truth='Seoul Prophet Components with Weekends and Holidays Considered' | extracted='Seoul Prophet Components with Weekends and Holidays Considered' | score=1",
+  "run": "gpt-5.4"
+}

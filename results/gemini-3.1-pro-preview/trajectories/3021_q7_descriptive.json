@@ -1,0 +1,16 @@
+{
+  "figure_id": 3021,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "20",
+  "model_answer": "0",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the visual layout of the entire image, the spatially highest labeled tick on any y-axis is located in subplot B (top right). The y-axis in subplot B has its highest tick exactly at the top edge of its plot area, while the highest tick in subplot A (2.5) is positioned slightly below the top edge of its respective plot area. Since the top edges of subplots A and B are horizontally aligned, the top tick of subplot B is spatially higher.\n\nThe spatially highest labeled tick is **0**.",
+  "grader_explanation": "ground_truth='20' | extracted='0' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

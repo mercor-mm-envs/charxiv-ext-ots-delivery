@@ -1,0 +1,16 @@
+{
+  "figure_id": 3018,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "100",
+  "model_answer": "Not Applicable",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided image, the y-axis tick intervals are different across the subplots:\n*   Subplots (a), (c), and (d) have a difference of 100 between consecutive tick values.\n*   Subplot (b) has a difference of 200 between consecutive tick values.\n\nSince the difference is not constant across all subplots in the figure, the answer is:\nNot Applicable",
+  "grader_explanation": "ground_truth='100' | extracted='Not Applicable' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3013,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "200",
+  "model_answer": "200",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the left subplot's y-axis, the tick values are: 800, 1000, 1200, 1400, 1600, 1800, 2000. The difference between consecutive ticks is 200.\n\nLooking at the right subplot's y-axis, the tick values are: 28, 30, 32, 34, 36, 38. The difference between consecutive ticks is 2.\n\nSince the two subplots have different y-axis tick differences, they are separate axes. The question says to consider the y-axis including shared cases, and when present on both left and right, use the left one.\n\nThe left subplot has a y-axis difference of **200**.",
+  "grader_explanation": "ground_truth='200' | extracted='200' | score=1",
+  "run": "claude-opus-4-6"
+}

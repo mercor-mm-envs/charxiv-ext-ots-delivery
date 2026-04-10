@@ -1,0 +1,16 @@
+{
+  "figure_id": 3012,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In panel (a), what is the approximate difference in steady-state average coffee productivity (kg green beans/(year*ha)) between the 4000 scenario and the 1650 scenario at year 30?",
+  "ground_truth": "4000",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "From panel (a) at year 30:\n\n- The **4000 scenario** (red line) has a steady-state value of approximately **7,000** kg green beans/(year*ha)\n- The **1650 scenario** (orange line) has a steady-state value of approximately **3,000** kg green beans/(year*ha)\n\nThe difference is approximately 7,000 - 3,000 = **4000**\n\n$$\\boxed{4000}$$",
+  "grader_explanation": "ground_truth='4000' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

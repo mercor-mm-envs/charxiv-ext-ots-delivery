@@ -1,0 +1,16 @@
+{
+  "figure_id": 5004,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference between the peak value of totalunemploymentrate_lag_4 in panel (c) and its lowest value?",
+  "ground_truth": "12",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the graph in panel (c), labeled \"Unemployment\":\n\n1.  **Identify the peak value:** The highest point on the line graph occurs shortly after 1990. On the y-axis, this point is slightly above the 15 mark. Estimating visually, it appears to be approximately **16**.\n2.  **Identify the lowest value:** The lowest point on the line graph is a sharp dip that occurs just before the peak, around 1991. On the y-axis, this point is slightly below the 5 mark. Estimating visually, it appears to be approximately **4**.\n3.  **Calculate the difference:** Subtract the lowest value from the peak value.\n    $$16 - 4 = 12$$\n\n12",
+  "grader_explanation": "ground_truth='12' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

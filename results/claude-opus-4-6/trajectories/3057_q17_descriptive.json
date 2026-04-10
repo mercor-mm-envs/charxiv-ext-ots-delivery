@@ -1,0 +1,16 @@
+{
+  "figure_id": 3057,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "11",
+  "model_answer": "11",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes.\n\n**X-axis (Timestamps):**\n1. Jul 2020\n2. Jan 2021\n3. Jul 2021\n4. Jan 2022\n5. Jul 2022\n6. Jan 2023\n\nThat's 6 ticks.\n\n**Left Y-axis (Interest Rate):**\n1. 0.10\n2. 0.15\n\nThat's 2 ticks.\n\n**Right Y-axis (Pool Utilization in %):**\n1. 20%\n2. 40%\n3. 60%\n\nThat's 3 ticks.\n\n**Total: 6 + 2 + 3 = 11**\n\nThe total number of explicitly labeled ticks across all axes is **11**.",
+  "grader_explanation": "ground_truth='11' | extracted='11' | score=1",
+  "run": "claude-opus-4-6"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3073,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "Which room type's subplot in the K=8 row shows the highest Mean magnitude value at approximately x=100?",
+  "ground_truth": "Complex",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "In the **K=8** row, the subplot with the highest **Mean** value at approximately **x = 100** is **Hallway**.",
+  "grader_explanation": "ground_truth='Complex' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

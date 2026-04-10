@@ -1,0 +1,16 @@
+{
+  "figure_id": 3124,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "what is the approximate difference between the peak EU27_TFEE value and the lowest WB6_TFEE value across all years shown?",
+  "ground_truth": "0.2",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "The peak **EU27_TFEE** value is approximately **0.83**, and the lowest **WB6_TFEE** value is approximately **0.59**.\n\nSo the difference is:\n\n**0.83 - 0.59 = 0.24**\n\nRounded to 1 decimal place: **0.2**",
+  "grader_explanation": "ground_truth='0.2' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

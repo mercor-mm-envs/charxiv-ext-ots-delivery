@@ -1,0 +1,16 @@
+{
+  "figure_id": 3075,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the percentage savings in overall cost of the Proposed Approach compared to the Capacity-based Allocation?",
+  "ground_truth": "8.22%",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the data provided in the table:\n\n1.  **Overall cost of the Proposed Approach:** $251.47\n2.  **Overall cost of the Capacity-based Allocation:** $273.99\n\nTo calculate the percentage savings, we use the following formula:\n$$\\text{Percentage Savings} = \\left( \\frac{\\text{Original Cost} - \\text{New Cost}}{\\text{Original Cost}} \\right) \\times 100$$\n\nPlugging in the numbers:\n$$\\text{Percentage Savings} = \\left( \\frac{273.99 - 251.47}{273.99} \\right) \\times 100$$\n$$\\text{Percentage Savings} = \\left( \\frac{22.52}{273.99} \\right) \\times 100 \\approx 8.219278\\%$$\n\nRounding to 3 decimal places, the percentage savings is **8.219**.",
+  "grader_explanation": "ground_truth='8.22%' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

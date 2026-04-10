@@ -1,0 +1,16 @@
+{
+  "figure_id": 3028,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "1_1, 1_2, 2_7, 7_5",
+  "model_answer": "FM, MF, 1_1, 1_2, 2_7, 7_5",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "The image contains two plots, each with its own legend.\n\n**Left plot legend (top to bottom):**\nFM, MF\n\n**Right plot legend (top to bottom):**\n1_1, 1_2, 2_7, 7_5\n\nCombined from top to bottom, left to right:\n\n**FM, MF, 1_1, 1_2, 2_7, 7_5**",
+  "grader_explanation": "ground_truth='1_1, 1_2, 2_7, 7_5' | extracted='FM, MF, 1_1, 1_2, 2_7, 7_5' | score=0",
+  "run": "claude-opus-4-6"
+}

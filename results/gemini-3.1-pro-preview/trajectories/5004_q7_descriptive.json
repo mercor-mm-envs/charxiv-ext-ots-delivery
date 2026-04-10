@@ -1,0 +1,16 @@
+{
+  "figure_id": 5004,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "100",
+  "model_answer": "12",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the plot, the spatially highest subplots are (a) and (b). Their y-axes are at the same vertical level. Following the instruction to base the answer on the axis at the left when there is a left/right presence, we look at the y-axis for subplot (a) on the top left.\n\nThe explicitly written tick values on this y-axis, from bottom to top, are 9, 10, 11, and 12. The spatially highest labeled tick is 12.\n\n12",
+  "grader_explanation": "ground_truth='100' | extracted='12' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3084,
+  "mode": "descriptive",
+  "qid": 16,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the general trend of data from left to right?",
+  "ground_truth": "Not Applicable",
+  "model_answer": "no clear trend",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "no clear trend",
+  "grader_explanation": "ground_truth='Not Applicable' | extracted='no clear trend' | score=0",
+  "run": "gpt-5.4"
+}

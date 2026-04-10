@@ -1,0 +1,16 @@
+{
+  "figure_id": 3064,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference in the highest promotion strength between neurons that promote Forward (panel a) and neurons that promote Reversal (panel c)?",
+  "ground_truth": "1800",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the provided graphs:\n\n1.  In **panel (a)** (neurons that promote Forward), the highest promotion strength is for the neuron **RMED**. The bar for RMED goes above the 2500 mark on the y-axis. Estimating its height based on the grid spacing (500 units per grid line), it is approximately **2800**.\n2.  In **panel (c)** (neurons that promote Reversal), the highest promotion strength is for the neuron **URYVL**. The bar for URYVL aligns exactly with the **1000** mark on the y-axis.\n\nThe approximate difference between these highest values is:\n2800 - 1000 = 1800\n\n1800",
+  "grader_explanation": "ground_truth='1800' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

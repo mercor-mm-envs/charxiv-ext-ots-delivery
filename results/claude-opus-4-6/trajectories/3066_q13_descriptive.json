@@ -1,0 +1,16 @@
+{
+  "figure_id": 3066,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11",
+  "model_answer": "S_1, S_2, S_3, S_4, S_5, S_6, S_7, S_8, S_9, S_10, S_11",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "S_1, S_2, S_3, S_4, S_5, S_6, S_7, S_8, S_9, S_10, S_11",
+  "grader_explanation": "ground_truth='S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11' | extracted='S_1, S_2, S_3, S_4, S_5, S_6, S_7, S_8, S_9, S_10, S_11' | score=0",
+  "run": "claude-opus-4-6"
+}

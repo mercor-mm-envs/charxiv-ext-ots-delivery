@@ -1,0 +1,16 @@
+{
+  "figure_id": 3074,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "10",
+  "model_answer": "10^1",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the plot, the spatially highest labeled tick on the main y-axis is **10^1**.",
+  "grader_explanation": "ground_truth='10' | extracted='10^1' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

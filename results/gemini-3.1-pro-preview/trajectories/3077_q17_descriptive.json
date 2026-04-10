@@ -1,0 +1,16 @@
+{
+  "figure_id": 3077,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "16",
+  "model_answer": "16",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the image provided, here is the count of explicitly labeled ticks:\n\n*   **Y-axis:** There are 10 labeled ticks ($45.00, $40.00, $35.00, $30.00, $25.00, $20.00, $15.00, $10.00, $5.00, $0.00).\n*   **X-axis:** There are 6 labeled ticks corresponding to the categories under the bars (Energy Loss Costs, Degradation Costs, Decomm. Costs, Energy Loss Costs, Degradation Costs, Decomm. Costs).\n\nTotal number of explicitly labeled ticks = 10 + 6 = 16.\n\n**16**",
+  "grader_explanation": "ground_truth='16' | extracted='16' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

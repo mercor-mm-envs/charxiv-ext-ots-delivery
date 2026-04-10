@@ -1,0 +1,16 @@
+{
+  "figure_id": 3011,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference in penetration (%) between Indonesia and Iceland?",
+  "ground_truth": "0.90",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided scatter plot, we can estimate the penetration (%) for both Indonesia and Iceland by reading their corresponding values on the y-axis.\n\n1.  **Locate Indonesia:** The data point for Indonesia is in the upper left section of the chart.\n    *   The point is above the 1.00 grid line.\n    *   The distance between the 1.00 and 1.20 grid lines represents 0.20 units.\n    *   The center of the dot for Indonesia appears to be about 60% of the way from the 1.00 line to the 1.20 line.\n    *   Calculation: $1.00 + (0.60 \\times 0.20) = 1.12$\n    *   Approximate Penetration for Indonesia $\\approx 1.12\\%$\n\n2.  **Locate Iceland:** The data point for Iceland is in the lower right section of the chart.\n    *   The point is situated very close to the 0.20 grid line, just slightly above it.\n    *   We can estimate its value to be roughly $0.21\\%$.\n\n3.  **Calculate the difference:**\n    *   $\\text{Difference} = \\text{Penetration (Indonesia)} - \\text{Penetration (Iceland)}$\n    *   $\\text{Difference} = 1.12 - 0.21 = 0.91$\n\n0.91",
+  "grader_explanation": "ground_truth='0.90' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

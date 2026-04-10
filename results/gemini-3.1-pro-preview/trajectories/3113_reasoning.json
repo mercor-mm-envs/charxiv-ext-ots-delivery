@@ -1,0 +1,16 @@
+{
+  "figure_id": 3113,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "what natural phenomenon is both visually depicted as a swirling icon and described in the accompanying text as involving 'temperature extremes and climate variability' as central drivers?",
+  "ground_truth": "Climate extremes",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "1",
+  "grader_explanation": "ground_truth='Climate extremes' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

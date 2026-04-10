@@ -1,0 +1,16 @@
+{
+  "figure_id": 4006,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the difference between Australia's Financial Freedom Index in 2007 and its value in 2019?",
+  "ground_truth": "50",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Looking at the chart for Australia (light blue line):\n\n- In 2007, Australia's Financial Freedom Index = 90\n- In 2019, Australia's Financial Freedom Index = 90\n\nThe difference = 90 - 90 = **0**",
+  "grader_explanation": "ground_truth='50' | extracted='' | score=0 (re-graded)",
+  "run": "claude-opus-4-6"
+}

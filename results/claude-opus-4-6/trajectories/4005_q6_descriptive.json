@@ -1,0 +1,16 @@
+{
+  "figure_id": 4005,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "-0.05",
+  "model_answer": "-0.05",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the bottom-left subplot (Economic Growth Percentage) and the bottom-right subplot (Economic Growth Square), I need to find the spatially lowest labeled tick on the y-axis across all subplots.\n\nThe bottom-left subplot has y-axis ticks: -0.05, 0.00, 0.05, 0.10, 0.15, with the lowest being **-0.05**.\n\nThe bottom-right subplot has y-axis ticks: -0.01, 0.00, 0.01, with the lowest being **-0.01**.\n\nSince both bottom subplots are at the same vertical position, I need to check which has the spatially lowest tick. Both -0.05 and -0.01 are at similar spatial positions at the bottom of their respective subplots.\n\nThe spatially lowest labeled tick on the y-axis is **\u22120.05**.",
+  "grader_explanation": "ground_truth='-0.05' | extracted='-0.05' | score=1",
+  "run": "claude-opus-4-6"
+}

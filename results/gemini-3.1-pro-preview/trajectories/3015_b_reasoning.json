@@ -1,0 +1,16 @@
+{
+  "figure_id": 3015,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "In panel (c), which country has the highest Expected Escape Time while having an AROPE Rate below 25%?",
+  "ground_truth": "IE",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on panel (c), the points with an AROPE Rate below 25% are those to the left of the 25 mark on the x-axis. Among these points, the one with the highest Expected Escape Time (highest on the y-axis) is the orange dot labeled **IE**.",
+  "grader_explanation": "ground_truth='IE' | extracted='' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

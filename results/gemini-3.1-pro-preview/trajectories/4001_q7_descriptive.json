@@ -1,0 +1,16 @@
+{
+  "figure_id": 4001,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "20",
+  "model_answer": "15",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the instructions provided:\n\n1.  **Identify the spatially highest ticks:** The plot consists of a 3x3 grid of subplots. The spatially highest y-axis ticks are located at the very top of the subplots in the first row (\"output\", \"consumption\", \"employment\"). These top ticks are labeled 15, 10, and 20, respectively, and are all aligned at the same spatial height.\n2.  **Apply the tie-breaking rule:** The prompt specifies, \"When the y-axis is present on both the left and right of the plot, based on the axis at the left.\" Applying this preference for the leftmost axis to the entire figure to resolve the spatial tie, we look at the leftmost subplot in the top row (\"output\").\n3.  **Extract the explicitly written value:** The highest labeled tick on this leftmost y-axis is 15. We ignore the separate scale \"x $10^{-3}$\" at the top corner as instructed.\n\n15",
+  "grader_explanation": "ground_truth='20' | extracted='15' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

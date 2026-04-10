@@ -1,0 +1,16 @@
+{
+  "figure_id": 3061,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "How many total distinct population group labels appear across both axes (x and y combined) in a single panel, counting each unique label only once?",
+  "ground_truth": "10",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at a single panel (e.g., panel A), I need to identify all unique population group labels across both axes.\n\n**Y-axis labels:**\n1. SAfrica\n2. MAfrica\n3. NAfrica\n4. Europe\n5. Caucasus\n6. MiddleEast\n7. SAsia\n8. EAsia\n9. NAsia\n10. Americas/Oceania\n\n**X-axis labels:**\n1. SAfrica\n2. MAfrica\n3. NAfrica\n4. Europe\n5. Caucasus\n6. MiddleEast\n7. SAsia\n8. EAsia\n9. NAsia\n10. Americas/Oceania\n\nThe x-axis and y-axis have the same labels, so the distinct labels counting each only once are the 10 listed above.\n\n**10**",
+  "grader_explanation": "ground_truth='10' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

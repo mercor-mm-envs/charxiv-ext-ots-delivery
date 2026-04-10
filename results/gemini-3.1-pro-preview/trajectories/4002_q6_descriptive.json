@@ -1,0 +1,16 @@
+{
+  "figure_id": 4002,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "-2",
+  "model_answer": "-2",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the image, the spatially lowest subplots are in the bottom row. Let's look at the y-axis of each subplot in the bottom row:\n\n1.  **Bottom-left subplot (Standardized Exchange_Rate):** The labeled ticks on the y-axis are 6, 4, 2, 0, and -2. The lowest labeled tick is **-2**.\n2.  **Bottom-middle subplot (Standardized Trade):** The labeled ticks on the y-axis are 3, 2, 1, 0, -1, and -2. The lowest labeled tick is **-2**.\n\nBoth subplots in the lowest row have their lowest labeled tick at -2.\n\n-2",
+  "grader_explanation": "ground_truth='-2' | extracted='-2' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

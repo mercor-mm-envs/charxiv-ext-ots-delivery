@@ -1,0 +1,16 @@
+{
+  "figure_id": 3047,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the left line chart, what is the approximate price increase in dollars from the lowest point in June 2025 to the highest point in October 2025?",
+  "ground_truth": "45",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "From the left chart, the lowest point in June 2025 is about **$137**, and the highest point in October 2025 is about **$186**.\n\nSo the approximate increase is:\n\n**186 - 137 = 49**\n\n49",
+  "grader_explanation": "ground_truth='45' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

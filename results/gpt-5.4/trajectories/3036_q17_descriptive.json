@@ -1,0 +1,16 @@
+{
+  "figure_id": 3036,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "53",
+  "model_answer": "53",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Each subplot has:\n\n- x-axis: 3 labeled ticks for most panels, except **Retailbanking** which has 2\n- y-axis: 6 labeled ticks each (`0.0, 0.2, 0.4, 0.6, 0.8, 1.0`)\n\nCount per subplot:\n- Insurance: 3 + 6 = 9\n- Commerce: 3 + 6 = 9\n- FoodProduction: 3 + 6 = 9\n- Healthcare: 3 + 6 = 9\n- Manufacturing: 3 + 6 = 9\n- Retailbanking: 2 + 6 = 8\n\nTotal = 9 + 9 + 9 + 9 + 9 + 8 = **53**",
+  "grader_explanation": "ground_truth='53' | extracted='53' | score=1",
+  "run": "gpt-5.4"
+}

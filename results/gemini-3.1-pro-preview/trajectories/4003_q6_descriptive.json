@@ -1,0 +1,16 @@
+{
+  "figure_id": 4003,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "-1.5",
+  "model_answer": "-1",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the leftmost y-axis of the plot, the labeled ticks from top to bottom are 4, 3, 2, 1, 0, and -1. The spatially lowest labeled tick is -1.\n\n-1",
+  "grader_explanation": "ground_truth='-1.5' | extracted='-1' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

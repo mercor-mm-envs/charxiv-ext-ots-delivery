@@ -1,0 +1,16 @@
+{
+  "figure_id": 3041,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference in Overall Quantile Score between Team 1 and the Claude Code Baseline?",
+  "ground_truth": "0.42",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "From the chart:\n\n- **Team 1** has an Overall Quantile Score of approximately **0.87**\n- **Claude Code Baseline** has a score of **0.458** (as labeled)\n\nDifference: 0.87 - 0.458 = **0.41**\n\nThe approximate difference is **0.41**.",
+  "grader_explanation": "ground_truth='0.42' | extracted='' | score=0",
+  "run": "claude-opus-4-6"
+}

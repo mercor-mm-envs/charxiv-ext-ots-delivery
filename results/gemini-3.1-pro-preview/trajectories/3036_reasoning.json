@@ -1,0 +1,16 @@
+{
+  "figure_id": 3036,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the FoodProduction domain, what is the approximate difference in Quantile Score between the Claude Code Baseline and the GPT-4o Baseline for Challenge 2?",
+  "ground_truth": "0.25",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided chart, here is the step-by-step estimation:\n\n1.  **Locate the Subplot:** Find the **FoodProduction** domain, which is the subplot in the top right corner.\n2.  **Locate the Challenge:** Look at the middle column within that subplot, labeled **Ch. 2**.\n3.  **Identify the Markers:**\n    *   **Claude Code Baseline** is the purple square.\n    *   **GPT-4o Baseline** is the orange diamond.\n4.  **Estimate the Scores:**\n    *   The **purple square (Claude Code)** is located between the 0.2 and 0.4 lines on the y-axis (Quantile Score). It is positioned above the midpoint (0.3), roughly at **0.36**.\n    *   The **orange diamond (GPT-4o)** is located between the 0.0 and 0.2 lines. It is positioned slightly below the midpoint (0.1), roughly at **0.08**.\n5.  **Calculate the Difference:** 0.36 - 0.08 = 0.28.\n\n0.28",
+  "grader_explanation": "ground_truth='0.25' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

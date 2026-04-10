@@ -1,0 +1,16 @@
+{
+  "figure_id": 3012,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 3,
+  "inst_category_name": "NiC",
+  "question": "In panel (b), what is the approximate steady-state profit value (in rupiah/year) for the 3300 scenario at year 30?",
+  "ground_truth": "100 M",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "In panel **(b)**, the **3300** scenario is the **green** curve. At **year 30**, it has leveled off just **below the 100 M** tick, so the approximate steady-state profit is:\n\n**\u2248 95 million rupiah/year**.",
+  "grader_explanation": "ground_truth='100 M' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

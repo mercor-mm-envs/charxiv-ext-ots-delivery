@@ -1,0 +1,16 @@
+{
+  "figure_id": 3073,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "Mean, \u00b13 Std, GT, xRIR",
+  "model_answer": "Mean, \u00b13 Std, GT, xRIR",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Mean, \u00b13 Std, GT, xRIR",
+  "grader_explanation": "ground_truth='Mean, \u00b13 Std, GT, xRIR' | extracted='Mean, \u00b13 Std, GT, xRIR' | score=1",
+  "run": "gpt-5.4"
+}

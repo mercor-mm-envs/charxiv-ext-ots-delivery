@@ -1,0 +1,16 @@
+{
+  "figure_id": 3012,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "-100 M",
+  "model_answer": "-100 M",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "The spatially lowest labeled tick on the y-axis is **-100 M**, found on the bottom subplot (Profit).",
+  "grader_explanation": "ground_truth='-100 M' | extracted='-100 M' | score=1",
+  "run": "claude-opus-4-6"
+}

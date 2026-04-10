@@ -1,0 +1,16 @@
+{
+  "figure_id": 4005,
+  "mode": "descriptive",
+  "qid": 9,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the difference between consecutive numerical tick values on the y-axis?",
+  "ground_truth": "0.05",
+  "model_answer": "Not Applicable",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the plot, there are four subplots, each with its own y-axis. \n- The top-left and bottom-left subplots have a tick difference of 0.05 (e.g., 0.00 - (-0.05) = 0.05).\n- The top-right subplot has a tick difference of 0.02 (e.g., 0.02 - 0.00 = 0.02).\n- The bottom-right subplot has tick values of -0.01, 0.00, 0.01, and 0.01, where the difference is not constant even within the single axis (0.01 and 0.00).\n\nSince the difference is not constant between all consecutive tick values across the y-axes in the figure, the answer is \"Not Applicable\".\n\nNot Applicable",
+  "grader_explanation": "ground_truth='0.05' | extracted='Not Applicable' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

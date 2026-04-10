@@ -1,0 +1,16 @@
+{
+  "figure_id": 4006,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "20",
+  "model_answer": "20",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "There are 13 labeled ticks on the x-axis (2007\u20132019) and 7 labeled ticks on the y-axis (40, 50, 60, 70, 80, 90, 100).\n\nTotal explicitly labeled ticks across all axes = **20**.",
+  "grader_explanation": "ground_truth='20' | extracted='20' | score=1",
+  "run": "gpt-5.4"
+}

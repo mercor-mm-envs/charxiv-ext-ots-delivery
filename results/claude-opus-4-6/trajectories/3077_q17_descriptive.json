@@ -1,0 +1,16 @@
+{
+  "figure_id": 3077,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "16",
+  "model_answer": "16",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes.\n\n**Y-axis (left side):** The labeled ticks are:\n$0.00, $5.00, $10.00, $15.00, $20.00, $25.00, $30.00, $35.00, $40.00, $45.00\nThat's **10** ticks.\n\n**X-axis:** The labeled ticks are:\n- Energy Loss Costs (under Case 1)\n- Degradation Costs (under Case 1)\n- Decomm. Costs (under Case 1)\n- Energy Loss Costs (under Case 2)\n- Degradation Costs (under Case 2)\n- Decomm. Costs (under Case 2)\n\nThat's **6** ticks.\n\n**Total: 10 + 6 = 16**\n\nThe total number of explicitly labeled ticks across all axes is **16**.",
+  "grader_explanation": "ground_truth='16' | extracted='16' | score=1",
+  "run": "claude-opus-4-6"
+}

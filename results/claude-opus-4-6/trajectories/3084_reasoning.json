@@ -1,0 +1,16 @@
+{
+  "figure_id": 3084,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "How many labeled nodes (with green-bordered boxes and letter labels) are there in total in the diagram?",
+  "ground_truth": "8",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all the labeled nodes that have green-bordered boxes and letter labels.\n\nLet me go through the diagram systematically:\n\n1. **A** - top area, green-bordered box with a brown cube\n2. **B** - top area, green-bordered box with a blue cube\n3. **C** - second row, green-bordered box with brown cubes\n4. **D** - second row, green-bordered box with brown cubes\n5. **E** - second row, green-bordered box with brown cubes + blue cube\n6. **F** - right side, green-bordered box with a brown cube\n7. **G** - left side lower area, green-bordered box with brown cubes + blue cube\n8. **H** - bottom right, green-bordered box with brown cube + blue cube\n\nCounting these up: A, B, C, D, E, F, G, H = **8**\n\nThe answer is **8**.",
+  "grader_explanation": "ground_truth='8' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

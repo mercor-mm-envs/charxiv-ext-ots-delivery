@@ -1,0 +1,16 @@
+{
+  "figure_id": 3021,
+  "mode": "descriptive",
+  "qid": 3,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the label of the y-axis?",
+  "ground_truth": "Net removed CO2 emissions [GtCO2]",
+  "model_answer": "Net removed CO2 emissions [GtCO2]",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Net removed CO2 emissions [GtCO2]",
+  "grader_explanation": "ground_truth='Net removed CO2 emissions [GtCO2]' | extracted='Net removed CO2 emissions [GtCO2]' | score=1",
+  "run": "gpt-5.4"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 5002,
+  "mode": "descriptive",
+  "qid": 6,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially lowest labeled tick on the y-axis?",
+  "ground_truth": "-0.10",
+  "model_answer": "-0.05",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the image, the spatially lowest subplots are in the bottom row. The y-axis ticks for the bottom-left subplot are 0.025, 0.000, -0.025, and -0.050. The y-axis ticks for the bottom-right subplot are 0.05, 0.00, -0.05, and -0.10. Both -0.050 and -0.10 are at the same spatial height at the bottom of the image. Following the instruction to base the answer on the axis at the left when there is ambiguity or multiple axes, we look at the leftmost y-axis in that bottom row.\n\nThe spatially lowest labeled tick on the left y-axis is -0.050.\n\n-0.050",
+  "grader_explanation": "ground_truth='-0.10' | extracted='-0.05' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

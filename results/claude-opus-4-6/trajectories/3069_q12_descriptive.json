@@ -1,0 +1,16 @@
+{
+  "figure_id": 3069,
+  "mode": "descriptive",
+  "qid": 12,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "How many discrete labels are there in the legend?",
+  "ground_truth": "3",
+  "model_answer": "3",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "3",
+  "grader_explanation": "ground_truth='3' | extracted='3' | score=1",
+  "run": "claude-opus-4-6"
+}

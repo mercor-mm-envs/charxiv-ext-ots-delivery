@@ -1,0 +1,16 @@
+{
+  "figure_id": 4003,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "28",
+  "model_answer": "28",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the provided image, here is the count of explicitly labeled ticks for each axis:\n\n*   **Left subplot (Monetary Policy Effect on GDP):**\n    *   y-axis: 6 labeled ticks (-1, 0, 1, 2, 3, 4)\n    *   x-axis: 7 labeled ticks (-1, 0, 1, 2, 3, 4, 5)\n*   **Right subplot (Trade Openness Effect on GDP):**\n    *   y-axis: 9 labeled ticks (-1.5, -1.0, -0.5, 0.0, 0.5, 1.0, 1.5, 2.0, 2.5)\n    *   x-axis: 6 labeled ticks (-2, -1, 0, 1, 2, 3)\n\nTotal = 6 + 7 + 9 + 6 = 28\n\n28",
+  "grader_explanation": "ground_truth='28' | extracted='28' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

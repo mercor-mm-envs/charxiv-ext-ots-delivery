@@ -1,0 +1,16 @@
+{
+  "figure_id": 4001,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "20",
+  "model_answer": "20",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the y-axis of each subplot, I need to find the spatially highest labeled tick across all subplots.\n\nThe spatially highest labeled ticks on the y-axes are at the top of each subplot:\n\n- **Output**: 15\n- **Consumption**: 10\n- **Employment**: 20\n- **Energy consumption**: 6\n- **Real wage**: 0\n- **Investment**: 10\n- **Real money holdings**: 4\n- **Deposit interest rate**: 20\n- **Loan interest rate**: 6\n\nThe spatially highest labeled tick on the y-axis is **20** (found in the \"employment\" subplot in the top-right, and the \"deposit interest rate\" subplot in the bottom-middle).\n\nThe answer is **20**.",
+  "grader_explanation": "ground_truth='20' | extracted='20' | score=1",
+  "run": "claude-opus-4-6"
+}

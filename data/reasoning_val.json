@@ -1,4 +1,18 @@
 {
+  "3000": {
+    "figure_id": 3000,
+    "query": "In the 'Response of Y to Y Innovation' panel, what is the approximate difference between the peak y-value and the value at period 25?",
+    "answer": "0.05",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3000_b": {
+    "figure_id": 3000,
+    "query": "Which variable's own innovation response (i.e., response of a variable to its own shock) shows the largest initial peak value among all the diagonal panels?",
+    "answer": "Response of PR to PR Innovation",
+    "inst_category": 1,
+    "qa_source": 3
+  },
   "3001": {
     "figure_id": 3001,
     "query": "What is the difference between the peak value of Frozen Strawberries and the peak value of Frozen Orange Juice across all years?",
@@ -11,6 +25,34 @@
     "query": "At Year 5, what is the approximate value of Frozen Strawberries on the y-axis?",
     "answer": "6",
     "inst_category": 3,
+    "qa_source": 3
+  },
+  "3006": {
+    "figure_id": 3006,
+    "query": "What is the approximate difference between the highest value of LBSE and the highest value of LKLCI at the end of the time series (around year 24)?",
+    "answer": "3.7",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3006_b": {
+    "figure_id": 3006,
+    "query": "Which stock index series consistently has the lowest values throughout the entire time period shown in the chart?",
+    "answer": "LKLCI",
+    "inst_category": 1,
+    "qa_source": 3
+  },
+  "3008": {
+    "figure_id": 3008,
+    "query": "What is the difference between the highest labeled y-axis tick value in Model 6 (panel f) and the lowest labeled y-axis tick value in Model 2 (panel b)?",
+    "answer": "45",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3008_b": {
+    "figure_id": 3008,
+    "query": "Which model's subplot has the largest y-axis range (difference between the highest and lowest labeled y-axis ticks)?",
+    "answer": "Model 6",
+    "inst_category": 1,
     "qa_source": 3
   },
   "3009": {
@@ -27,6 +69,34 @@
     "inst_category": 1,
     "qa_source": 3
   },
+  "3010": {
+    "figure_id": 3010,
+    "query": "In the top panel (Oceania, North America and Latin America), what is the approximate difference in GDP per capita ($000) between the highest marker for USA and the highest marker for BRA?",
+    "answer": "45",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3011": {
+    "figure_id": 3011,
+    "query": "What is the approximate difference in penetration (%) between Indonesia and Iceland?",
+    "answer": "0.90",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3012": {
+    "figure_id": 3012,
+    "query": "In panel (a), what is the approximate difference in steady-state average coffee productivity (kg green beans/(year*ha)) between the 4000 scenario and the 1650 scenario at year 30?",
+    "answer": "4000",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3012_b": {
+    "figure_id": 3012,
+    "query": "In panel (b), what is the approximate steady-state profit value (in rupiah/year) for the 3300 scenario at year 30?",
+    "answer": "100 M",
+    "inst_category": 3,
+    "qa_source": 3
+  },
   "3013": {
     "figure_id": 3013,
     "query": "What is the approximate difference between the peak Gini Index value (around 2000) and the lowest Gini Index value (around 1977-1978) as shown in the right panel?",
@@ -41,10 +111,45 @@
     "inst_category": 3,
     "qa_source": 3
   },
+  "3015": {
+    "figure_id": 3015,
+    "query": "In panel (a), what is the approximate difference in Potential between the stable equilibrium near the 90th income percentile and the stable equilibrium near the 30th income percentile?",
+    "answer": "0.4",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3015_b": {
+    "figure_id": 3015,
+    "query": "In panel (c), which country has the highest Expected Escape Time while having an AROPE Rate below 25%?",
+    "answer": "IE",
+    "inst_category": 1,
+    "qa_source": 3
+  },
+  "3018": {
+    "figure_id": 3018,
+    "query": "What is the approximate ratio of the peak frequency in the Bathrooms histogram (panel b) to the peak frequency in the Bedrooms histogram (panel a)?",
+    "answer": "1.8",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3018_b": {
+    "figure_id": 3018,
+    "query": "Which variable's histogram (across all four panels) has the highest single-bar frequency, and what is the approximate value of that peak frequency?",
+    "answer": "Bathrooms, 950",
+    "inst_category": 3,
+    "qa_source": 3
+  },
   "3021": {
     "figure_id": 3021,
     "query": "In panel C, what is the difference in the likelihood of gigaton-scale (%) between the LTS and NDC policies at average subsidies of approximately 900 $/tCO2?",
     "answer": "2",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3025": {
+    "figure_id": 3025,
+    "query": "In the top-left survival curve plot, what is the approximate difference in survival probability S(t) between the FF group and the MM group at t = 4000?",
+    "answer": "0.05",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -69,27 +174,6 @@
     "inst_category": 1,
     "qa_source": 3
   },
-  "3029": {
-    "figure_id": 3029,
-    "query": "In the right panel (line chart), what is the approximate difference in mean survival time between female (F) donors of ethnicity 998 and female donors of ethnicity 9?",
-    "answer": "1500",
-    "inst_category": 4,
-    "qa_source": 3
-  },
-  "3030": {
-    "figure_id": 3030,
-    "query": "What is the approximate difference in survival probability between the Cox Predicted Kidney Survival curve and the KM Kidney Survival curve at 25 years post kidney transplant?",
-    "answer": "0.05",
-    "inst_category": 4,
-    "qa_source": 3
-  },
-  "3030_b": {
-    "figure_id": 3030,
-    "query": "What is the approximate survival probability of the KM Kidney Survival curve at 10 years post kidney transplant?",
-    "answer": "0.72",
-    "inst_category": 3,
-    "qa_source": 3
-  },
   "3031": {
     "figure_id": 3031,
     "query": "What is the approximate difference between the highest average default rate of Gyeonggi at Month 1 and the lowest average default rate of Sejong at Month 1?",
@@ -97,10 +181,52 @@
     "inst_category": 4,
     "qa_source": 3
   },
-  "3038": {
-    "figure_id": 3038,
-    "query": "In the left line chart (NVDA Stock Price June-Sept 2025), what is the approximate price increase in dollars from the lowest point in the July period to the highest point shown on the chart around October 2025?",
-    "answer": "33",
+  "3032": {
+    "figure_id": 3032,
+    "query": "What is the approximate difference between the highest default rate of Jeju across all years and the highest default rate of Sejong across all years?",
+    "answer": "1.05",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3033": {
+    "figure_id": 3033,
+    "query": "What is the approximate difference between the peak value in the Observed panel and the peak value in the Residual panel?",
+    "answer": "8",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3035": {
+    "figure_id": 3035,
+    "query": "What is the approximate decrease in the trend value from 2012 to 2025 in the top subplot?",
+    "answer": "3.3",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3036": {
+    "figure_id": 3036,
+    "query": "In the FoodProduction domain, what is the approximate difference in Quantile Score between the Claude Code Baseline and the GPT-4o Baseline for Challenge 2?",
+    "answer": "0.25",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3037": {
+    "figure_id": 3037,
+    "query": "Across all three optimization methods, what is the approximate difference in accuracy between the Proposed Ensemble Model and LR at a learning rate of 0.02?",
+    "answer": "15",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3037_b": {
+    "figure_id": 3037,
+    "query": "Which optimization method and learning rate combination yields the highest accuracy for the Proposed Ensemble Model across all three subplots?",
+    "answer": "RMSprop at learning rate 0.02",
+    "inst_category": 1,
+    "qa_source": 3
+  },
+  "3041": {
+    "figure_id": 3041,
+    "query": "What is the approximate difference in Overall Quantile Score between Team 1 and the Claude Code Baseline?",
+    "answer": "0.42",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -118,10 +244,38 @@
     "inst_category": 4,
     "qa_source": 3
   },
+  "3044": {
+    "figure_id": 3044,
+    "query": "What is the approximate difference in accuracy percentage between the FS-Accuracy and No FS-Accuracy for MC2?",
+    "answer": "3",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3045": {
+    "figure_id": 3045,
+    "query": "What is the difference in Precision between SVM and RF?",
+    "answer": "45",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3046": {
+    "figure_id": 3046,
+    "query": "What is the difference between the highest score and the lowest score among all 24 variables?",
+    "answer": "0.55",
+    "inst_category": 4,
+    "qa_source": 3
+  },
   "3047": {
     "figure_id": 3047,
     "query": "In the left line chart, what is the approximate price increase in dollars from the lowest point in June 2025 to the highest point in October 2025?",
     "answer": "45",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3048": {
+    "figure_id": 3048,
+    "query": "What is the difference in the percentage of Stocks between Model Type 1 and Model Type 7?",
+    "answer": "7.9",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -164,6 +318,20 @@
     "figure_id": 3054,
     "query": "In Panel B, approximately what value does the HTZ (LHS) stock price reach at its peak around February 2020?",
     "answer": "21",
+    "inst_category": 3,
+    "qa_source": 3
+  },
+  "3057": {
+    "figure_id": 3057,
+    "query": "What is the approximate difference in the LP interest rate between Jul 2020 and Jan 2023?",
+    "answer": "0.03",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3057_b": {
+    "figure_id": 3057,
+    "query": "What is the approximate Pool Utilization percentage at Jan 2023 as shown on the right y-axis?",
+    "answer": "55%",
     "inst_category": 3,
     "qa_source": 3
   },
@@ -244,6 +412,13 @@
     "inst_category": 4,
     "qa_source": 3
   },
+  "3069": {
+    "figure_id": 3069,
+    "query": "How many total UAVs (including both the Cluster Head UAV and all explicitly labeled Cluster Member UAVs) are shown in the diagram?",
+    "answer": "5",
+    "inst_category": 4,
+    "qa_source": 3
+  },
   "3072": {
     "figure_id": 3072,
     "query": "In the top-left subplot, what is the approximate difference in magnitude (dB) between the Mean curve and the xRIR curve at the lowest frequency (~50 Hz)?",
@@ -279,10 +454,24 @@
     "inst_category": 4,
     "qa_source": 3
   },
+  "3075": {
+    "figure_id": 3075,
+    "query": "What is the percentage savings in overall cost of the Proposed Approach compared to the Capacity-based Allocation?",
+    "answer": "8.22%",
+    "inst_category": 4,
+    "qa_source": 3
+  },
   "3076": {
     "figure_id": 3076,
     "query": "What is the percentage reduction in overall cost when using the Proposed Approach compared to the Capacity-based Allocation?",
     "answer": "7.69",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3077": {
+    "figure_id": 3077,
+    "query": "In Case 1, what is the approximate difference in Energy Loss Costs between Type 1 and Type 4?",
+    "answer": "15",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -307,6 +496,13 @@
     "inst_category": 4,
     "qa_source": 3
   },
+  "3082": {
+    "figure_id": 3082,
+    "query": "What is the approximate difference in final fitness values (at iteration 200) between the SA algorithm and the EDBO algorithm?",
+    "answer": "12",
+    "inst_category": 4,
+    "qa_source": 3
+  },
   "3083": {
     "figure_id": 3083,
     "query": "In the bottom subplot, what is the approximate difference between the maximum positive DoDR spike of the conventional method and the steady value of the proposed metric?",
@@ -321,10 +517,38 @@
     "inst_category": 3,
     "qa_source": 3
   },
+  "3084": {
+    "figure_id": 3084,
+    "query": "How many labeled nodes (with green-bordered boxes and letter labels) are there in total in the diagram?",
+    "answer": "8",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3087": {
+    "figure_id": 3087,
+    "query": "What is the sum of the publication counts for the top 3 journals (by number of publications) shown in the chart?",
+    "answer": "76",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3088": {
+    "figure_id": 3088,
+    "query": "What is the sum of the publication counts for the two journals with the lowest number of publications shown in the chart?",
+    "answer": "20",
+    "inst_category": 4,
+    "qa_source": 3
+  },
   "3089": {
     "figure_id": 3089,
     "query": "What is the approximate difference in \u03c1(\u03c9)/\u03c9 between the Gaussian method and the Unsupervised learning method at \u03c9/T = 30?",
     "answer": "0",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3090": {
+    "figure_id": 3090,
+    "query": "What is the approximate difference in the \u03c3_z(B)/\u03c3_z(B=0) ratio between the MEM method and the Multipoint method at eB/T\u00b2 \u2248 25?",
+    "answer": "1.8",
     "inst_category": 4,
     "qa_source": 3
   },
@@ -361,6 +585,20 @@
     "query": "What is the approximate ratio of the \u03c1(\u03c9)/\u03c9 value of the Unsupervised learning curve at \u03c9/T \u2248 25 to its value at \u03c9/T \u2248 0?",
     "answer": "10",
     "inst_category": 4,
+    "qa_source": 3
+  },
+  "4000": {
+    "figure_id": 4000,
+    "query": "What is the ratio of the initial peak value of the output impulse response to the initial peak value of the consumption impulse response (both at period 2)?",
+    "answer": "4",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "4000_b": {
+    "figure_id": 4000,
+    "query": "Which variable's impulse response function reaches the most negative initial value, and what is that approximate value?",
+    "answer": "deposit interest rate, approximately -0.15",
+    "inst_category": 3,
     "qa_source": 3
   },
   "4001": {
@@ -405,6 +643,20 @@
     "inst_category": 4,
     "qa_source": 3
   },
+  "4006": {
+    "figure_id": 4006,
+    "query": "What is the difference between the highest and lowest Financial Freedom Index values shown in 2007?",
+    "answer": "50",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "4006_b": {
+    "figure_id": 4006,
+    "query": "What is the Financial Freedom Index value for Denmark in 2012?",
+    "answer": "90",
+    "inst_category": 3,
+    "qa_source": 3
+  },
   "4007": {
     "figure_id": 4007,
     "query": "What is the approximate difference between the Russian Federation's highest FDI net outflow value and its lowest FDI net outflow value across all years shown?",
@@ -417,6 +669,13 @@
     "query": "In which year does Brazil show the most negative (lowest) FDI net outflow value?",
     "answer": "2020",
     "inst_category": 1,
+    "qa_source": 3
+  },
+  "4008": {
+    "figure_id": 4008,
+    "query": "What is the approximate difference between the highest bank credit value shown in 2008 and the lowest bank credit value shown in 2020?",
+    "answer": "210",
+    "inst_category": 4,
     "qa_source": 3
   },
   "4009": {
@@ -503,10 +762,38 @@
     "inst_category": 1,
     "qa_source": 3
   },
-  "3112_b": {
-    "figure_id": 3112,
-    "query": "what is the approximate observed test value of the most extreme outlier (farthest from the red diagonal line) in panel A?",
-    "answer": "2.4",
+  "3110": {
+    "figure_id": 3110,
+    "query": "if you list the second bullet point from each of the three analytical methods in order from left to right, what is the first word of each combined into a single phrase?",
+    "answer": "Control Latent Interaction",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3113": {
+    "figure_id": 3113,
+    "query": "what natural phenomenon is both visually depicted as a swirling icon and described in the accompanying text as involving 'temperature extremes and climate variability' as central drivers?",
+    "answer": "Climate extremes",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3113_b": {
+    "figure_id": 3113,
+    "query": "how many specific governance qualities are named as stabilizing forces that act to achieve the opposite effect of what the strongest buffer's two named components prevent?",
+    "answer": "3",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3124": {
+    "figure_id": 3124,
+    "query": "what is the approximate difference between the peak EU27_TFEE value and the lowest WB6_TFEE value across all years shown?",
+    "answer": "0.2",
+    "inst_category": 4,
+    "qa_source": 3
+  },
+  "3125": {
+    "figure_id": 3125,
+    "query": "how many countries had a higher value in 2021 than in 2006?",
+    "answer": "2",
     "inst_category": 4,
     "qa_source": 3
   }

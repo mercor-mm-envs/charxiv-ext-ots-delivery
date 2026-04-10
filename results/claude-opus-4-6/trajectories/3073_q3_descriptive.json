@@ -1,0 +1,16 @@
+{
+  "figure_id": 3073,
+  "mode": "descriptive",
+  "qid": 3,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the label of the y-axis?",
+  "ground_truth": "Not Applicable",
+  "model_answer": "Magnitude",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "**Magnitude**",
+  "grader_explanation": "ground_truth='Not Applicable' | extracted='Magnitude' | score=0 (re-graded)",
+  "run": "claude-opus-4-6"
+}

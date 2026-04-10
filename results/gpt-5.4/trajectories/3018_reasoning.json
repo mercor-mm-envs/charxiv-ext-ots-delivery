@@ -1,0 +1,16 @@
+{
+  "figure_id": 3018,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate ratio of the peak frequency in the Bathrooms histogram (panel b) to the peak frequency in the Bedrooms histogram (panel a)?",
+  "ground_truth": "1.8",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "From the histograms:\n\n- **Bedrooms (panel a)** peak frequency is about **530**\n- **Bathrooms (panel b)** peak frequency is about **950**\n\nRatio = \\( \\frac{950}{530} \\approx 1.8 \\)\n\n**Final answer: 1.8**",
+  "grader_explanation": "ground_truth='1.8' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3064,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference in the highest promotion strength between neurons that promote Forward (panel a) and neurons that promote Reversal (panel c)?",
+  "ground_truth": "1800",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "In panel (a), the highest promotion strength is about **2900**.  \nIn panel (c), the highest promotion strength is about **1000**.  \n\nDifference: **1900**",
+  "grader_explanation": "ground_truth='1800' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

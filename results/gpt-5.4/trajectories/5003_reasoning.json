@@ -1,0 +1,16 @@
+{
+  "figure_id": 5003,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the difference between the maximum y-axis scale of the BRENT subplot and the maximum y-axis scale of the GPR subplot?",
+  "ground_truth": "100",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "The maximum y-axis scale of **GPR** is **100** and of **BRENT** is **200**.\n\nDifference: **100**",
+  "grader_explanation": "ground_truth='100' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

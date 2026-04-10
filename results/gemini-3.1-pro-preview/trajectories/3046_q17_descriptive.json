@@ -1,0 +1,16 @@
+{
+  "figure_id": 3046,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "29",
+  "model_answer": "29",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Based on the provided plot, let's count the explicitly labeled ticks on each axis:\n\n1.  **Y-axis (vertical):** There are labels for each variable. Counting them from bottom to top: Age, BP, SG, AL, SU, RBC, PC, PCC, BA, BGR, BU, SC, SOD, POT, HEMO, PCV, WC, RC, HTN, DM, CAD, APPET, PE, ANE. This gives a total of **24** labeled ticks.\n2.  **X-axis (horizontal):** There are numerical labels at the bottom. Counting them: 0.0, 0.2, 0.4, 0.6, and 0.8. This gives a total of **5** labeled ticks.\n\nAdding these together: 24 (y-axis) + 5 (x-axis) = 29.\n\n29",
+  "grader_explanation": "ground_truth='29' | extracted='29' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

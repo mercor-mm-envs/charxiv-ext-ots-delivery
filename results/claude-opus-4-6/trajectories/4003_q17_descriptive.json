@@ -1,0 +1,16 @@
+{
+  "figure_id": 4003,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "28",
+  "model_answer": "28",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes in both subplots.\n\n**Left subplot:**\n\n- X-axis (Broad_Money): \u22121, 0, 1, 2, 3, 4, 5 \u2192 **7 ticks**\n- Y-axis (GDP_per_Capita): \u22121, 0, 1, 2, 3, 4 \u2192 **6 ticks**\n\n**Right subplot:**\n\n- X-axis (Trade): \u22122, \u22121, 0, 1, 2, 3 \u2192 **6 ticks**\n- Y-axis (GDP_per_Capita): \u22121.5, \u22121.0, \u22120.5, 0.0, 0.5, 1.0, 1.5, 2.0, 2.5 \u2192 **9 ticks**\n\n**Total: 7 + 6 + 6 + 9 = 28**",
+  "grader_explanation": "ground_truth='28' | extracted='28' | score=1",
+  "run": "claude-opus-4-6"
+}

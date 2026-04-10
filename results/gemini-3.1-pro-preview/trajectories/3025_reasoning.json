@@ -1,0 +1,16 @@
+{
+  "figure_id": 3025,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "In the top-left survival curve plot, what is the approximate difference in survival probability S(t) between the FF group and the MM group at t = 4000?",
+  "ground_truth": "0.05",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the top-left survival curve plot, if you look at the time point \\(t = 4000\\) on the x-axis, all four survival curves (including the FF and MM groups) heavily overlap and are virtually indistinguishable from one another.\n\nTherefore, the approximate difference in their survival probabilities \\(S(t)\\) at that point is zero.\n\n0.00",
+  "grader_explanation": "ground_truth='0.05' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3080,
+  "mode": "descriptive",
+  "qid": 17,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the total number of explicitly labeled ticks across all axes?",
+  "ground_truth": "41",
+  "model_answer": "42",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "I need to count all explicitly labeled ticks across all axes in all three subplots.\n\n**Subplot (a) - top plot:**\n- X-axis: 300, 400, 500, 600, 700, 800 \u2192 6 ticks\n- Y-axis: 0, 0.001, 0.002, 0.003, 0.004, 0.005, 0.006, 0.007 \u2192 8 ticks\n\n**Subplot (b) - bottom left:**\n- X-axis: 350, 400, 450, 500, 550, 600, 650 \u2192 7 ticks\n- Y-axis: 350, 400, 450, 500, 550, 600 \u2192 6 ticks\n\n**Subplot (c) - bottom right:**\n- X-axis: 350, 400, 450, 500, 550, 600 \u2192 6 ticks\n- Y-axis: 350, 400, 450, 500, 550, 600, 650, 700, 750 \u2192 9 ticks\n\n**Total:** 6 + 8 + 7 + 6 + 6 + 9 = **42**",
+  "grader_explanation": "ground_truth='41' | extracted='42' | score=0",
+  "run": "claude-opus-4-6"
+}

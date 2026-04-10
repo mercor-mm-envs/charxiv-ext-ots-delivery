@@ -1,0 +1,16 @@
+{
+  "figure_id": 3018,
+  "mode": "descriptive",
+  "qid": 7,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the spatially highest labeled tick on the y-axis?",
+  "ground_truth": "1000",
+  "model_answer": "1000",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the y-axes of all four subplots, the highest labeled tick value is **1000** in subplot (b) (Bathrooms).",
+  "grader_explanation": "ground_truth='1000' | extracted='1000' | score=1",
+  "run": "claude-opus-4-6"
+}

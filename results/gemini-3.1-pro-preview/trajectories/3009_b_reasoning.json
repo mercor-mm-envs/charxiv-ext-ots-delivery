@@ -1,0 +1,16 @@
+{
+  "figure_id": 3009,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "Which subplot title corresponds to the variable that shows a dramatic drop to approximately 5.5 in the Kenya section of the data?",
+  "ground_truth": "lnIMP",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Based on the provided charts, the subplot that shows a dramatic drop to a value between 5 and 6 (approximately 5.5) at the beginning of the \"Kenya\" section of the x-axis is **lnEXP**.\n\nIn the `lnIMP` subplot, the drop goes down to exactly 6, not 5.5. All other subplots have different ranges or behaviors in the Kenya section.",
+  "grader_explanation": "ground_truth='lnIMP' | extracted='' | score=0",
+  "run": "gemini-3.1-pro-preview"
+}

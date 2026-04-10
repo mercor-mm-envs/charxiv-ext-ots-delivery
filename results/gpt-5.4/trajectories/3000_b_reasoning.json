@@ -1,0 +1,16 @@
+{
+  "figure_id": 3000,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "Which variable's own innovation response (i.e., response of a variable to its own shock) shows the largest initial peak value among all the diagonal panels?",
+  "ground_truth": "Response of PR to PR Innovation",
+  "model_answer": "",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Among the diagonal \u201cown innovation\u201d panels \u2014 **Response of Y to Y Innovation**, **Response of P to P Innovation**, **Response of FC to FC Innovation**, **Response of PR to PR Innovation**, and **Response of MPI to MPI Innovation** \u2014 the largest initial peak appears in **Response of Y to Y Innovation**.",
+  "grader_explanation": "ground_truth='Response of PR to PR Innovation' | extracted='' | score=0",
+  "run": "gpt-5.4"
+}

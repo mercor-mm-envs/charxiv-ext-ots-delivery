@@ -1,0 +1,16 @@
+{
+  "figure_id": 3076,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the percentage reduction in overall cost when using the Proposed Approach compared to the Capacity-based Allocation?",
+  "ground_truth": "7.69",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Percentage reduction = (Capacity-based Overall - Proposed Overall) / Capacity-based Overall \u00d7 100\n\n= (198.53 - 183.26) / 198.53 \u00d7 100\n\n= 15.27 / 198.53 \u00d7 100\n\n= **7.69**",
+  "grader_explanation": "ground_truth='7.69' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}

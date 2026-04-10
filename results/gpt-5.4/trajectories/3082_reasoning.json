@@ -1,0 +1,16 @@
+{
+  "figure_id": 3082,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 4,
+  "inst_category_name": "NG",
+  "question": "What is the approximate difference in final fitness values (at iteration 200) between the SA algorithm and the EDBO algorithm?",
+  "ground_truth": "12",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "At iteration 200, the SA curve is about **276** and the EDBO curve is about **264**.\n\nApproximate difference: **12**",
+  "grader_explanation": "ground_truth='12' | extracted='' | score=1",
+  "run": "gpt-5.4"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": 3092,
+  "mode": "descriptive",
+  "qid": 4,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What is the leftmost labeled tick on the x-axis?",
+  "ground_truth": "80200",
+  "model_answer": "80200",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "80200",
+  "grader_explanation": "ground_truth='80200' | extracted='80200' | score=1",
+  "run": "gemini-3.1-pro-preview"
+}

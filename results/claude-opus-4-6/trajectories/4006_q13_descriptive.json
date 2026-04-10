@@ -1,0 +1,16 @@
+{
+  "figure_id": 4006,
+  "mode": "descriptive",
+  "qid": 13,
+  "inst_category": null,
+  "inst_category_name": null,
+  "question": "What are the names of the labels in the legend? (from top to bottom, then left to right)",
+  "ground_truth": "Australia, Colombia, France, Ireland, Lithuania, Norway, Austria, czechia, Germany, Israel, Luxembourg, Poland, Belgium, Denmark, Greece, Italy, Mexico, Portugal, Canada, Estonia, Hungary, Japan, Netherlands, Slovakia, Chile, Finland, Iceland, Latvia, New Zealand, Slovenia",
+  "model_answer": "Australia, Austria, Belgium, Canada, Chile, Colombia, czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Latvia, Lithuania, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Slovakia, Slovenia",
+  "is_correct": false,
+  "score": 0,
+  "valid": true,
+  "response": "Australia, Austria, Belgium, Canada, Chile, Colombia, czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Latvia, Lithuania, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Slovakia, Slovenia",
+  "grader_explanation": "ground_truth='Australia, Colombia, France, Ireland, Lithuania, Norway, Austria, czechia, Germany, Israel, Luxembourg, Poland, Belgium, Denmark, Greece, Italy, Mexico, Portugal, Canada, Estonia, Hungary, Japan, Netherlands, Slovakia, Chile, Finland, Iceland, Latvia, New Zealand, Slovenia' | extracted='Australia, Austria, Belgium, Canada, Chile, Colombia, czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Latvia, Lithuania, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Slovakia, Slovenia' | score=0 (re-graded)",
+  "run": "claude-opus-4-6"
+}

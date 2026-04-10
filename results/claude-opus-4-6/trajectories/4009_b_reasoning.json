@@ -1,0 +1,16 @@
+{
+  "figure_id": 4009,
+  "mode": "reasoning",
+  "qid": null,
+  "inst_category": 1,
+  "inst_category_name": "TiG",
+  "question": "Which year appears to have the highest total imports from convergence club's members?",
+  "ground_truth": "2013",
+  "model_answer": "",
+  "is_correct": true,
+  "score": 1,
+  "valid": true,
+  "response": "Looking at the horizontal bar chart titled \"Brazil's imports from convergence club's members,\" I need to identify which year has the longest total bar (representing the highest total imports).\n\nComparing the bars across all years, the years 2013, 2014, and 2011 appear to have the longest bars, extending closest to or beyond the 81,000,000 mark. Among these, **2013** appears to have the highest total imports, as its bar extends the furthest to the right.\n\n**2013**",
+  "grader_explanation": "ground_truth='2013' | extracted='' | score=1",
+  "run": "claude-opus-4-6"
+}
